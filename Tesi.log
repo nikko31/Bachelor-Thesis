@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.8.4)  14 AUG 2016 00:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.1)  15 AUG 2016 11:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Tesi.tex
 (./Tesi.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 4 languages loaded.
+LaTeX2e <2016/03/31> patch level 1
+Babel <3.9r> and hyphenation patterns for 5 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
@@ -25,15 +25,15 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
-File: latin1.def 2014/04/30 v1.2b Input encoding file
+File: latin1.def 2015/03/17 v1.2c Input encoding file
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/09/25 3.9l The Babel package
+Package: babel 2016/04/23 3.9r The Babel package
 
 
 ! Package babel Error: Unknown option `italian'. Either you misspelled it
@@ -44,7 +44,7 @@ See the babel package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.299 \ProcessOptions*
+l.310 \ProcessOptions*
                       
 Valid options are: shorthands=, KeepShorthandsActive,
 activeacute, activegrave, noconfigs, safe=, main=, math=
@@ -57,7 +57,7 @@ See the babel package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.332 ...ry to proceed from here, type x to quit.}
+l.343 ...ry to proceed from here, type x to quit.}
                                                   
 You need to specify a language, either as a global option
 or as an optional argument to the \usepackage command;
@@ -68,7 +68,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 
 ! LaTeX Error: Option clash for package inputenc.
@@ -90,7 +90,7 @@ Try typing  <return>  to proceed.
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
 \lst@mode=\count88
@@ -107,51 +107,51 @@ Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \lst@maxwidth=\dimen106
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count94
 \lst@skipnumbers=\count95
 \lst@framebox=\box27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2014/09/06 1.5e listings configuration
+File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package: listings 2014/09/06 1.5e (Carsten Heinz)
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+Package: color 2016/06/02 v1.1d Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 137.
+Package color Info: Driver file: pdftex.def on input line 147.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+File: pdftex.def 2016/06/17 v0.06h Graphics/color for pdfTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count96
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2014/09/06 1.5e listings language file
+File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/06/02 v1.0s Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen107
 \Gin@req@width=\dimen108
@@ -176,7 +176,7 @@ LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 \c@lstlisting=\count97
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count98
 \scratchdimen=\dimen109
@@ -190,16 +190,15 @@ LaTeX Font Info:    ... okay on input line 38.
 \makeMPintoPDFobject=\count103
 \everyMPtoPDFconversion=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -207,31 +206,33 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -392,7 +393,7 @@ l.8 ...zione  di componenti software pronti all‚Äô
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[6]) [7] (./chapters/Hiber.tex
+[6]) (./chapters/Hiber.tex [7]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -857,51 +858,6 @@ l.2 ...hitetture software basate sul networking‚Äù
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.2 ...ere una tesi di dottorato, non √® poi cos√¨
-                                                   difficile da leggere. Fie...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 2.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 2.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.2 ...poi cos√¨ difficile da leggere. Fielding √®
-                                                   uno dei principali autori...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! Missing { inserted.
-<to be read again> 
-                   \egroup 
-l.2 ...poi cos√¨ difficile da leggere. Fielding √®
-                                                   uno dei principali autori...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.2 ...poi cos√¨ difficile da leggere. Fielding √®
-                                                   uno dei principali autori...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 2.
-
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -931,9 +887,6 @@ You need to provide a definition with \DeclareInputText
 or \DeclareInputMath before using this key.
 
 
-LaTeX Warning: Command \^ invalid in math mode on input line 2.
-
-
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -959,35 +912,6 @@ l.2 ...tocollo di trasferimento degli ipertesti‚Äù
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.3 
-    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.3 
-    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no √ in font cmr10!
-Missing character: There is no Ë in font cmex10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-
-Overfull \hbox (452.63266pt too wide) in paragraph at lines 2--3
-\T1/cmr/m/n/10 non √^^D poi cos√$\OMS/cmsy/m/n/10 :\OML/cmm/m/it/10 difficileda
-leggere:Fielding[]$ 
- []
-
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -996,8 +920,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 REST non √® un‚Ä
-                    ôarchitettura bens√¨ uno ‚Äústile architetturale‚Äù form...
+l.4 REST non \`e un‚Ä
+                     ôarchitettura bens\`i uno ‚Äústile architetturale‚Äù fo...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1010,33 +934,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 REST non √® un‚Äô
-                     architettura bens√¨ uno ‚Äústile architetturale‚Äù form...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.4 REST non √® un‚Äôarchitettura bens√¨
-                                         uno ‚Äústile architetturale‚Äù form...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 4.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 REST non √® un‚Äôarchitettura bens√¨ uno ‚Ä
-                                               ústile architetturale‚Äù form...
+l.4 REST non \`e un‚Äô
+                      architettura bens\`i uno ‚Äústile architetturale‚Äù fo...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1049,14 +948,11 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 REST non √® un‚Äôarchitettura bens√¨ uno ‚Äú
-                                                stile architetturale‚Äù form...
+l.4 REST non \`e un‚Äôarchitettura bens\`i uno ‚Ä
+                                                 ústile architetturale‚Äù fo...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 4.
 
 
 ! Package inputenc Error: Keyboard character used is undefined
@@ -1066,7 +962,21 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 ...ettura bens√¨ uno ‚Äústile architetturale‚Ä
+l.4 REST non \`e un‚Äôarchitettura bens\`i uno ‚Äú
+                                                  stile architetturale‚Äù fo...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...ttura bens\`i uno ‚Äústile architetturale‚Ä
                                                   ù formato da vincoli, line...
 
 You need to provide a definition with \DeclareInputText 
@@ -1080,48 +990,11 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 ...ttura bens√¨ uno ‚Äústile architetturale‚Äù
+l.4 ...tura bens\`i uno ‚Äústile architetturale‚Äù
                                                    formato da vincoli, linee...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 4.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 4.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.4 ...actice. La formulazione dello stile REST √®
-                                                   stata ottenuto dopo un‚Äô...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! Missing { inserted.
-<to be read again> 
-                   \egroup 
-l.4 ...actice. La formulazione dello stile REST √®
-                                                   stata ottenuto dopo un‚Äô...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.4 ...actice. La formulazione dello stile REST √®
-                                                   stata ottenuto dopo un‚Äô...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 4.
 
 
 ! Package inputenc Error: Keyboard character used is undefined
@@ -1131,7 +1004,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 ...ello stile REST √® stata ottenuto dopo un‚Ä
+l.4 ...llo stile REST \`e stata ottenuto dopo un‚Ä
                                                   ôattenta analisi effettua ...
 
 You need to provide a definition with \DeclareInputText 
@@ -1145,14 +1018,11 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 ...llo stile REST √® stata ottenuto dopo un‚Äô
+l.4 ...lo stile REST \`e stata ottenuto dopo un‚Äô
                                                   attenta analisi effettua d...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 4.
 
 
 ! Package inputenc Error: Keyboard character used is undefined
@@ -1163,7 +1033,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.4 ... creazione di applicazioni distribuite. L‚Ä
-                                                  ôassioma di base √® che, s...
+                                                  ôassioma di base \`e che, ...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1177,47 +1047,10 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.4 ...creazione di applicazioni distribuite. L‚Äô
-                                                  assioma di base √® che, se...
+                                                  assioma di base \`e che, s...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 4.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 4.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.4 ...cazioni distribuite. L‚Äôassioma di base √®
-                                                   che, senza imporre alcun ...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! Missing { inserted.
-<to be read again> 
-                   \egroup 
-l.4 ...cazioni distribuite. L‚Äôassioma di base √®
-                                                   che, senza imporre alcun ...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.4 ...cazioni distribuite. L‚Äôassioma di base √®
-                                                   che, senza imporre alcun ...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \^ invalid in math mode on input line 4.
 
 
 ! Package inputenc Error: Keyboard character used is undefined
@@ -1248,9 +1081,6 @@ You need to provide a definition with \DeclareInputText
 or \DeclareInputMath before using this key.
 
 
-LaTeX Warning: Command \^ invalid in math mode on input line 4.
-
-
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -1278,53 +1108,9 @@ l.4 ...ncolo, i sistemi tendono ‚Äúnaturalmente‚Äù
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.5 
-    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+[23
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.5 
-    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.5 
-    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no √ in font cmr10!
-Missing character: There is no Ë in font cmex10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no √ in font cmr10!
-Missing character: There is no Ë in font cmex10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-
-Overfull \hbox (1899.38545pt too wide) in paragraph at lines 4--5
-[]\T1/cmr/m/n/10 REST non √^^D un‚ar-chitet-tura bens√$\OMS/cmsy/m/n/10 :\OML/c
-mm/m/it/10 unostilearchitetturaleformatodavincoli; lineeguidaebestpractice:Lafo
-rmulazionedellostileREST[]$ 
- []
-
+]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -1474,7 +1260,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.6 ...i primi cinque sono obbligatori, mentre l‚Ä
-                                                  ôultimo √® facoltativo. Ve...
+                                                  ôultimo \`e facoltativo. V...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1488,14 +1274,12 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.6 ... primi cinque sono obbligatori, mentre l‚Äô
-                                                  ultimo √® facoltativo. Ved...
+                                                  ultimo \`e facoltativo. Ve...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-) [23
-
-] [24]
+) [24]
 Chapter 5.
 (./chapters/Conclusioni.tex) (./chapters/Biblio.tex
 ! Undefined control sequence.
@@ -1540,33 +1324,34 @@ or  <return>  to continue without it.
 
 ] (./Tesi.aux) ) 
 Here is how much of TeX's memory you used:
- 3763 strings out of 494977
- 50755 string characters out of 6180184
- 118938 words of memory out of 5000000
- 6881 multiletter control sequences out of 15000+600000
+ 3770 strings out of 494903
+ 50915 string characters out of 6179900
+ 119686 words of memory out of 5000000
+ 6966 multiletter control sequences out of 15000+600000
  19744 words of font info for 41 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,9n,40p,989b,1153s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/nikko31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000
-.600pk> </home/nikko31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> <
-/home/nikko31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/nik
-ko31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/nikko31/.tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600pk> </home/nikko31/.texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecrm0500.600pk> </home/nikko31/.texmf-var/fonts/pk/lj
-four/jknappen/ec/ecsl1000.600pk> </home/nikko31/.texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecbx1200.600pk> </home/nikko31/.texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cbx1440.600pk> </home/nikko31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.6
-00pk> </home/nikko31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </h
-ome/nikko31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/nikko
-31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/nikko31/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb>
-Output written on Tesi.pdf (27 pages, 395531 bytes).
+ 40i,9n,40p,985b,1153s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknapp
+en/ec/ecti1000.600pk> </home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm0800.600pk> </home/darklinux/.texlive2016/texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecrm0600.600pk> </home/darklinux/.texlive2016/texmf-var/fonts/p
+k/ljfour/jknappen/ec/ecrm0700.600pk> </home/darklinux/.texlive2016/texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ectt0800.600pk> </home/darklinux/.texlive2016/texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecrm0500.600pk> </home/darklinux/.texlive2016/te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1000.600pk> </home/darklinux/.texlive20
+16/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/darklinux/.texl
+ive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/darklinux/
+.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/darkl
+inux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/
+darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </
+home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600p
+k> </home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074
+.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+>
+Output written on Tesi.pdf (27 pages, 373199 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
+ 573 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
