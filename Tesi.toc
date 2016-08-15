@@ -1,0 +1,18 @@
+\contentsline {chapter}{\numberline {1}Introduzione}{3}
+\contentsline {chapter}{\numberline {2}Strumenti utilizzati}{4}
+\contentsline {section}{\numberline {2.1}JAVA}{4}
+\contentsline {subsection}{\numberline {2.1.1}Panoramica del linguaggio JAVA}{4}
+\contentsline {subsection}{\numberline {2.1.2}La piattaforma JAVA}{6}
+\contentsline {section}{\numberline {2.2}Framework Hibernate}{8}
+\contentsline {subsection}{\numberline {2.2.1}Object/Relational Mapping}{9}
+\contentsline {subsection}{\numberline {2.2.2}Cos'\`e Hibernate}{10}
+\contentsline {subsection}{\numberline {2.2.3}Architettura Hibernate}{11}
+\contentsline {section}{\numberline {2.3}Framework GWT}{13}
+\contentsline {subsection}{\numberline {2.3.1}Architettura GWT 2.7}{14}
+\contentsline {subsection}{\numberline {2.3.2}Comunicazione Client-Server in GWT}{15}
+\contentsline {section}{\numberline {2.4}Librerie}{17}
+\contentsline {chapter}{\numberline {3}La Webapp GESTIONE AULE}{18}
+\contentsline {section}{\numberline {3.1}Pattern architetturale MVP}{18}
+\contentsline {chapter}{\numberline {4}L'applicazione MONITORAGGIO AULE}{23}
+\contentsline {section}{\numberline {4.1}Stile architetturale REST}{23}
+\contentsline {chapter}{\numberline {5}Conclusioni}{25}

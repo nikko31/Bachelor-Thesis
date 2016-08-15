@@ -1,0 +1,27 @@
+La  piattaforma  Java  \`e  una  piattaforma  solo software che  gira  in  cima  ad  una  piattaforma 
+hardware di base che pu\`o essere un computer, una tv, un telefono cellulare, una smart card, 
+ecc..  La piattaforma Java \`e composta da due blocchi: 
+\begin{itemize}
+\item la Java Virtual Machine (JVM)
+\item la Java Application Program Interface (API)
+\end{itemize} 
+La JVM \`e  la  base  della  piattaforma  Java, mentre la Java API \`e  una  collezione  di componenti software pronti all’uso per losvolgimento dei pi\`u disparati compiti.
+\subsection*{Java Virtual Machine} 
+La JVM consiste di:
+\begin{itemize}
+\item class loader
+\item class verifier
+\item l'interprete Java
+\end{itemize}
+Il class loader carica le classi che formano il bytecode, sia dell'applicazione Java, sia delle API Java necessarie per l'esecuzione da parte dell'interprete Java.
+
+Subito dopo il class verifier controlla che il bytecode sia valido, che non superi i limiti superiori o inferiori dello stack, assicura non esegua aritmetica dei puntatori (che potrebbe potenzialmente portare ad una violazione di memoria). Se il bytecode passa tutti questi controlli, pu\`o essere eseguito dall'interprete.
+
+L'interprete pu\`o essere di varie forme: pu\`o essere un modulo software che interpreta il bytecode in una sola volta oppure pu\`o fare uso di un compilatore just-in-time (JIT, o Just-In-Time compiler) che traduce a runt-time il bytecode in codice nativo della macchina ospitante e lo salva in memoria durante l'esecuzione. \`E anche possibile utilizzare un sistema "misto", in cui il JIT viene applicato solo alle porzioni di codice del programma utilizzate pi\`u frequentemente, mentre il resto viene interpretato.
+\subsection*{API Java}
+Le API Java raccolgono una gran quantit\`a di componenti disponibili per scrivere applicazioni di qualsiasi genere. Per questo motivo la piattaforma Java \`e disponibile in tre configurazioni a seconda dell'uso che se ne vuole fare:
+\begin{itemize}
+\item \textbf{Standard Edition.} Fornisce API per le esigenze pi\`u comuni, che permette di scrivere applicazioni stand-alone, applicazioni client e server in un contesto di reti di computer, applicazioni per accesso a database, applicazioni per il calcolo scientifico e di altro tipo.
+\item \textbf{Enterprise Edition.} Permette di scrivere applicazioni distribuite.
+\item \textbf{Micro Edition.} Permette di scrivere applicazioni per i terminali mobili e, pi\`u in generale, per i dispositivi dotati di poche risorse computazionali (telefoni cellulari, palmari, smart cards ed altri).
+\end{itemize}

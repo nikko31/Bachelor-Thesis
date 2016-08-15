@@ -1,0 +1,73 @@
+\documentclass[a4paper,pt11,oneside]{book}
+\usepackage[latin1]{inputenc}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{light-gray}{gray}{0.25}
+
+\lstset{
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\footnotesize\ttfamily},
+  numberstyle={\tiny},
+  numbers=left,
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+\linespread{1.5}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\title{
+\huge
+\textbf{Spazi ~Aule con Framework ~GWT}\\
+{\includegraphics[scale=2]{university.jpg}}}
+\author{Ferrari~Nico}
+\begin{document}
+\maketitle
+\renewcommand{\contentsname}{Indice}
+\tableofcontents
+\listoffigures
+
+\chapter{Introduzione}
+\input{chapters/Introduzione.tex}
+
+\chapter{Strumenti utilizzati}
+\section{JAVA}
+\input{chapters/Java.tex}
+\subsection{Panoramica del linguaggio JAVA}
+\input{chapters/JavaLang.tex}
+\subsection{La piattaforma JAVA}
+\input{chapters/JavaPlat.tex}
+\section{Framework Hibernate}
+\input{chapters/Hiber.tex}
+\section{Framework GWT}
+\input{chapters/GWT.tex}
+\section{Librerie}
+\input{chapters/Libs.tex}
+
+\chapter{La Webapp GESTIONE AULE}
+\input{chapters/AuleGest.tex}
+\section{Pattern architetturale MVP}
+\input{chapters/Pattern.tex}
+
+\chapter{L'applicazione MONITORAGGIO AULE}
+\input{chapters/Android.tex}
+
+
+\chapter{Conclusioni}
+\input{chapters/Conclusioni.tex}
+\input{chapters/Biblio.tex}
+\end{document}

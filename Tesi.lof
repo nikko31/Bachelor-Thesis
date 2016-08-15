@@ -1,0 +1,12 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Struttura di Hibernate}}{11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Workflow Hibernate}}{12}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces GWT RPC: interazione tra server e client mediante data object}}{15}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramma del Model-View-Presenter MVP}}{19}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Comunicazione tra unit\`a del software che non sono direttamente collegate tra loro. Ognuna di esse pu\`o inviare eventi all'Event Bus ed essere in "ascolto" di particolari eventi.}}{20}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Implementazione client seguendo pattern MVP}}{21}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Activity diagram della funzione di visualizzazione di un'aula.}}{22}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -1,0 +1,36 @@
+Java venne creato per soddisfare quattro scopi: 
+\begin{itemize}
+\item essere orientato agli oggetti
+\item essere indipendente dalla piattaforma
+\item contenere strumenti e librerie per il networking
+\item essere progettato per eseguire codice da sorgenti remote in modo sicuro
+\end{itemize}
+\subsection*{Orientamento agli oggetti}\\
+Java \`e un linguaggio object-oriented. La programmazione orientata agli oggetti (OOP, Object Oriented Programming) \`e un paradigma di programmazione che permette di definire oggetti software in grado di interagire gli uni con gli altri attraverso lo scambio di messaggi.  Questi oggetti, come nella vita pratica hanno propriet\`a rappresentate da valori, e qualit\`a o meglio metodi: 
+ci\`o che sanno fare questi oggetti.
+
+La programmazione ad oggetti \`e particolarmente adatta nei contesti in cui si possono definire delle relazioni di interdipendenza tra i concetti da modellare (contenimento, uso, specializzazione). 
+
+Tra i vantaggi della programmazione orientata agli oggetti abbiamo:
+\begin{itemize}
+\item fornisce un supporto naturale alla modellazione software degli oggetti del mondo reale o del modello astratto da riprodurre
+\item permette una pi\`u facile gestione e manutenzione di progetti di grandi dimensioni
+\item permette una pi\`u facile gestione e manutenzione di progetti di grandi dimensioni
+\item l'organizzazione del codice sotto forma di classi favorisce la modularit\`a e il riuso di codice
+\end{itemize}
+\subsection*{Indipendenza dalla piattaforma}
+L'indipendenza dalla piattaforma significa che l’esecuzione di programmi scritti  in  Java  deve  avere  un  comportamento  simile 
+in contesti di esecuzione diversi. Per raggiungere questo obiettivo il codice Java viene compilato in un linguaggio intermedio bytecode. Il bytecode \`e un insieme di istruzioni altamente ottimizzate eseguibili dalla Java Virtual Machine(JVM), disegnata inizialmente come interprete per il bytecode.
+
+La traduzione di un programma Java in bytecode rende molto piu semplice l'esecuzione di un programma in una vasta variet\`a di ambienti perch\`e solo la JVM deve essere implementata per ogni piattaforma.
+\subsection*{Esecuzione sicura del codice remoto}
+La piattaforma Java ha caratteristiche progettate per aumentare la sicurezza delle applicazioni Java:
+\begin{itemize}
+\item \textbf{La JVM:}\\
+La JVM esegue una verifica del bytecode prima di eseguirlo per prevenire l'esecuzione di operazioni non sicure e per far rispettare vincoli a runtime. La piattaforma non permette ai programmi di eseguire alcune operazioni insicure e controlli manuali sull'allocazione e deallocazione della memoria.
+\item \textbf{Il Security Manager:}\\
+La piattaforma fornisce un security manager che permette agli utenti di eseguire codice bytecode inaffidabile in un ambiente "sandbox" progettato per proteggerli da software pericoloso o scritto male evitando che il tale codice abbia accesso ad alcune caratteristiche e API della piattaforma.
+Il security manager permette di assegnare ai programmi Java una firma digitale in modo tale che l'utente possa scegliere di dare i privilegi a software con firma digitale valida proveniente da entità di fiducia.
+\item \textbf{Le API:}\\
+Viene fornita una serie di API orientate alla sicurezza, come algoritmi standard di crittografia,autenticazione e protocolli di comunicazione sicuri.
+\end{itemize}

@@ -1,0 +1,70 @@
+La necessit\`a di creare un'applicazione Web nasce dai molteplici vantaggi che le applicazioni RIA ( Rich Internet Application ) possiedono nei confronti delle tecnologie alternative. Infatti rispetto alle applicazioni desktop, non richiedono installazione, gli aggiornamenti sono automatici, sono indipendenti dalla piattaforma utilizzata, pi\`u sicure in quanto girano nel ristretto ambiente del Web browser e maggiormente scalabili perch\`e la maggior parte del lavoro computazionale viene eseguito dal server.\\
+Con l'avvento della tecnologia Ajax (Asynchronous JavaScript and XML), lo sviluppo di applicazioni Web si basa su uno scambio di dati in background fra Web browser e server, che
+consente l'aggiornamento dinamico di una pagina Web senza eplicito ricaricamento da parte dell'utente. Purtroppo, scrivere applicazioni Ajax \`e molto complicato e perci\`o particolarmente esposto ad errori e bug; questo perch\`e JavaScript \`e un linguaggio piuttosto differente da Java e richiede molta pratica per lo sviluppo; il tutto \`e peggiorato dal fatto che JavaScript tende ad avere differenze in base al browser Web utilizzato, concentrando gli sforzi ed il tempo degli sviluppatori pi\`u sulla parte grafica che sulla logica applicativa. Google Web Toolkit (GWT) nasce proprio per risolvere questi problemi, fornendo un vero e proprio livello di astrazione che nasconde il codice JavaScript e provvede automaticamente ad uniformare le differenze tra i browser. \\
+Rilasciato da Google nell'estate 2006 sotto licenza Apache, Google Web Toolkit \`e un set di tool open source che permette agli sviluppatori Web di creare e gestire complesse applicazioni fronted JavaScript scritte in Java. Il codice sorgente Java pu\`o essere compilato su qualsiasi piattaforma con i file Ant inclusi. I punti di forza di GWT sono la riusabilit\`a del codice, la possibilit\`a di realizzare pagine Web dinamiche mediante le chiamate asincrone di Ajax, la gestione delle modifiche, il bookmarking, l'internazionalizzazione e la portabilit\`a fra i differenti browser. 
+\subsection{Architettura GWT 2.7}
+GWT \`e caratterizzato da tre componenti base:
+\begin{enumerate}
+\item Un compilatore Java-JavaScript di alta qualit\`a.
+\item La Java Runtime Enviroment (JRE) Emulation library.
+\item Interfaccia utente
+\end{enumerate}
+\subsubsection*{Il compilatore}
+Il compilatore Java-Javascript \`e il componente principale di GWT. Si occupa di prendere il codice Java 1.5 e produrre una versione equivalente in JavaScript ed incapsulare la varie differenze tra i browser.
+Il compilatore esegue numerosi processi di ottimizzazione del codice, debugging, logging e generazione del codice.
+La generazione del codice JavaScript pu\`o essere fatta con uno di questi tre stili:
+\begin{description}
+\item[-Offuscato]il codice \`e illeggibile, compatto e di piccole dimensioni, quindi \`e raccomandato solamente quando pubblichiamo in produzione la nostra applicazione.
+\item[-Formattato]codice leggibile
+\item[-Dettagliato]codice ricco di specificatori di package e signature complete: questo stile \`e molto comodo per ricavare informazioni del codice Java dalla console degli errori JavaScript.
+\end{description}
+\subsubsection*{JRE Emulation library}
+Contiene le implementazioni in linguaggio JavaScript delle librerie Java standard maggiormente utilizzate(package java.lang.*,java.sql e java.util.*). Gli altri package(ad esempio java.io.*)sono molto limitati, includendo solo alcune interfaccie. Questa limitazione deriva dal fatto che il codice JavaScript generato da GWT viene eseguito su una sandbox del browser e stampanti.
+\subsubsection*{libreria UI}
+\`E una libreria User Interface contenente un insieme di interfacce e classi che permettono di disegnare le pagine web (ad es. bottoni, text boxes, immagini, ecc.). Questa \`e la libreria standard principale per creare applicazioni web-based basate su GWT.
+\subsection{Comunicazione Client-Server in GWT}
+\`E noto che quando si sviluppa una RIA, cosa fondamentale \`e la comunicazione tra il browser(client) e il server.
+GWT fornisce differenti strade per comunicare con un server e il formato dei dati da utilizzare dipende dal server con cui si interagisce.
+\subsubsection*{Utilizzando le Remote Procedure Calls(GWT RPC)}
+GWT RPC \`e un framework che permette di facilitare il passaggio di oggetti Java tra client e server (e anche viceversa) attraverso il protocollo HTTP.
+E' possibile utilizzare il framework GWT RPC per rendere trasparenti le
+chiamate alle servlet Java e lasciare a GWT il compito di prendersi cura dei
+dettagli di basso livello come la serializzazione degli oggeti.
+Il meccanismo GWT RPC pu\`o esser diviso in tre parti:
+\begin{enumerate}
+\item Il servizio eseguito sul server
+\item Il codice client che invoca il servizio
+\item Gli oggetti Java trasmessi tra client e server
+\end{enumerate}
+
+\begin{figure}[htbp]
+\centering%
+\includegraphics[scale=0.7]{RPC1.png}%
+\caption{GWT RPC: interazione tra server e client mediante data object}\label{fig:rpc}}%
+\end{figure}
+
+Utilizzando GWT RPC tutte le chiamate effettuate dalla pagina HTML al server sono asincrone. Questo significa che le chiamate non bloccano il
+client mentre attende una risposta dal server, ma viene eseguito il codice immediatamente successivo.
+I vantaggi di effettuare chiamate asincrone rispetto alle pi\`u semplici (per gli
+sviluppatori) chiamate sincrone, si riscontrano in una migliore esperienza per gli utenti finali.  innanzitutto, l'interfaccia utente \`e pi\`u reattiva; infatti,
+a causa del fatto che nei browser Web il motore JavaScript \`e generalmente di
+tipo single-thread, una chiamata sincrona al server genera un "blocco" fino alla conclusione della stessa, rovinando cos\`i l'esperienza dell'utente finale.
+Altro vantaggio delle chiamate asincrone \`e che risulta possibile eseguire altri
+lavori in attesa della risposta da parte del server; Ultimo vantaggio , ma non meno
+importante, \`e che \`e possibile effettuare chiamate multiple al server nello
+stesso tempo; tuttavia questo parallelismo risulta fortemente limitato dal
+piccolo numero di connessioni che in genere i browser concedono alle singole
+applicazioni.\\
+I tipi di dato di scambio tra server e client devono essere innanzi tutto serializzabili e possono essere sostanzialmente dei seguenti tipi:
+\begin{itemize}
+\item Tipi primitivi Java.
+\item I wrapper dei tipi primitivi
+\item Un sottoinsieme degli oggetti Java Runtime Environemnt (JRE)
+\item Qualsiasi tipo definito dall'utente a patto che sia serializzabile\footnote{Le chiamate alle GWT-RPC sono tra codice Javascript e Java e GWT prevede la serializzazione come parte del meccanismo RPC} 
+(implementi l'interfaccia Serializable o IsSerializable di GWT)
+\end{itemize}
+
+\subsubsection*{Ricevendo dati JSON via HTTP}
+Se l'applicazione comunica con un server che non pu\`o ospitare servlet Java, oppure con uno che utilizza gi\`a un'altro formato di dati come JSON o XML, si possono eseguire richieste HTTP per ottenere i dati. GWT fornisce classi HTTP generiche che possono essere utilizzate per fare le richieste, e classi XML e JSON client utilizzabili per processare le risposte.
+\subsubsection*{Facendo richieste Cross-Site per JSONP}
+Se si crea un'applicazione che richiede dati da uno o pi\`u web server remoti bisogna evitare le restrizioni SOP(Same Origin Policy)\footnote{Same Origin Policy \`e una misura di sicurezza del browser che limita il codice JavaScript client-side nell'interagire con risorse originate da nomi di dominio, porte e protocolli differenti.}.
