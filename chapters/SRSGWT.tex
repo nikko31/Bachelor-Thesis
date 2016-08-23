@@ -1,24 +1,21 @@
+\section{Requisiti Fondamentali}
 \begin{table}[ht]
 \caption{RF: Selezione Edificio}
 \begin{center}
 \begin{tabular}{|p{3cm}|p{4cm}|p{5cm}|}
 \hline
 \textbf{RF01}&\textbf{Applicazione Web}&\textbf{Selezione edificio}\\
-
 \hline
 \textbf{Input}&\multicolumn{2}{|p{9cm}|}{
 Selezione dell'edificio desiderato. }\\
-
 \hline
 \textbf{Processo}&\multicolumn{2}{|p{9cm}|}{
 L'utente pu\`o selezionare l'edificio desiderato da una ListBox.
 }\\
-
 \hline
 \textbf{Output}&\multicolumn{2}{|p{9cm}|}{
 Nessun output particolare.
 }\\
-
 \hline
 \end{tabular}
 \end{center}
@@ -30,21 +27,17 @@ Nessun output particolare.
 \begin{tabular}{|p{3cm}|p{4cm}|p{5cm}|}
 \hline
 \textbf{RF02}&\textbf{Applicazione Web}&\textbf{Selezione piano}\\
-
 \hline
 \textbf{Input}&\multicolumn{2}{|p{9cm}|}{
 Selezione del piano desiderato. }\\
-
 \hline
 \textbf{Processo}&\multicolumn{2}{|p{9cm}|}{
 L'utente pu\`o selezionare il piano desiderato di un determinato edificio da una ListBox.
 }\\
-
 \hline
 \textbf{Output}&\multicolumn{2}{|p{9cm}|}{
 Nessun output particolare.
 }\\
-
 \hline
 \end{tabular}
 \end{center}
@@ -109,14 +102,13 @@ L'utente, dopo aver selezionato l'edificio e il piano desiderati e aver selezion
 }\\
 \hline
 \textbf{Output}&\multicolumn{2}{|p{9cm}|}{
-mappa che illustra la corrispondente distribuzione degli spazi.
+mappa che illustra la corrispondente distribuzione degli spazi sfruttando una specifica colorazione delle singole stanze.
 }\\
 \hline
 \end{tabular}
 \end{center}
 \label{Distribuzione Spazi}
 \end{table}
-
 \begin{table}[ht]
 \caption{RF: Visualizzazione termine attivit\`a lavorativa}
 \begin{center}
@@ -138,5 +130,86 @@ Mappa in modalit\`a Termine attivit\`a lavorativa dove \`e possibile consultare 
 \end{tabular}
 \end{center}
 \label{Visualizzazione termine attivit\`a lavorativa}
+\end{table}
+\begin{table}[ht]
+\caption{RF: Ricerca persone}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{4cm}|p{5cm}|}
+\hline
+\textbf{RF07}&\textbf{Applicazione Web}&\textbf{Ricerca Persone}\\
+\hline
+\textbf{Input}&\multicolumn{2}{|p{9cm}|}{ Scrivere il nome delle persone da cercare e premere bottone "Search". }\\
+\hline
+\textbf{Processo}&\multicolumn{2}{|p{9cm}|}{
+L'utente, dopo aver scritto il nome delle persone che vuole cercare nell'apposita SearchBar, cliccher\`a su un determinato bottone per visualizzare le informazioni riguardanti l'occupazione aule di tali persone.
+}\\
+\hline
+\textbf{Output}&\multicolumn{2}{|p{9cm}|}{
+Elenco delle aule occupate dalle persone ricercate
+}\\
+\hline
+\end{tabular}
+\end{center}
+\label{Ricerca persone}
+\end{table}
+\begin{table}[ht]
+\caption{RF: Visualizzazione informazioni stanza}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{4cm}|p{5cm}|}
+\hline
+\textbf{RF08}&\textbf{Applicazione Web}&\textbf{Visualizzazione Informazioni Stanza}\\
+\hline
+\textbf{Input}&\multicolumn{2}{|p{9cm}|}{Premere su una stanza sulla mappa.}\\
+\hline
+\textbf{Processo}&\multicolumn{2}{|p{9cm}|}{
+L'utente clicca su una stanza della mappa e verranno visualizzate le ralative informazioni.
+}\\
+\hline
+\textbf{Output}&\multicolumn{2}{|p{9cm}|}{
+Elenco delle informazioni relative alla stanza e l'elenco delle persone che la occupano.
+}\\
+\hline
+\end{tabular}
+\end{center}
+\label{Ricerca persone}
+\end{table}
+
+\section{Requisiti non funzionali}
+\begin{table}[ht]
+\caption{RNF: Tempi di risposta}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{4cm}|p{5cm}|}
+\hline
+\textbf{RNF01}&\textbf{Applicazione Web}&\textbf{Tempi di Risposta}\\
+\hline
+
+\textbf{Descrizione}&\multicolumn{2}{|p{9cm}|}{
+il software deve consetire all'utente di ottenere risposte in tempo reale. Nel caso in cui il seerver su cui \`e pubblicato possa essere accessibile in modalit\`a locale (LAN), il requisito fondamentale \`e di disporre di un computer con buone prestazioni e di qualit\`a di ricezione dati della rete buona. Per una buona operativit\`a da parte dell'utente \`e opportunuo che il 90\% delle transizioni siano processate in meno di 7 secondi e il 10\% in meno di 20 secondi.
+}\\
+\hline
+\end{tabular}
+\end{center}
+\label{Ricerca persone}
+\end{table}
+\begin{table}[ht]
+\caption{RNF: Visualizzazione di suggerimenti nella barra di ricerca}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{4cm}|p{5cm}|}
+\hline
+\textbf{RNF02}&\textbf{Applicazione Web}&\textbf{Suggerimenti Persone}\\
+\hline
+\textbf{Input}&\multicolumn{2}{|p{9cm}|}{Scrittura di testo nella SearchBar.}\\
+\hline
+\textbf{Processo}&\multicolumn{2}{|p{9cm}|}{
+L'utente visualizza suggerimenti di nomi di persone durante la scrittura di testo.
+}\\
+\hline
+\textbf{Output}&\multicolumn{2}{|p{9cm}|}{
+Elenco delle persone il cui nome o cognome comincia con il testo inserito nella SearchBar.
+}\\
+\hline
+\end{tabular}
+\end{center}
+\label{Suggerimenti persone}
 \end{table}
 

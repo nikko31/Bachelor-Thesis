@@ -14,7 +14,7 @@ Il pattern MVP Separa la parte di gestione dei dati di un'applicazione dalla lor
 \begin{figure}[htbp]
 \centering%
 \includegraphics[scale=0.7]{MVP.png}%
-\caption{Diagramma del Model-View-Presenter MVP}\label{fig:mvp}}%
+\caption{Diagramma del Model-View-Presenter MVP}\label{fig:mvp}%
 \end{figure}\\
 Questo pattern \`e composto da tre elementi:
 \begin{description}
@@ -24,19 +24,20 @@ dati e delle informazioni, raccoglie gli input dell'utente e mai la manipolazion
 \item[Presenter]  \`e colui che, oltre ad aggiornare la vista, interagisce con il model,che pu\`o essere identificato sia come lo stato di un oggetto che come dati persistenti in un'applicazione, in base alle richieste ricevute dalla view.
 \end{description}
 Nelle viste vi \`e una relazione uno a uno con i presenters e ci\`o permette a questi di osservare le loro viste e reagire agli eventi. Siccome le viste non possono interagire direttamente con altre viste, i presenters devono scambiare i dati con gli altri presenters. Per ottenere tale comunicazione  fra presenters, si fa uso dell' Event Bus, un oggetto in grado di trasmettere e filtrare le notifiche(figura \ref{fig:mvpEB}).
-\begin{figure}[htbp]
+\begin{figure}[!htb]
 \centering%
 \includegraphics[scale=0.5]{EBdiagram.png}%
-\caption{Comunicazione tra unit\`a del software che non sono direttamente collegate tra loro. Ognuna di esse pu\`o inviare eventi all'Event Bus ed essere in "ascolto" di  particolari eventi.}\label{fig:mvpEB}}%
+\caption{Comunicazione tra unit\`a del software che non sono direttamente collegate tra loro. Ognuna di esse pu\`o inviare eventi all'Event Bus ed essere in "ascolto" di  particolari eventi.}\label{fig:mvpEB}%
 \end{figure}\\
 
+\FloatBarrier
 \begin{figure}[htbp]
 \centering%
 \includegraphics[scale=0.45,angle=90]{GWTappMVP.png}%
-\caption{Implementazione client seguendo pattern MVP}\label{fig:mvpApp}}%
+\caption{Implementazione client seguendo pattern MVP}\label{fig:mvpApp}%
 \end{figure}\\
 \begin{figure}[htbp]
 \centering%
 \includegraphics[scale=0.45]{ActDVisu.png}%
-\caption{Activity diagram della funzione di visualizzazione di un'aula.}\label{fig:umlActDVisu}}%
-\end{figure}\\
+\caption{Activity diagram della funzione di visualizzazione di un'aula.}\label{fig:umlActDVisu}%
+\end{figure}

@@ -1,10 +1,10 @@
 La gestione della persistenza \`e un argomento delicato nella progettazione di applicazioni software.
-Lo sviluppo di applicazioni Object-Oriented che utilizzano un DBMS relazionale per immagazinare i dati in memoria secondaria \`e uno scenario molto comune. Ci\`o che rende complessa la costruzione dello strato di persistenza \`e il problema dell'object/relational impedence mismatch, la discrepanza tra il paradigma Object-Oriented e il paradigma relazionale.
+Lo sviluppo di applicazioni Object-Oriented che utilizzano un DBMS relazionale per immagazinare i dati in memoria secondaria \`e uno scenario molto comune. Ci\`o che rende complessa la costruzione dello strato di persistenza \`e il problema dell'object/relational impedence mismatch, ovvero la discrepanza tra il paradigma Object-Oriented e il paradigma relazionale.\\
 Fondamentalmente, gli oggetti fanno riferimento ad altri oggetti e perci\`o danno forma ad un grafo, a differenza degli gli schemi relazionali, che hanno invece una struttura tabellare e basati sull'algebra relazionale che definisce insiemi di tuple. La conversione di tuple in strutture a grafo spesso richiede molto tempo e pu\`o risultare difficile, infatti, viene anche descritta "Vietnam of Computer Science".
 Questo problema pu\`o esser diviso in pi\`u parti:
 \begin{itemize}
 \item \textbf{Struttura, Ereditariet\`a, Interfaccia e Polimorfismo}:\\
-Una classe specifica gli attributi e i metodi che devono avere gli oggetti che appartengono ad essa. Una classe pu\`o anche far parte di una gerarchia (Concetto di ereditariet\`a).
+Una classe specifica gli attributi e i metodi che devono avere gli oggetti che appartengono ad essa e pu\`o anche far parte di una gerarchia (concetto di ereditariet\`a).
 Il modello relazionale non contempla il concetto di “classe” di oggetti e non fornisce una analogia per le gerarchie, interfacce e polimorfismo.  
 \item \textbf{Granularit\`a dei tipi di dato}:\\
 Tipi di dati composti sono tipicamente  rappresentati nei linguaggi OO mediante classi di oggetti, mentre nel modello relazionale non si prevede alcun meccanismo per la definizione di tipi di dato composti. 
@@ -15,7 +15,7 @@ Gli oggetti esistono indipendentemente dal loro stato. Essi possono essere ident
 \item \textbf{Associazioni}:\\
 Il modello relazionale contempla solo un tipo di associazione: l'utilizzo di una chiave esterna, che si riferisce ad una chiave primaria di un'altra tabella. Il paradigma Object-Oriented contempla diverse tipologie di associazione: uno a uno, uno a molti, molti a molti.
 \item \textbf{Coesione}:\\
-Tutte le propriet\`a di un oggetto sono contenuto all'interno di esso. Invece, i dati relazioni che corrispondono ad una stessa entit\`a possono essere stati suddivisi in pi\`u tabelle (fase di ristrutturazione dello schema logico)
+Tutte le propriet\`a di un oggetto sono contenuto all'interno di esso. Invece, le relazioni che corrispondono ad una stessa entit\`a possono essere stati suddivisi in pi\`u tabelle (fase di ristrutturazione dello schema logico)
 \end{itemize}
 Il problema dell'impedence mismatch deve essere analizzato e risolto nel modo opportuno in fase di progettazione. 
 
@@ -41,7 +41,7 @@ L'associazione fisica tra la classe e la tabella viene ottenuta mediante l'utili
 \item Snellimento della parte di codice riservata alla persistenza dei dati.
 \item Maggiore facilit\`a per quanto riguarda la manutenzione del codice grazie alla separazione tra il modello ad oggetti e il modello relazionale.
 \item Performance pi\`u efficienti grazie alle numerose opzioni di ottimizzazione presenti.
-\item Elevata portabilit\`a rispetto alla tecnologia DBMS utilizzata
+\item Elevata portabilit\`a rispetto alla tecnologia DBMS utilizzata.
 \end{itemize}
 
 Uno degli esempi pi\`u noti di ORM per il linguaggio Java \`e Hibernate.
@@ -55,7 +55,7 @@ Facciamo riferimento alla figura sottostante per  trattare i componenti principa
 \begin{figure}[htbp]
 \centering%
 \includegraphics[scale=0.7]{hib-arch.png}%
-\caption{Struttura di Hibernate}\label{fig:hibernate}}%
+\caption{Struttura di Hibernate}\label{fig:hibernate}%
 \end{figure}
 L'oggetto Configuration \`e di fondamentale importanza per il funzionamento del framework, in quanto contiene informazioni che riguardano:
 \begin{itemize}
@@ -66,7 +66,7 @@ la prima viene gestita mediante il file di configurazione hibernate.cfg.xml, men
 \begin{figure}[htbp]
 \centering%
 \includegraphics[scale=0.7]{hiber-arch2.jpg}%
-\caption{Workflow Hibernate}\label{fig:hibernate2}}%
+\caption{Workflow Hibernate}\label{fig:hibernate2}%
 \end{figure}
 Questo oggetto viene creato una sola volta all'atto della inizializzazione della applicazione,
 \begin{lstlisting}

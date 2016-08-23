@@ -1,0 +1,8 @@
+Apache  Tomcat( o più semplicemente Tomcat) è  un’implementazione  delle  tecnologie  Java  Servlet  e  JavaServer  Pages. Le  specifiche  Java  Servlet  e  JavaServer  Pages  sono sviluppate  dal  “Java  Community Process”. Apache Tomcat è sviluppato in un ambiente aperto e partecipativo ed è rilasciato sotto  la  “Apache  Software  License”;  è destinato, inoltre,  ad  essere  una  collaborazione  dei più grandi sviluppatori di tutto il mondo. La  funzionalità  di  spicco  di  Tomcat  è  quella  del  “Web  Application  Server”,  ovvero  un server capace di gestire e supportare le pagine JSP e le servlet nel rispetto delle specifiche 3.1  (per  le  servlet)  e  2.3  (per  le  JSP). 
+
+Tomcat è composto da tre parti:
+\begin{description}
+\item[Catalina:]è il contenitore di servlet Java di Tomcat. Catalina implementa le specifiche di Sun Microsystems per le servlets Java e le "JavaServer Pages (JSP, Pagine JavaServer).
+\item[Coyote:]Coyote è il componente "connettore HTTP" di Tomcat. Supporta il protocollo HTTP 1.1 per il web server o per il contenitore di applicazioni. Coyote ascolta le connessioni in entrata su una specifica porta TCP sul server e inoltra la richiesta al Tomcat Engine per processare la richiesta e mandare indietro una risposta al client richiedente.
+\item[Jasper]è il motore JSP di Tomcat. Tomcat 8.x utilizza Jasper 2, che è un'implementazione delle specifiche 2.3 delle Pagine JavaServer (JSP)[4]. Jasper analizza i file JSP per compilarli in codice Java come servlets (che verranno poi gestite da Catalina). Al momento di essere lanciato, Jasper cerca eventuali cambiamenti avvenuti ai file JSP e, se necessario, li ricompila.
+\end{description}

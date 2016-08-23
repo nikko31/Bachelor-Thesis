@@ -1,0 +1,10 @@
+\FloatBarrier
+\subsection*{Sequence Diagram}
+il Sequence Diagram è un diagramma che illusta le interazioni tra gli oggetti disponendole lungo una sequenza temporale. In particolare mostra gli oggetti che partecipano alla interazione e la sequenza dei messaggi cambiati.
+Un diagramma di sequenza rappresenta le successioni temporali ma non le relazioni tra gli oggetti, descrivendo così il comportamento dinamico del sistema.
+\begin{figure}[!htb]
+\centering%
+\includegraphics[scale=0.5]{ActivityDiagShowRoom.png}%
+\caption{Sequence diagram della funzione di visualizzazione delle informazioni di un'aula.}\label{fig:umlSeqDRoomInfo}%
+\end{figure}
+In questo diagramma viene mostrata la procedura per la visualizzazione delle informazioni relative ad una determinata aula. Per prima cosa l'utente deve selezionare l'edificio ed il relativo piano che si intende visualizzare e successivamente la modalità di visualizzazione "Visualizzazione" premendo in fine il bottone "Cerca". La "View" invierà quindi al relativo "Presenter" i dati selezionati che, tramite la funzione RequestBuild(), richiederà al server la mappa desiderata. Se la trasmissione va a buon fine verrà aggiornata la mappa nella "View", permettendo all'utente di selezionare un'aula  della mappa. Dopo aver acquisito le informazioni dell'aula selezionata dalla "View", il "Presenter", richiederà al server in maniera asincrona tramite RPC le informazioni di tale aula.
