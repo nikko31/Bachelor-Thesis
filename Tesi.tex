@@ -1,10 +1,10 @@
 \documentclass[a4paper,pt11,oneside]{book}
-\usepackage[latin1]{inputenc}
 \usepackage[italian]{babel}
 \usepackage[T1]{fontenc}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{listings}
 \usepackage{color}
+\usepackage[section]{placeins}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -36,6 +36,8 @@
 {\includegraphics[scale=2]{university.jpg}}}
 \author{Ferrari~Nico}
 \begin{document}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
 \maketitle
 \renewcommand{\contentsname}{Indice}
 \tableofcontents
@@ -46,6 +48,8 @@
 \input{chapters/Introduzione.tex}
 
 \chapter{Strumenti utilizzati}
+\section{MySql}
+\input{chapters/Mysql.tex}
 \section{JAVA}
 \input{chapters/Java.tex}
 \subsection{Panoramica del linguaggio JAVA}
@@ -56,6 +60,8 @@
 \input{chapters/Hiber.tex}
 \section{Framework GWT}
 \input{chapters/GWT.tex}
+\section{Application server Tomcat}
+\input{chapters/Tomcat.tex}
 \section{Grafica vettoriale}
 \input{chapters/GrafVett.tex}
 \section{Librerie}
@@ -63,8 +69,13 @@
 
 \chapter{La Webapp GESTIONE AULE}
 \input{chapters/AuleGest.tex}
-\section{Pattern architetturale MVP}
+\section{Client Side}
+\subsection{Pattern architetturale MVP}
 \input{chapters/Pattern.tex}
+\input{chapters/SeqDiag.tex}
+\section{Server Side}
+\input{chapters/Serverside.tex}
+
 \chapter{L'applicazione MONITORAGGIO AULE}
 \input{chapters/Android.tex}
 

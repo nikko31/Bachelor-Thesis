@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.8.4)  14 AUG 2016 00:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.17)  23 AUG 2016 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Pattern.tex
 (./Pattern.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 4 languages loaded.
+LaTeX2e <2016/03/31> patch level 1
+Babel <3.9r> and hyphenation patterns for 33 language(s) loaded.
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -928,7 +928,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.17 \caption
-             {Diagramma del Model-View-Presenter MVP}\label{fig:mvp}}%
+             {Diagramma del Model-View-Presenter MVP}\label{fig:mvp}%
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -967,15 +967,6 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no V in font nullfont!
 Missing character: There is no P in font nullfont!
-! Extra }, or forgotten \endgroup.
-l.17 ... Model-View-Presenter MVP}\label{fig:mvp}}
-                                                  %
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
 
@@ -2028,6 +2019,28 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+! Undefined control sequence.
+<write> ...Reference `fig:mvpEB' on page \thepage 
+                                                  \space undefined\on@line .
+l.26 ...ltrare le notifiche(figura \ref{fig:mvpEB}
+                                                  ).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:mvpEB' on page  undefined on input line 26.
+
+Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
 ! LaTeX Error: Environment figure undefined.
@@ -2242,15 +2255,6 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no . in font nullfont!
-! Extra }, or forgotten \endgroup.
-l.30 ...di  particolari eventi.}\label{fig:mvpEB}}
-                                                  %
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
 
@@ -2282,6 +2286,11 @@ Overfull \hbox (4.44444pt too wide) in paragraph at lines 24--32
 
 Overfull \hbox (5.00002pt too wide) in paragraph at lines 24--32
 \/cmr/m/n/10 ^^Ro
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 24--32
+[]
  []
 
 
@@ -2364,7 +2373,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.36 \caption
-             {Implementazione client seguendo pattern MVP}\label{fig:mvpApp}}%
+             {Implementazione client seguendo pattern MVP}\label{fig:mvpApp}%
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -2407,15 +2416,6 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no V in font nullfont!
 Missing character: There is no P in font nullfont!
-! Extra }, or forgotten \endgroup.
-l.36 ...t seguendo pattern MVP}\label{fig:mvpApp}}
-                                                  %
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
 
@@ -2549,15 +2549,6 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
-! Extra }, or forgotten \endgroup.
-l.41 ...zione di un'aula.}\label{fig:umlActDVisu}}
-                                                  %
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
 
@@ -2566,7 +2557,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.42 \end{figure}
-                 \\
+                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2579,11 +2570,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 20 strings out of 494977
- 259 string characters out of 6180184
- 48123 words of memory out of 5000000
- 3341 multiletter control sequences out of 15000+600000
- 3640 words of font info for 14 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 16i,1n,16p,445b,90s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23 strings out of 494311
+ 284 string characters out of 6163189
+ 49948 words of memory out of 5000000
+ 3460 multiletter control sequences out of 15000+600000
+ 3948 words of font info for 15 fonts, out of 8000000 for 9000
+ 372 hyphenation exceptions out of 8191
+ 16i,2n,16p,469b,90s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

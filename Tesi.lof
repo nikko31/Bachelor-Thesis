@@ -1,13 +1,18 @@
+\select@language {italian}
+\select@language {italian}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Struttura di Hibernate}}{12}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Workflow Hibernate}}{13}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces GWT RPC: interazione tra server e client mediante data object}}{16}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Struttura di Hibernate}}{14}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Workflow Hibernate}}{15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces GWT RPC: interazione tra server e client mediante data object}}{19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramma del Model-View-Presenter MVP}}{20}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Comunicazione tra unit\`a del software che non sono direttamente collegate tra loro. Ognuna di esse pu\`o inviare eventi all'Event Bus ed essere in "ascolto" di particolari eventi.}}{21}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Implementazione client seguendo pattern MVP}}{22}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Activity diagram della funzione di visualizzazione di un'aula.}}{23}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Suddivisione principale del progetto}}{23}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramma del Model-View-Presenter MVP}}{24}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Comunicazione tra unit\`a del software che non sono direttamente collegate tra loro. Ognuna di esse pu\`o inviare eventi all'Event Bus ed essere in "ascolto" di particolari eventi.}}{25}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Implementazione client seguendo pattern MVP}}{26}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Activity diagram della funzione di visualizzazione di un'aula.}}{27}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sequence diagram della funzione di visualizzazione delle informazioni di un'aula.}}{28}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces GWT-RPC }}{29}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -1,12 +1,18 @@
+\select@language {italian}
+\select@language {italian}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces RF: Selezione Edificio}}{27}
-\contentsline {table}{\numberline {6.2}{\ignorespaces RF: Selezione piano dell'edificio}}{27}
-\contentsline {table}{\numberline {6.3}{\ignorespaces RF: Selezione Modalit\`a di visualizzazione}}{28}
-\contentsline {table}{\numberline {6.4}{\ignorespaces RF: Visualizzazione della mappa del piano selezionato}}{28}
-\contentsline {table}{\numberline {6.5}{\ignorespaces RF: Distribuzione Spazi}}{28}
-\contentsline {table}{\numberline {6.6}{\ignorespaces RF: Visualizzazione termine attivit\`a lavorativa}}{29}
+\contentsline {table}{\numberline {6.1}{\ignorespaces RF: Selezione Edificio}}{34}
+\contentsline {table}{\numberline {6.2}{\ignorespaces RF: Selezione piano dell'edificio}}{34}
+\contentsline {table}{\numberline {6.3}{\ignorespaces RF: Selezione Modalit\`a di visualizzazione}}{35}
+\contentsline {table}{\numberline {6.4}{\ignorespaces RF: Visualizzazione della mappa del piano selezionato}}{35}
+\contentsline {table}{\numberline {6.5}{\ignorespaces RF: Distribuzione Spazi}}{35}
+\contentsline {table}{\numberline {6.6}{\ignorespaces RF: Visualizzazione termine attivit\`a lavorativa}}{36}
+\contentsline {table}{\numberline {6.7}{\ignorespaces RF: Ricerca persone}}{36}
+\contentsline {table}{\numberline {6.8}{\ignorespaces RF: Visualizzazione informazioni stanza}}{37}
+\contentsline {table}{\numberline {6.9}{\ignorespaces RNF: Tempi di risposta}}{38}
+\contentsline {table}{\numberline {6.10}{\ignorespaces RNF: Visualizzazione di suggerimenti nella barra di ricerca}}{38}
