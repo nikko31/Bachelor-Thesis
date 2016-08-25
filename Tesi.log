@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.17)  23 AUG 2016 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.17)  25 AUG 2016 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -554,7 +554,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `Tesi.toc'.
 
  [2] (./Tesi.lof
-Overfull \hbox (12.96817pt too wide) in paragraph at lines 14--14
+Overfull \hbox (12.96817pt too wide) in paragraph at lines 15--15
  [][] []\T1/cmr/m/n/10 Sequence dia-gram del-la fun-zio-ne di vi-sua-liz-za-zio
 -ne del-le in-for-ma-zio-ni 
  []
@@ -631,6 +631,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--55
 Overfull \hbox (31.74747pt too wide) in paragraph at lines 9--11
 \T1/cmr/m/n/10 og-get-ti (OOP, Ob-ject Orien-ted Pro-gram-ming) è un pa-ra-dig-
 ma di pro-gram-ma-zio-ne
+ []
+
+
+Overfull \hbox (15.14041pt too wide) in paragraph at lines 9--11
+\T1/cmr/m/n/10 (da-ti) e me-to-di (pro-ce-du-re) se-con-do quan-to de-fi-ni-to/
+-di-chia-ra-to dal-le ri-spet-ti-ve
  []
 
 [7]
@@ -729,13 +735,13 @@ Overfull \hbox (8.34189pt too wide) in paragraph at lines 43--44
 -ni di ot-ti-miz-za-zio-ne
  []
 
-
+[13]
 Overfull \hbox (0.10596pt too wide) in paragraph at lines 49--52
 \T1/cmr/m/n/10 Hibernate è un fra-mework open sour-ce con ser-vi-zi ORM in Ja-v
 a. Hi-ber-na-te
  []
 
-[13] <images/hib-arch.png, id=57, 550.30594pt x 414.04688pt>
+<images/hib-arch.png, id=57, 550.30594pt x 414.04688pt>
 File: images/hib-arch.png Graphic file (type png)
 
 <use images/hib-arch.png>
@@ -752,8 +758,7 @@ Overfull \hbox (3.4766pt too wide) in paragraph at lines 60--61
 a per il fun-zio-na-men-to
  []
 
-[14 <./images/hib-arch.png>]
-<images/hiber-arch2.jpg, id=61, 494.84875pt x 176.66pt>
+<images/hiber-arch2.jpg, id=58, 494.84875pt x 176.66pt>
 File: images/hiber-arch2.jpg Graphic file (type jpg)
 
 <use images/hiber-arch2.jpg>
@@ -785,7 +790,7 @@ Overfull \hbox (1.89365pt too wide) in paragraph at lines 79--81
 er ogni Con-fi-gu-ra-tion.
  []
 
-[15 <./images/hiber-arch2.jpg>])
+[14] [15 <./images/hib-arch.png> <./images/hiber-arch2.jpg>])
 Overfull \hbox (18.94504pt too wide) in paragraph at lines 84--61
 \T1/cmr/m/n/10 tran-sa-zio-ni so-no ge-sti-te dal Tran-sac-tion-Ma-na-ger che p
 er-met-te al-lo svi-lup-pa-to-re
@@ -898,13 +903,13 @@ Overfull \hbox (22.5275pt too wide) in paragraph at lines 46--59
  pic-co-lo nu-me-ro di con-nes-sio-ni
  []
 
-
+[19 <./images/RPC1.png>]
 Overfull \hbox (24.4353pt too wide) in paragraph at lines 63--65
 []\T1/cmr/m/n/10 Qualsiasi ti-po de-fi-ni-to dal-l'u-ten-te a pat-to che sia se
 -ria-liz-za-bi-le[] (im-ple-men-ti
  []
 
-[19 <./images/RPC1.png>]) (./chapters/Tomcat.tex
+) (./chapters/Tomcat.tex
 Overfull \hbox (3.43958pt too wide) in paragraph at lines 1--2
 \T1/cmr/m/n/10 col-la-bo-ra-zio-ne dei più gran-di svi-lup-pa-to-ri di tut-to i
 l mon-do. La fun-zio-na-li-tà
@@ -934,7 +939,7 @@ Overfull \hbox (1.45468pt too wide) in paragraph at lines 5--6
 -te com-pren-si-bi-le
  []
 
-) (./chapters/Libs.tex) [21] [22]
+[21]) (./chapters/Libs.tex) [22]
 Capitolo 3.
 (./chapters/AuleGest.tex
 <images/MainPackDiag.png, id=95, 705.63625pt x 184.69pt>
@@ -979,12 +984,13 @@ Overfull \hbox (27.4141pt too wide) in paragraph at lines 12--20
 usa-to prin-ci-pal-men-te
  []
 
-[24 <./images/MVP.png (PNG copy)>]
+
 Overfull \hbox (6.64786pt too wide) in paragraph at lines 22--24
 \T1/cmr/m/n/10 dei da-ti av-vie-ne in ma-nie-ra di-ret-ta ma sem-pre at-tra-ver
 -so un'in-ter-fac-cia.
  []
 
+[24 <./images/MVP.png (PNG copy)>]
 <images/EBdiagram.png, id=105, 464.73625pt x 274.02374pt>
 File: images/EBdiagram.png Graphic file (type png)
 
@@ -1034,9 +1040,42 @@ Overfull \hbox (94.48787pt too wide) in paragraph at lines 41--42
  [][] 
  []
 
-) (./chapters/SeqDiag.tex [25 <./images/EBdiagram.png>] [26 <./images/GWTappMVP
-.png>] [27 <./images/ActDVisu.png>]
-<images/ActivityDiagShowRoom.png, id=120, 785.93625pt x 615.29875pt>
+) (./chapters/UseCaseDiag.tex
+! Undefined control sequence.
+l.1 \FloatingBarrier
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[25 <./images/EBdiagram.png>] [26 <./images/GWTappMVP.png>] [27 <./images/ActDV
+isu.png>]
+Overfull \hbox (11.6135pt too wide) in paragraph at lines 5--9
+\T1/cmr/m/n/10 in-fat-ti, ac-ce-den-do al-la we-bapp, po-trà vi-sua-liz-za-re l
+a map-pa di un de-ter-mi-na-to
+ []
+
+
+Overfull \hbox (1.67148pt too wide) in paragraph at lines 5--9
+\T1/cmr/m/n/10 un'au-la e ot-te-ne-re le in-for-ma-zio-ni re-la-ti-ve ad es-sa 
+(RF08) e suc-ces-si-va-men-te
+ []
+
+<images/UseCFirst.png, id=120, 747.79375pt x 464.73625pt>
+File: images/UseCFirst.png Graphic file (type png)
+
+<use images/UseCFirst.png>
+Package pdftex.def Info: images/UseCFirst.png used on input line 12.
+(pdftex.def)             Requested size: 373.89595pt x 232.36755pt.
+
+Overfull \hbox (28.89595pt too wide) in paragraph at lines 12--13
+ [][] 
+ []
+
+) (./chapters/SeqDiag.tex
+<images/ActivityDiagShowRoom.png, id=121, 785.93625pt x 615.29875pt>
 File: images/ActivityDiagShowRoom.png Graphic file (type png)
 
 <use images/ActivityDiagShowRoom.png>
@@ -1048,42 +1087,24 @@ Overfull \hbox (47.96716pt too wide) in paragraph at lines 7--8
  []
 
 )
-Overfull \hbox (3.05078pt too wide) in paragraph at lines 3--76
+Overfull \hbox (3.05078pt too wide) in paragraph at lines 3--77
 \T1/cmr/m/n/10 Re-quest-Build(), ri-chie-de-rà al ser-ver la map-pa de-si-de-ra
 -ta. Se la tra-smis-sio-ne
  []
 
-[28 <./images/ActivityDiagShowRoom.png>] (./chapters/Serverside.tex
-<images/AnatomyRPC.png, id=125, 741.77126pt x 463.7325pt>
-File: images/AnatomyRPC.png Graphic file (type png)
+[28 <./images/UseCFirst.png>] (./chapters/Serverside.tex [29 <./images/Activity
+DiagShowRoom.png>] <images/AnatomySVG.png, id=130, 863.225pt x 654.445pt>
+File: images/AnatomySVG.png Graphic file (type png)
 
-<use images/AnatomyRPC.png>
-Package pdftex.def Info: images/AnatomyRPC.png used on input line 8.
-(pdftex.def)             Requested size: 370.88472pt x 231.86568pt.
+<use images/AnatomySVG.png>
+Package pdftex.def Info: images/AnatomySVG.png used on input line 9.
+(pdftex.def)             Requested size: 431.61145pt x 327.2217pt.
 
-Overfull \hbox (25.88472pt too wide) in paragraph at lines 8--9
+Overfull \hbox (86.61145pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
-
-Overfull \hbox (1.51022pt too wide) in paragraph at lines 14--19
-\T1/cmr/m/n/10 bro-w-ser-Web il mo-to-re Ja-va-Script è ge-ne-ral-men-te di ti-
-po single-thread,
- []
-
-
-Overfull \hbox (7.7587pt too wide) in paragraph at lines 14--19
-\T1/cmr/m/n/10 una chia-ma-ta sin-cro-na al ser-ver ge-ne-ra un "bloc-co" fi-no
- al-la con-clu-sio-ne
- []
-
-[29 <./images/AnatomyRPC.png>]
-Overfull \hbox (18.2839pt too wide) in paragraph at lines 19--23
-\T1/cmr/m/n/10 con-tem-po-ra-nea-men-te re-cu-pe-ra-re i da-ti dal ser-ver per 
-po-po-lar-la, ri-du-cen-do
- []
-
-) [30]
+) [30 <./images/AnatomySVG.png>]
 Capitolo 4.
 (./chapters/Android.tex
 Overfull \hbox (13.74261pt too wide) in paragraph at lines 2--3
@@ -1112,7 +1133,7 @@ en-do-no ^^Pna-tu-ral-men-te^^Q
 [31
 
 ])
-Overfull \hbox (10.57562pt too wide) in paragraph at lines 6--81
+Overfull \hbox (10.57562pt too wide) in paragraph at lines 6--82
 \T1/cmr/m/n/10 com-pa-ti-bi-li con le gui-de-li-ne RE-ST (REST-ful). Que-ste re
 -go-le so-no con-den-sa-te
  []
@@ -1124,111 +1145,111 @@ Capitolo 5.
 ]
 Capitolo 6.
 (./chapters/SRSGWT.tex
-Underfull \hbox (badness 2547) in paragraph at lines 14--14
+Underfull \hbox (badness 2547) in paragraph at lines 15--15
 []\T1/cmr/m/n/10 L'utente può se-le-zio-na-re l'e-di-fi-cio de-si-de-ra-to da u
 na
  []
 
 
-Overfull \hbox (32.43306pt too wide) in paragraph at lines 5--21
+Overfull \hbox (32.43306pt too wide) in paragraph at lines 6--22
  [] 
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 36--36
+Underfull \hbox (badness 4024) in paragraph at lines 37--37
 []\T1/cmr/m/n/10 L'utente può se-le-zio-na-re il pia-no de-si-de-ra-to di un
  []
 
 
-Overfull \hbox (32.43306pt too wide) in paragraph at lines 27--43
+Overfull \hbox (32.43306pt too wide) in paragraph at lines 28--44
  [] 
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 58--58
+Underfull \hbox (badness 8019) in paragraph at lines 59--59
 []\T1/cmr/m/n/10 L'utente può se-le-zio-na-re una tra le mo-da-li-tà di
  []
 
 
-Overfull \hbox (32.43306pt too wide) in paragraph at lines 49--65
+Overfull \hbox (32.43306pt too wide) in paragraph at lines 50--66
  [] 
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 80--80
+Underfull \hbox (badness 2809) in paragraph at lines 81--81
 []\T1/cmr/m/n/10 L'utente, do-po aver se-le-zio-na-to l'e-di-fi-cio e il pia-no
 
  []
 
 
-Overfull \hbox (32.43306pt too wide) in paragraph at lines 71--87
+Overfull \hbox (32.43306pt too wide) in paragraph at lines 72--88
  [] 
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 102--102
+Underfull \hbox (badness 2809) in paragraph at lines 103--103
 []\T1/cmr/m/n/10 L'utente, do-po aver se-le-zio-na-to l'e-di-fi-cio e il pia-no
 
  []
 
 
-Overfull \hbox (32.43306pt too wide) in paragraph at lines 93--109
+Overfull \hbox (32.43306pt too wide) in paragraph at lines 94--110
  [] 
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 124--124
+Underfull \hbox (badness 2809) in paragraph at lines 125--125
 []\T1/cmr/m/n/10 L'utente, do-po aver se-le-zio-na-to l'e-di-fi-cio e il pia-no
 
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 124--124
+Underfull \hbox (badness 1701) in paragraph at lines 125--125
 \T1/cmr/m/n/10 la-vo-ra-ti-va", clic-che-rà su un de-ter-mi-na-to bot-to-ne per
 
  []
 
 
-Overfull \hbox (32.43306pt too wide) in paragraph at lines 115--131
+Overfull \hbox (32.43306pt too wide) in paragraph at lines 116--132
  [] 
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 145--145
+Underfull \hbox (badness 3428) in paragraph at lines 146--146
 \T1/cmr/m/n/10 de-ter-mi-na-to bot-to-ne per vi-sua-liz-za-re le in-for-ma-zio-
 ni
  []
 
 
-Overfull \hbox (32.43306pt too wide) in paragraph at lines 137--152
+Overfull \hbox (32.43306pt too wide) in paragraph at lines 138--153
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 []\T1/cmr/bx/n/10 Visualizzazione
  []
 
 
-Overfull \hbox (32.43306pt too wide) in paragraph at lines 158--173
+Overfull \hbox (32.43306pt too wide) in paragraph at lines 159--174
  [] 
  []
 
 [34
 
 ] [35] [36] [37]
-Underfull \hbox (badness 1755) in paragraph at lines 188--188
+Underfull \hbox (badness 1755) in paragraph at lines 189--189
 \T1/cmr/m/n/10 pos-sa es-se-re ac-ces-si-bi-le in mo-da-li-tà lo-ca-le (LAN), i
 l
  []
 
 
-Overfull \hbox (32.43306pt too wide) in paragraph at lines 181--191
+Overfull \hbox (32.43306pt too wide) in paragraph at lines 182--192
  [] 
  []
 
 
-Overfull \hbox (32.43306pt too wide) in paragraph at lines 197--212
+Overfull \hbox (32.43306pt too wide) in paragraph at lines 198--213
  [] 
  []
 
@@ -1279,7 +1300,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 \end{document}
+l.89 \end{document}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1297,10 +1318,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 9 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4770 strings out of 494311
- 61976 string characters out of 6163189
+ 4779 strings out of 494311
+ 62171 string characters out of 6163189
  151525 words of memory out of 5000000
- 7958 multiletter control sequences out of 15000+600000
+ 7963 multiletter control sequences out of 15000+600000
  19744 words of font info for 41 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  40i,10n,40p,985b,1227s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1321,10 +1342,10 @@ home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600p
 k> </home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074
 .600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 >
-Output written on Tesi.pdf (40 pages, 444864 bytes).
+Output written on Tesi.pdf (40 pages, 533745 bytes).
 PDF statistics:
- 644 PDF objects out of 1000 (max. 8388607)
+ 648 PDF objects out of 1000 (max. 8388607)
  151 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
