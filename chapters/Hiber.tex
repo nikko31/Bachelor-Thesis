@@ -29,6 +29,7 @@ Altri strategie fanno uso della serializzazione, di object oriented database sys
 \subsection{Object/Relational Mapping}
 L'Object/Relational Mapping (ORM) \`e una tecnica di programmazione che favorisce l'integrazione di sistemi software aderenti al paradigma della programmazione orientata agli oggetti con sistemi RDBMS.
 Attraverso questo mezzo ogni oggetto viene reso persistente nel database tramite l'inserimento di nuovi record i cui campi contengono i valori degli attributi dell'oggetto stesso. Si viene quindi a creare la relazione tra oggetto Java e tabella SQL. Una soluzione ORM consiste di quattro componenti caratteristici:
+
 \begin{enumerate}
 \item Una API per eseguire le operazioni CRUD sugli oggetti delle classi del modello.
 \item  Un linguaggio  o una API  per specificare query che fanno riferimento alle classi e alle propriet\`a delle classi.
@@ -37,6 +38,7 @@ Attraverso questo mezzo ogni oggetto viene reso persistente nel database tramite
 \end{enumerate}
 
 L'associazione fisica tra la classe e la tabella viene ottenuta mediante l'utilizzo di file di descrizione (detti file di mapping), in cui si specificano le modalit\`a di conversione tra gli attributi dell'oggetto e i campi della tabella. In definitiva i principali vantaggi derivanti dall'uso di una soluzione ORM sono:
+
 \begin{itemize}
 \item Snellimento della parte di codice riservata alla persistenza dei dati.
 \item Maggiore facilit\`a per quanto riguarda la manutenzione del codice grazie alla separazione tra il modello ad oggetti e il modello relazionale.
@@ -52,35 +54,46 @@ Il software \`e composto da API Java che permettono di gestire la persistenza co
 \subsection{Architettura Hibernate}
 Facciamo riferimento alla figura sottostante per  trattare i componenti principali dell'architettura Hibernate.
 
-\begin{figure}[htbp]
+\FloatBarrier
+\begin{figure}[H]
 \centering%
-\includegraphics[scale=0.7]{hib-arch.png}%
+\includegraphics[scale=0.5]{hib-arch.png}%
 \caption{Struttura di Hibernate}\label{fig:hibernate}%
 \end{figure}
+
 L'oggetto Configuration \`e di fondamentale importanza per il funzionamento del framework, in quanto contiene informazioni che riguardano:
 \begin{itemize}
 \item la connessione al database
 \item il class mapping
 \end{itemize}
 la prima viene gestita mediante il file di configurazione hibernate.cfg.xml, mentre il mapping tra le classi java e le tabelle del database, pu\`o avvenire mediante file di configurazione xml, oppure con il meccanismo delle annotation. 
-\begin{figure}[htbp]
+
+\FloatBarrier
+\begin{figure}[!htb]
 \centering%
 \includegraphics[scale=0.7]{hiber-arch2.jpg}%
 \caption{Workflow Hibernate}\label{fig:hibernate2}%
 \end{figure}
+
 Questo oggetto viene creato una sola volta all'atto della inizializzazione della applicazione,
+
 \begin{lstlisting}
 Configuration config = new Configuration().configure("/it/resources/hibernate.cfg.xml");
 \end{lstlisting}
+
 e dopo che \`e stato utilizzato per la creazione di un altro oggetto, il SessionFactory, resta inutilizzato.
+
 \begin{lstlisting}
 SessionFactory sessionFactory = config.buildSessionFactory();
 \end{lstlisting}
+
 Quest'ultimo quindi, viene anch'esso creato una sola volta allo startup, ma a differenza di Configuration, viene utilizzato in tutta l'applicazione. L'oggetto SessionFactory \`e thread safe, ed \`e utilizzato da tutti i thread dell'applicazione, inoltre siccome dipende da Configuration, che a sua volta si riferisce ad uno specifico database, potr\`a puntare solo a quel database. Nel caso di connessioni a database multipli, avremmo mulipli Configuration e quindi multipli SessionFactory, uno per ogni Configuration.
 Il SessionFactory, come si evince dal nome, risulta essere uno stampo da cui creare gli oggetti Session, necessari ogni qualvolta occorre effettuare una interazione con il database. Quando con un oggetto di questo tipo viene aperta una sessione di lavoro,
+
 \begin{lstlisting}
 Session session = sessionFactory.openSession();
 \end{lstlisting}
+
 viene stabilita una connessione fisica con il database, e siccome non \`e thread safe, dopo aver effettuato le operazioni necessarie, occorre poi chiuderla manualmente, in modo da non mantenere connessioni aperte inutilmente.
 Se durante una sessione di lavoro, occorre fare operazioni di modifica sul database, come inserimenti, aggiornamenti o cancellazioni, occorre gestirle come transazioni: a tal proposito l'oggetto Session viene a sua volta utilizzato per la creazione di oggetti Transaction. 
 In Hibernate le transazioni sono gestite dal TransactionManager che permette allo sviluppatore di astrarsi dal livello sottostante (JDBC, JTA, ecc.) evitando di scrivere codice specifico. Infine Query e Criteria sono utilizzati per recuperare oggetti persistenti. Gli oggetti Query utilizzano SQL oppure HQL (Hibernate Query Language) per il recupero di dati dal database e per la creazione di oggetti, mentre Criteria utilizza oggetti per la costruzione e la esecuzione di una richiesta di recupero dati. 

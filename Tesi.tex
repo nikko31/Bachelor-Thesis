@@ -5,6 +5,7 @@
 \usepackage{listings}
 \usepackage{color}
 \usepackage[section]{placeins}
+\usepackage{float} 
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -20,6 +21,8 @@
   basicstyle={\footnotesize\ttfamily},
   numberstyle={\tiny},
   numbers=left,
+  numberblanklines=false,
+  escapeinside=||,
   keywordstyle=\color{blue},
   commentstyle=\color{dkgreen},
   stringstyle=\color{mauve},
@@ -70,6 +73,7 @@
 \chapter{Webapp GESTIONE AULE}
 \input{chapters/AuleGest.tex}
 \section{Client Side}
+\input{chapters/Client.tex}
 \subsection{Pattern architetturale MVP}
 \input{chapters/Pattern.tex}
 \input{chapters/UseCaseDiag.tex}

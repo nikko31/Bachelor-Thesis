@@ -15,11 +15,11 @@
 \contentsline {subsection}{\numberline {2.4.2}Comunicazione Client-Server in GWT}{18}
 \contentsline {section}{\numberline {2.5}Application server Tomcat}{20}
 \contentsline {section}{\numberline {2.6}Grafica vettoriale}{21}
-\contentsline {section}{\numberline {2.7}Librerie}{22}
-\contentsline {chapter}{\numberline {3}Webapp GESTIONE AULE}{23}
-\contentsline {section}{\numberline {3.1}Client Side}{23}
+\contentsline {section}{\numberline {2.7}Librerie}{21}
+\contentsline {chapter}{\numberline {3}Webapp GESTIONE AULE}{22}
+\contentsline {section}{\numberline {3.1}Client Side}{22}
 \contentsline {subsection}{\numberline {3.1.1}Pattern architetturale MVP}{23}
-\contentsline {section}{\numberline {3.2}Server Side}{30}
+\contentsline {section}{\numberline {3.2}Server Side}{29}
 \contentsline {chapter}{\numberline {4}L'applicazione MONITORAGGIO AULE}{31}
 \contentsline {section}{\numberline {4.1}Stile architetturale REST}{31}
 \contentsline {chapter}{\numberline {5}Conclusioni}{33}
