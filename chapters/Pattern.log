@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.17)  23 AUG 2016 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.8.4)  26 AUG 2016 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Pattern.tex
 (./Pattern.tex
-LaTeX2e <2016/03/31> patch level 1
-Babel <3.9r> and hyphenation patterns for 33 language(s) loaded.
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 4 languages loaded.
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -2050,16 +2050,16 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.27 \begin{figure}
-                   [htbp]
+                   [!htb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no b in font nullfont!
-Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.29 \includegraphics
@@ -2303,6 +2303,15 @@ Overfull \hbox (5.00002pt too wide) in paragraph at lines 24--32
 \/cmr/m/n/10 ^^Ro
  []
 
+! Undefined control sequence.
+l.33 \FloatBarrier
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 ! LaTeX Error: Environment figure undefined.
 
@@ -2310,7 +2319,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \begin{figure}
+l.34 \begin{figure}
                    [htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2323,7 +2332,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.35 \includegraphics
+l.36 \includegraphics
                      [scale=0.45,angle=90]{GWTappMVP.png}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2372,7 +2381,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \caption
+l.37 \caption
              {Implementazione client seguendo pattern MVP}\label{fig:mvpApp}%
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2423,7 +2432,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \end{figure}
+l.38 \end{figure}
                  \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2436,20 +2445,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \begin{figure}
-                   [htbp]
+l.39 \begin{figure}
+                   [!htb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no b in font nullfont!
-Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.40 \includegraphics
+l.41 \includegraphics
                      [scale=0.45]{ActDVisu.png}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2488,7 +2497,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \caption
+l.42 \caption
              {Activity diagram della funzione di visualizzazione di un'aula....
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2556,7 +2565,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \end{figure}
+l.43 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2570,11 +2579,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 23 strings out of 494311
- 284 string characters out of 6163189
- 49948 words of memory out of 5000000
- 3460 multiletter control sequences out of 15000+600000
+ 23 strings out of 494977
+ 291 string characters out of 6180184
+ 48123 words of memory out of 5000000
+ 3343 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
- 372 hyphenation exceptions out of 8191
+ 36 hyphenation exceptions out of 8191
  16i,2n,16p,469b,90s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
