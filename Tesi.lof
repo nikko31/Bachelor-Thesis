@@ -4,16 +4,17 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Workflow Hibernate}}{15}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces GWT RPC: interazione tra server e client mediante data object}}{19}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Differenza fra immagine di tipo raster e vettoriale.}}{22}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Maven}}{25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Suddivisione principale del progetto}}{24}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Organizzazione pagina iniziale}}{25}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramma del Model-View-Presenter MVP}}{26}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Comunicazione tra unit\`a del software che non sono direttamente collegate tra loro. Ognuna di esse pu\`o inviare eventi all'Event Bus ed essere in "ascolto" di particolari eventi.}}{27}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Implementazione client seguendo pattern MVP}}{28}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Activity diagram della funzione di visualizzazione di un'aula.}}{29}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Use Case Diagram delle funzioni principali che l'utente pu\IeC {\`o} svolgere.}}{30}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Sequence diagram della funzione di visualizzazione delle informazioni di un'aula.}}{31}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces GWT-RPC }}{32}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Suddivisione principale del progetto}}{26}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Organizzazione pagina iniziale}}{27}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramma del Model-View-Presenter MVP}}{28}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Comunicazione tra unit\`a del software che non sono direttamente collegate tra loro. Ognuna di esse pu\`o inviare eventi all'Event Bus ed essere in "ascolto" di particolari eventi.}}{29}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Implementazione client seguendo pattern MVP}}{30}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Activity diagram della funzione di visualizzazione di un'aula.}}{31}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Use Case Diagram delle funzioni principali che l'utente pu\IeC {\`o} svolgere.}}{32}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sequence diagram della funzione di visualizzazione delle informazioni di un'aula.}}{33}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces GWT-RPC }}{34}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

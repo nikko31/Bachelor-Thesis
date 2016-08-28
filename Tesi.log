@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.8.4)  26 AUG 2016 21:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.8.4)  28 AUG 2016 22:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -474,7 +474,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `Tesi.toc'.
 
  [2] (./Tesi.lof
-Overfull \hbox (12.96817pt too wide) in paragraph at lines 15--15
+Overfull \hbox (12.96817pt too wide) in paragraph at lines 16--16
  [][] []\T1/cmr/m/n/10 Sequence di-a-gram della fun-zione di vi-su-al-iz-zazion
 e delle in-for-mazioni 
  []
@@ -514,93 +514,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--52
 
 ]
 Chapter 2.
-(./chapters/Mysql.tex
+(./chapters/Strumenti/Mysql.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+ [6
 
-[6
-
-]) (./chapters/Java.tex)
-Overfull \hbox (0.6995pt too wide) in paragraph at lines 1--58
+])
+(./chapters/Strumenti/Java.tex
+Overfull \hbox (0.6995pt too wide) in paragraph at lines 1--5
 \T1/cmr/m/n/10 Il lin-guag-gio Java è un lin-guag-gio di pro-gram-mazione ori-e
 n-tato agli oggetti,
  []
 
 
-Overfull \hbox (17.38062pt too wide) in paragraph at lines 1--58
+Overfull \hbox (17.38062pt too wide) in paragraph at lines 1--5
 \T1/cmr/m/n/10 Java fu an-nun-ci-ato uf-fi-cial-mente il 23 mag-gio 1995 a Sun-
 World. La pi-attaforma
  []
 
 
-Overfull \hbox (13.77963pt too wide) in paragraph at lines 1--58
+Overfull \hbox (13.77963pt too wide) in paragraph at lines 1--5
 \T1/cmr/m/n/10 Ma-chine (JVM)e sulle API. Java è un mar-chio reg-is-trato di Su
-n Mi-crosys-tems.
+n Mi-crosys-tems. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--58
-
- []
-
-(./chapters/JavaLang.tex
-Overfull \hbox (31.74747pt too wide) in paragraph at lines 9--11
+Overfull \hbox (31.74747pt too wide) in paragraph at lines 14--16
 \T1/cmr/m/n/10 oggetti (OOP, Ob-ject Ori-ented Pro-gram-ming) è un paradigma di
  pro-gram-mazione
  []
 
 
-Overfull \hbox (15.14041pt too wide) in paragraph at lines 9--11
+Overfull \hbox (15.14041pt too wide) in paragraph at lines 14--16
 \T1/cmr/m/n/10 (dati) e metodi (pro-ce-dure) sec-ondo quanto defini-to/dichiara
 to dalle rispet-tive
  []
 
 [7]
-Overfull \hbox (1.98233pt too wide) in paragraph at lines 19--20
+Overfull \hbox (1.98233pt too wide) in paragraph at lines 24--25
 []\T1/cmr/m/n/10 l'organizzazione del codice sotto forma di classi fa-vorisce l
 a mod-u-lar-ità
  []
 
 
-Overfull \hbox (9.78061pt too wide) in paragraph at lines 22--24
+Overfull \hbox (9.78061pt too wide) in paragraph at lines 27--29
 \T1/cmr/m/n/10 al-ta-mente ot-timiz-zate es-eguibili dalla Java Vir-tual Ma-chi
 ne(JVM), dis-eg-nata
  []
 
 
-Overfull \hbox (6.61472pt too wide) in paragraph at lines 27--28
+Overfull \hbox (6.61472pt too wide) in paragraph at lines 32--33
 \T1/cmr/m/n/10 La pi-attaforma Java ha carat-ter-is-tiche pro-get-tate per au-m
 entare la si-curezza
  []
 
 [8]
-Overfull \hbox (8.95285pt too wide) in paragraph at lines 31--34
+Overfull \hbox (8.95285pt too wide) in paragraph at lines 36--39
 \T1/cmr/m/n/10 pro-get-tato per pro-teggerli da soft-ware peri-coloso o scritto
  male evi-tando
  []
 
-) (./chapters/JavaPlat.tex [9]
-Overfull \hbox (3.09874pt too wide) in paragraph at lines 12--13
+[9]
+Overfull \hbox (3.09874pt too wide) in paragraph at lines 55--56
 []\T1/cmr/m/n/10 carica le classi che for-mano il byte-code, sia dell'applicazi
 one
  []
 
 
-Overfull \hbox (17.92178pt too wide) in paragraph at lines 12--13
+Overfull \hbox (17.92178pt too wide) in paragraph at lines 55--56
 \T1/cmr/m/n/10 Java, sia delle API Java nec-es-sarie per l'esecuzione da parte 
 dell'interprete
  []
 
 
-Overfull \hbox (5.6509pt too wide) in paragraph at lines 18--19
+Overfull \hbox (5.6509pt too wide) in paragraph at lines 61--62
 []\T1/cmr/m/n/10 può es-sere di varie forme: può es-sere un mod-ulo soft-ware
  []
 
-[10]) (./chapters/Hiber.tex
+[10]) (./chapters/Strumenti/Hibernate.tex
 Overfull \hbox (10.94699pt too wide) in paragraph at lines 1--5
 \T1/cmr/m/n/10 im-pe-dence mis-match, ovvero la dis-crepanza tra il paradigma O
 bject-Oriented
@@ -705,18 +701,18 @@ Overfull \hbox (1.89365pt too wide) in paragraph at lines 90--92
  []
 
 [15 <./images/hiber-arch2.jpg>])
-Overfull \hbox (18.94504pt too wide) in paragraph at lines 97--64
+Overfull \hbox (18.94504pt too wide) in paragraph at lines 97--60
 \T1/cmr/m/n/10 transazioni sono gestite dal Trans-ac-tion-Man-ager che per-me-t
 te allo svilup-pa-tore
  []
 
 
-Overfull \hbox (10.67172pt too wide) in paragraph at lines 97--64
+Overfull \hbox (10.67172pt too wide) in paragraph at lines 97--60
 \T1/cmr/m/n/10 oggetti per-sis-tenti. Gli oggetti Query uti-liz-zano SQL op-pur
 e HQL (Hi-ber-nate
  []
 
-(./chapters/GWT.tex
+(./chapters/Strumenti/GWT.tex
 Overfull \hbox (8.14102pt too wide) in paragraph at lines 1--5
 \T1/cmr/m/n/10 che le ap-pli-cazioni RIA ( Rich In-ter-net Ap-pli-ca-tion ) pos
 siedono nei con-fronti
@@ -823,7 +819,7 @@ Overfull \hbox (24.4353pt too wide) in paragraph at lines 63--65
 z-z-abile[] (im-ple-menti
  []
 
-[19 <./images/RPC1.png>]) (./chapters/Tomcat.tex
+[19 <./images/RPC1.png>]) (./chapters/Strumenti/Tomcat.tex
 Overfull \hbox (3.43958pt too wide) in paragraph at lines 1--2
 \T1/cmr/m/n/10 col-lab-o-razione dei più grandi svilup-pa-tori di tutto il mond
 o. La fun-zion-al-ità
@@ -841,7 +837,7 @@ Overfull \hbox (21.28317pt too wide) in paragraph at lines 6--7
  client richiedente. 
  []
 
-[20]) (./chapters/GrafVett.tex
+[20]) (./chapters/Strumenti/GraficaVettoriale.tex
 Overfull \hbox (12.80765pt too wide) in paragraph at lines 1--4
 \T1/cmr/m/n/10 La grafica vet-to-ri-ale è una tec-nica uti-liz-zata in com-pute
 r grafica per de-scri-vere
@@ -871,15 +867,41 @@ dia In-te-gra-tion
  []
 
 [22 <./images/Vect.png>])
-Overfull \hbox (16.4873pt too wide) in paragraph at lines 27--70
+Overfull \hbox (16.4873pt too wide) in paragraph at lines 27--66
 \T1/cmr/m/n/10 au-mentare la ricer-ca-bil-ità e l'accessibilità delle im-mag-in
 i SVG. Due pro-grammi
  []
 
-(./chapters/Libs.tex) [23]
+(./chapters/Strumenti/Maven.tex
+! You can't use `macro parameter character #' in horizontal mode.
+l.3 ...re usato per gestire progetti scritti in C#
+                                                  , Ruby, Scala, e altri lin...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+<images/maven.jpg, id=97, 420.06938pt x 318.43968pt>
+File: images/maven.jpg Graphic file (type jpg)
+ <use images/maven.jpg>
+Package pdftex.def Info: images/maven.jpg used on input line 12.
+(pdftex.def)             Requested size: 336.05597pt x 254.75209pt.
+)
+Overfull \hbox (0.86612pt too wide) in paragraph at lines 1--68
+\T1/cmr/m/n/10 Maven è un tool per l'automazione della com-pi-lazione us-ato pr
+in-ci-pal-mente
+ []
+
+[23] [24] (./chapters/Strumenti/Librerie.tex
+Overfull \hbox (11.53018pt too wide) in paragraph at lines 3--4
+\T1/cmr/m/n/10 Lib-gwt-svg è una li-bre-ria open-source scar-i-ca-bile dal sito
+ www.vectomatic.org
+ []
+
+) [25 <./images/maven.jpg>]
 Chapter 3.
 (./chapters/AuleGest.tex
-<images/MainPackDiag.png, id=100, 705.63625pt x 184.69pt>
+<images/MainPackDiag.png, id=108, 705.63625pt x 184.69pt>
 File: images/MainPackDiag.png Graphic file (type png)
 
 <use images/MainPackDiag.png>
@@ -896,10 +918,10 @@ Overfull \hbox (3.25443pt too wide) in paragraph at lines 1--7
 al-ità del pro-getto,
  []
 
-) (./chapters/Client.tex [24
+) (./chapters/Client.tex [26
 
  <./images/MainPackDiag.png>]
-<images/FirstScreen.png, id=106, 860.21375pt x 424.58624pt>
+<images/FirstScreen.png, id=113, 860.21375pt x 424.58624pt>
 File: images/FirstScreen.png Graphic file (type png)
 
 <use images/FirstScreen.png>
@@ -922,7 +944,7 @@ Overfull \hbox (2.3989pt too wide) in paragraph at lines 10--11
 ella scal-a-bil-ità. 
  []
 
-<images/MVP.png, id=107, 313.17pt x 214.8025pt>
+<images/MVP.png, id=114, 313.17pt x 214.8025pt>
 File: images/MVP.png Graphic file (type png)
  <use images/MVP.png>
 Package pdftex.def Info: images/MVP.png used on input line 16.
@@ -933,13 +955,13 @@ Overfull \hbox (27.4141pt too wide) in paragraph at lines 12--20
 ato prin-ci-pal-mente
  []
 
-[25 <./images/FirstScreen.png>]
+[27 <./images/FirstScreen.png>]
 Overfull \hbox (6.64786pt too wide) in paragraph at lines 22--24
 \T1/cmr/m/n/10 dei dati avviene in maniera di-retta ma sem-pre at-traverso un'i
 nterfaccia.
  []
 
-<images/EBdiagram.png, id=112, 464.73625pt x 274.02374pt>
+<images/EBdiagram.png, id=119, 464.73625pt x 274.02374pt>
 File: images/EBdiagram.png Graphic file (type png)
 
 <use images/EBdiagram.png>
@@ -950,8 +972,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--32
 
  []
 
-[26 <./images/MVP.png (PNG copy)>]
-<images/GWTappMVP.png, id=116, 1491.5725pt x 788.9475pt>
+[28 <./images/MVP.png (PNG copy)>]
+<images/GWTappMVP.png, id=123, 1491.5725pt x 788.9475pt>
 File: images/GWTappMVP.png Graphic file (type png)
 
 <use images/GWTappMVP.png>
@@ -978,7 +1000,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<images/ActDVisu.png, id=117, 976.64874pt x 735.74875pt>
+<images/ActDVisu.png, id=124, 976.64874pt x 735.74875pt>
 File: images/ActDVisu.png Graphic file (type png)
 
 <use images/ActDVisu.png>
@@ -999,7 +1021,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<images/UseCFirst.png, id=118, 747.79375pt x 464.73625pt>
+<images/UseCFirst.png, id=125, 747.79375pt x 464.73625pt>
 File: images/UseCFirst.png Graphic file (type png)
 
 <use images/UseCFirst.png>
@@ -1022,9 +1044,9 @@ Overfull \hbox (1.67148pt too wide) in paragraph at lines 4--14
 e suc-ces-si-va-mente
  []
 
-[27 <./images/EBdiagram.png>] [28 <./images/GWTappMVP.png>])
-(./chapters/SeqDiag.tex [29 <./images/ActDVisu.png>]
-<images/ActivityDiagShowRoom.png, id=131, 785.93625pt x 615.29875pt>
+[29 <./images/EBdiagram.png>] [30 <./images/GWTappMVP.png>])
+(./chapters/SequenceDiagram.tex [31 <./images/ActDVisu.png>]
+<images/ActivityDiagShowRoom.png, id=139, 785.93625pt x 615.29875pt>
 File: images/ActivityDiagShowRoom.png Graphic file (type png)
 
 <use images/ActivityDiagShowRoom.png>
@@ -1036,13 +1058,13 @@ Overfull \hbox (47.96716pt too wide) in paragraph at lines 7--8
  []
 
 )
-Overfull \hbox (3.05078pt too wide) in paragraph at lines 3--81
+Overfull \hbox (3.05078pt too wide) in paragraph at lines 3--79
 \T1/cmr/m/n/10 Re-quest-Build(), richiederà al server la mappa desider-ata. Se 
 la trasmis-sione
  []
 
-[30 <./images/UseCFirst.png>] (./chapters/Serverside.tex
-<images/AnatomySVG.png, id=137, 863.225pt x 654.445pt>
+[32 <./images/UseCFirst.png>] (./chapters/Serverside.tex
+<images/AnatomySVG.png, id=144, 863.225pt x 654.445pt>
 File: images/AnatomySVG.png Graphic file (type png)
 
 <use images/AnatomySVG.png>
@@ -1053,7 +1075,7 @@ Overfull \hbox (86.61145pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
-[31 <./images/ActivityDiagShowRoom.png>]) [32 <./images/AnatomySVG.png>]
+[33 <./images/ActivityDiagShowRoom.png>]) [34 <./images/AnatomySVG.png>]
 Chapter 4.
 (./chapters/Android.tex
 Overfull \hbox (13.74261pt too wide) in paragraph at lines 2--3
@@ -1079,17 +1101,17 @@ Overfull \hbox (1.50485pt too wide) in paragraph at lines 4--5
 no ^^Pnat-u-ral-mente^^Q
  []
 
-[33
+[35
 
 ])
-Overfull \hbox (10.57562pt too wide) in paragraph at lines 6--86
+Overfull \hbox (10.57562pt too wide) in paragraph at lines 6--84
 \T1/cmr/m/n/10 com-pat-i-bili con le guide-line REST (REST-ful). Queste re-gole
  sono con-den-sate
  []
 
-[34]
+[36]
 Chapter 5.
-(./chapters/Conclusioni.tex) [35
+(./chapters/Conclusioni.tex) [37
 
 ]
 Chapter 6.
@@ -1178,9 +1200,9 @@ Overfull \hbox (32.43306pt too wide) in paragraph at lines 159--174
  [] 
  []
 
-[36
+[38
 
-] [37] [38] [39]
+] [39] [40] [41]
 Underfull \hbox (badness 1755) in paragraph at lines 189--189
 \T1/cmr/m/n/10 possa es-sere ac-ces-si-bile in modal-ità lo-cale (LAN), il
  []
@@ -1218,7 +1240,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[40
+[42
 
 ]
 
@@ -1242,13 +1264,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 \end{document}
+l.91 \end{document}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[41
+[43
 
 ] (./Tesi.aux)
 
@@ -1260,13 +1282,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 9 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4067 strings out of 494977
- 54345 string characters out of 6180184
+ 4071 strings out of 494977
+ 54641 string characters out of 6180184
  131980 words of memory out of 5000000
- 7135 multiletter control sequences out of 15000+600000
+ 7140 multiletter control sequences out of 15000+600000
  19744 words of font info for 41 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,10n,40p,985b,1227s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,10n,40p,1042b,1227s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/nikko31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000
 .600pk> </home/nikko31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> <
 /home/nikko31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/nik
@@ -1281,10 +1303,10 @@ ome/nikko31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/nikko
 31/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/nikko31/.texmf
 -var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Tesi.pdf (42 pages, 1780695 bytes).
+Output written on Tesi.pdf (44 pages, 1854841 bytes).
 PDF statistics:
- 668 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
+ 678 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

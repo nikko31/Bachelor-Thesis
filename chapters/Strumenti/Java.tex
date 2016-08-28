@@ -1,0 +1,71 @@
+Il  linguaggio Java  \`e  un  linguaggio  di  programmazione  orientato  agli  oggetti,  creato  da  James 
+Gosling  e  altri  ingegneri  di  Sun  Microsystems.  Il  gruppo  inizi\`o  a  lavorare  nel  1991,  il  linguaggio 
+inizialmente si chiamava Oak. Il nome fu successivamente cambiato in Java a causa di un problema di  copyright  (il  linguaggio  di  programmazione  Oak  esisteva  gi\`a nel  1991).  Java  fu  annunciato ufficialmente il 23 maggio 1995 a SunWorld. La piattaforma di programmazione Java \`e fondata sul 
+linguaggio  stesso,  sulla  Java  Virtual Machine  (JVM)e  sulle  API.  Java  \`e  un  marchio  registrato  di Sun Microsystems.
+\subsection{Panoramica del linguaggio JAVA}
+Java venne creato per soddisfare quattro scopi: 
+\begin{itemize}
+\item essere orientato agli oggetti
+\item essere indipendente dalla piattaforma
+\item contenere strumenti e librerie per il networking
+\item essere progettato per eseguire codice da sorgenti remote in modo sicuro
+\end{itemize}
+\subsection*{Orientamento agli oggetti}
+Java \`e un linguaggio object-oriented. La programmazione orientata agli oggetti (OOP, Object Oriented Programming) \`e un paradigma di programmazione che permette di definire oggetti software in grado di interagire gli uni con gli altri attraverso lo scambio di messaggi.  
+La programmazione ad oggetti prevede di raggruppare in una zona circoscritta del codice sorgente (chiamata classe) la dichiarazione delle strutture dati e delle procedure che operano su di esse. Le classi, quindi, costituiscono dei modelli astratti, che a tempo di esecuzione vengono invocate per instanziare o creare oggetti software relativi alla classe invocata. Questi ultimi sono dotati di attributi (dati) e metodi (procedure) secondo quanto definito/dichiarato dalle rispettive classi.
+
+La programmazione ad oggetti \`e particolarmente adatta nei contesti in cui si possono definire delle relazioni di interdipendenza tra i concetti da modellare (contenimento, uso, specializzazione). 
+
+Tra i vantaggi della programmazione orientata agli oggetti abbiamo:
+\begin{itemize}
+\item fornisce un supporto naturale alla modellazione software degli oggetti del mondo reale o del modello astratto da riprodurre
+\item permette una pi\`u facile gestione e manutenzione di progetti di grandi dimensioni
+\item permette una pi\`u facile gestione e manutenzione di progetti di grandi dimensioni
+\item l'organizzazione del codice sotto forma di classi favorisce la modularit\`a e il riuso di codice
+\end{itemize}
+\subsection*{Indipendenza dalla piattaforma}
+L'indipendenza dalla piattaforma significa che l’esecuzione di programmi scritti  in  Java  deve  avere  un  comportamento  simile 
+in contesti di esecuzione diversi. Per raggiungere questo obiettivo il codice Java viene compilato in un linguaggio intermedio bytecode. Il bytecode \`e un insieme di istruzioni altamente ottimizzate eseguibili dalla Java Virtual Machine(JVM), disegnata inizialmente come interprete per tale linguaggio.
+
+La traduzione di un programma Java in bytecode rende molto piu semplice l'esecuzione di un programma in una vasta gamma di ambienti perch\`e solo la JVM deve essere implementata per ogni piattaforma.
+\subsection*{Esecuzione sicura del codice remoto}
+La piattaforma Java ha caratteristiche progettate per aumentare la sicurezza delle applicazioni Java:
+\begin{itemize}
+\item \textbf{La JVM:}\\
+La JVM esegue una verifica del bytecode prima di eseguirlo per prevenire l'esecuzione di operazioni non sicure e per far rispettare vincoli a runtime. La piattaforma non permette ai programmi di eseguire alcune operazioni insicure e controlli manuali sull'allocazione e deallocazione della memoria.
+\item \textbf{Il Security Manager:}\\
+La piattaforma fornisce un security manager che permette agli utenti di eseguire codice bytecode inaffidabile in un ambiente "sandbox" progettato per proteggerli da software pericoloso o scritto male evitando che il tale codice abbia accesso ad alcune caratteristiche e API della piattaforma.
+Il security manager permette di assegnare ai programmi Java una firma digitale in modo tale che l'utente possa scegliere di dare i privilegi a software con firma digitale valida proveniente da entità di fiducia.
+\item \textbf{Le API:}\\
+Viene fornita una serie di API orientate alla sicurezza, come algoritmi standard di crittografia,autenticazione e protocolli di comunicazione sicuri.
+\end{itemize}
+
+\subsection{La piattaforma JAVA}
+La  piattaforma  Java  \`e  una  piattaforma  solo software eseguita sopra ad  una  piattaforma hardware di base che pu\`o essere un computer, una tv, un telefono cellulare, una smart card, ecc...
+\\ La piattaforma Java \`e composta da due blocchi: 
+\begin{itemize}
+\item la Java Virtual Machine (JVM)
+\item la Java Application Program Interface (API)
+\end{itemize} 
+La JVM \`e  la  base  della  piattaforma  Java, mentre la Java API \`e  una  collezione  di componenti software pronti all’uso per losvolgimento dei pi\`u disparati compiti.
+\subsection*{Java Virtual Machine} 
+La JVM consiste in:
+\begin{description}
+\item [Class loader:]
+carica le classi che formano il bytecode, sia dell'applicazione Java, sia delle API Java necessarie per l'esecuzione da parte dell'interprete Java.
+
+\item [Class verifier:]
+controlla che il bytecode sia valido, che non superi i limiti superiori o inferiori dello stack, assicura non esegua aritmetica dei puntatori (che potrebbe potenzialmente portare ad una violazione di memoria). Se il bytecode passa tutti questi controlli, pu\`o essere eseguito dall'interprete.
+
+\item [Interprete Java:] 
+pu\`o essere di varie forme: pu\`o essere un modulo software che interpreta il bytecode in una sola volta oppure pu\`o fare uso di un compilatore just-in-time (JIT, o Just-In-Time compiler) che traduce a run-time il bytecode in codice nativo della macchina ospitante e lo salva in memoria durante l'esecuzione. \`E anche possibile utilizzare un sistema "misto", in cui il JIT viene applicato solo alle porzioni di codice del programma utilizzate pi\`u frequentemente, mentre il resto viene interpretato.
+\end{description}
+
+\subsection*{API Java}
+Le API Java raccolgono una gran quantit\`a di componenti disponibili per scrivere applicazioni di qualsiasi genere. Per questo motivo la piattaforma Java \`e disponibile in tre configurazioni a seconda dell'uso che se ne vuole fare:
+\begin{itemize}
+\item \textbf{Standard Edition.} Fornisce API per le esigenze pi\`u comuni, che permette di scrivere applicazioni stand-alone, applicazioni client e server in un contesto di reti di computer, applicazioni per accesso a database, applicazioni per il calcolo scientifico e di altro tipo.
+\item \textbf{Enterprise Edition.} Permette di scrivere applicazioni distribuite.
+\item \textbf{Micro Edition.} Permette di scrivere applicazioni per i terminali mobili e, pi\`u in generale, per i dispositivi dotati di poche risorse computazionali (telefoni cellulari, palmari, smart cards ed altri).
+\end{itemize}
+
