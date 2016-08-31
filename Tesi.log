@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.17)  30 AUG 2016 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.17)  30 AUG 2016 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -582,19 +582,19 @@ Overfull \hbox (12.96817pt too wide) in paragraph at lines 19--19
 ]
 Capitolo 1.
 (./chapters/Introduzione.tex)
-Overfull \hbox (8.99689pt too wide) in paragraph at lines 1--53
+Overfull \hbox (8.99689pt too wide) in paragraph at lines 1--52
 \T1/cmr/m/n/10 che met-te a di-spo-si-zio-ne de-gli uten-ti una vi-sio-ne chia-
 ra e com-ple-ta del-l'oc-cu-pa-zio-ne
  []
 
 
-Overfull \hbox (14.05121pt too wide) in paragraph at lines 1--53
+Overfull \hbox (14.05121pt too wide) in paragraph at lines 1--52
 \T1/cmr/m/n/10 ri-guar-dan-ti lo sta-to del-le au-le uni-ver-si-ta-rie, sia la 
 ma-ni-po-la-zio-ne di ta-li in-for-ma-zio-ni.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--53
+Underfull \hbox (badness 10000) in paragraph at lines 1--52
 
  []
 
@@ -790,13 +790,13 @@ er ogni Con-fi-gu-ra-tion.
  []
 
 [15 <./images/hiber-arch2.jpg>])
-Overfull \hbox (18.94504pt too wide) in paragraph at lines 97--65
+Overfull \hbox (18.94504pt too wide) in paragraph at lines 97--64
 \T1/cmr/m/n/10 tran-sa-zio-ni so-no ge-sti-te dal Tran-sac-tion-Ma-na-ger che p
 er-met-te al-lo svi-lup-pa-to-re
  []
 
 
-Overfull \hbox (10.67172pt too wide) in paragraph at lines 97--65
+Overfull \hbox (10.67172pt too wide) in paragraph at lines 97--64
 \T1/cmr/m/n/10 og-get-ti per-si-sten-ti. Gli og-get-ti Que-ry uti-liz-za-no SQL
  op-pu-re HQL (Hi-ber-na-te
  []
@@ -956,29 +956,33 @@ e-dia In-te-gra-tion
  []
 
 [22 <./images/Vect.png>])
-Overfull \hbox (16.4873pt too wide) in paragraph at lines 27--74
+Overfull \hbox (16.4873pt too wide) in paragraph at lines 27--73
 \T1/cmr/m/n/10 au-men-ta-re la ri-cer-ca-bi-li-tà e l'ac-ces-si-bi-li-tà del-le
  im-ma-gi-ni SVG. Due pro-gram-mi
  []
 
 (./chapters/Strumenti/Maven.tex
-! You can't use `macro parameter character #' in horizontal mode.
-l.3 ...re usato per gestire progetti scritti in C#
-                                                  , Ruby, Scala, e altri lin...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
 <images/maven.jpg, id=97, 420.06938pt x 318.43968pt>
 File: images/maven.jpg Graphic file (type jpg)
  <use images/maven.jpg>
 Package pdftex.def Info: images/maven.jpg used on input line 12.
 (pdftex.def)             Requested size: 336.05597pt x 254.75209pt.
 )
-Overfull \hbox (0.86612pt too wide) in paragraph at lines 1--77
+Overfull \hbox (0.86612pt too wide) in paragraph at lines 1--76
 \T1/cmr/m/n/10 Maven è un tool per l'au-to-ma-zio-ne del-la com-pi-la-zio-ne us
 a-to prin-ci-pal-men-te
+ []
+
+
+Overfull \hbox (26.66891pt too wide) in paragraph at lines 1--76
+\T1/cmr/m/n/10 ven-go-no con-fi-gu-ra-ti tra-mi-te un Pro-ject Ob-ject Mo-del (
+POM) fi-le. Ge-ne-ral-men-te,
+ []
+
+
+Overfull \hbox (1.57892pt too wide) in paragraph at lines 1--76
+\T1/cmr/m/n/10 com-pi-la-zio-ne, im-ple-men-ta-te tra-mi-te plu-gin. Ad esem-pi
+o, si può con-fi-gu-ra-re
  []
 
 [23] [24] (./chapters/Strumenti/Librerie.tex
@@ -989,7 +993,7 @@ File: images/batikUses.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/batikUses.jpg used on input line 7.
 (pdftex.def)             Requested size: 281.04808pt x 387.14374pt.
 )
-Overfull \hbox (32.16403pt too wide) in paragraph at lines 2--80
+Overfull \hbox (32.16403pt too wide) in paragraph at lines 2--79
 \T1/cmr/m/n/10 La ver-sio-ne uti-liz-za-ta è l'ul-ti-ma, ov-ve-ro la re-lea-se 
 1.8, che sup-por-ta com-ple-ta-men-te
  []
@@ -1057,67 +1061,42 @@ Overfull \hbox (6.64786pt too wide) in paragraph at lines 22--24
 -so un'in-ter-fac-cia.
  []
 
-<images/EBdiagram.png, id=123, 464.73625pt x 274.02374pt>
+[29 <./images/MVP.png (PNG copy)>]
+<images/EBdiagram.png, id=126, 464.73625pt x 274.02374pt>
 File: images/EBdiagram.png Graphic file (type png)
 
 <use images/EBdiagram.png>
-Package pdftex.def Info: images/EBdiagram.png used on input line 29.
+Package pdftex.def Info: images/EBdiagram.png used on input line 31.
 (pdftex.def)             Requested size: 232.36755pt x 137.01154pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--32
-
- []
-
-[29 <./images/MVP.png (PNG copy)>]
 <images/GWTappMVP.png, id=127, 1491.5725pt x 788.9475pt>
 File: images/GWTappMVP.png Graphic file (type png)
 
 <use images/GWTappMVP.png>
-Package pdftex.def Info: images/GWTappMVP.png used on input line 36.
+Package pdftex.def Info: images/GWTappMVP.png used on input line 38.
 (pdftex.def)             Requested size: 671.20143pt x 355.02309pt.
 
-Overfull \hbox (10.02309pt too wide) in paragraph at lines 36--37
+Overfull \hbox (10.02309pt too wide) in paragraph at lines 38--39
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 103.1454pt on input line 38.
+LaTeX Warning: Float too large for page by 93.03261pt on input line 41.
 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 \begin
-           {figure}[!htb]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<images/ActDVisu.png, id=128, 976.64874pt x 735.74875pt>
-File: images/ActDVisu.png Graphic file (type png)
-
-<use images/ActDVisu.png>
-Package pdftex.def Info: images/ActDVisu.png used on input line 41.
-(pdftex.def)             Requested size: 439.48787pt x 331.08388pt.
-
-Overfull \hbox (94.48787pt too wide) in paragraph at lines 41--42
- [][] 
+) [30 <./images/EBdiagram.png>] [31 <./images/GWTappMVP.png>]
+(./chapters/UseCaseDiag.tex
+Overfull \hbox (11.6135pt too wide) in paragraph at lines 4--8
+\T1/cmr/m/n/10 in-fat-ti, ac-ce-den-do al-la we-bapp, po-trà vi-sua-liz-za-re l
+a map-pa di un de-ter-mi-na-to
  []
 
-) (./chapters/UseCaseDiag.tex
-! Undefined control sequence.
-l.8 \FloatingBarrier
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-<images/UseCFirst.png, id=129, 747.79375pt x 464.73625pt>
+Overfull \hbox (1.67148pt too wide) in paragraph at lines 4--8
+\T1/cmr/m/n/10 un'au-la e ot-te-ne-re le in-for-ma-zio-ni re-la-ti-ve ad es-sa 
+(RF08) e suc-ces-si-va-men-te
+ []
+
+<images/UseCFirst.png, id=137, 747.79375pt x 464.73625pt>
 File: images/UseCFirst.png Graphic file (type png)
 
 <use images/UseCFirst.png>
@@ -1128,21 +1107,8 @@ Overfull \hbox (28.89595pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-
-Overfull \hbox (11.6135pt too wide) in paragraph at lines 4--14
-\T1/cmr/m/n/10 in-fat-ti, ac-ce-den-do al-la we-bapp, po-trà vi-sua-liz-za-re l
-a map-pa di un de-ter-mi-na-to
- []
-
-
-Overfull \hbox (1.67148pt too wide) in paragraph at lines 4--14
-\T1/cmr/m/n/10 un'au-la e ot-te-ne-re le in-for-ma-zio-ni re-la-ti-ve ad es-sa 
-(RF08) e suc-ces-si-va-men-te
- []
-
-[30 <./images/EBdiagram.png>] [31 <./images/GWTappMVP.png>])
-(./chapters/SequenceDiagram.tex [32 <./images/ActDVisu.png>]
-<images/ActivityDiagShowRoom.png, id=143, 785.93625pt x 615.29875pt>
+) (./chapters/SequenceDiagram.tex
+<images/ActivityDiagShowRoom.png, id=138, 785.93625pt x 615.29875pt>
 File: images/ActivityDiagShowRoom.png Graphic file (type png)
 
 <use images/ActivityDiagShowRoom.png>
@@ -1153,14 +1119,28 @@ Overfull \hbox (47.96716pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
-)
-Overfull \hbox (3.05078pt too wide) in paragraph at lines 3--91
+) (./chapters/ActivityDiagram.tex
+Overfull \hbox (3.05078pt too wide) in paragraph at lines 3--1
 \T1/cmr/m/n/10 Re-quest-Build(), ri-chie-de-rà al ser-ver la map-pa de-si-de-ra
 -ta. Se la tra-smis-sio-ne
  []
 
-[33 <./images/UseCFirst.png>] (./chapters/Serverside.tex
-<images/AnatomySVG.png, id=148, 863.225pt x 654.445pt>
+[32
+
+ <./images/UseCFirst.png>] [33 <./images/ActivityDiagShowRoom.png>]
+<images/ActDVisu.png, id=147, 976.64874pt x 735.74875pt>
+File: images/ActDVisu.png Graphic file (type png)
+
+<use images/ActDVisu.png>
+Package pdftex.def Info: images/ActDVisu.png used on input line 8.
+(pdftex.def)             Requested size: 439.48787pt x 331.08388pt.
+
+Overfull \hbox (94.48787pt too wide) in paragraph at lines 8--9
+ [][] 
+ []
+
+) [34] (./chapters/Serverside.tex
+<images/AnatomySVG.png, id=151, 863.225pt x 654.445pt>
 File: images/AnatomySVG.png Graphic file (type png)
 
 <use images/AnatomySVG.png>
@@ -1171,13 +1151,13 @@ Overfull \hbox (86.61145pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
-[34 <./images/ActivityDiagShowRoom.png>]
+[35 <./images/ActDVisu.png>]
 Overfull \hbox (0.89389pt too wide) in paragraph at lines 14--18
 \T1/cmr/m/n/10 uti-liz-za-te al-l'in-ter-no del pro-get-to e crea-te al fi-ne d
 el cor-ret-to fun-zio-na-men-to
  []
 
-<images/databaseER.png, id=153, 796.9775pt x 475.7775pt>
+<images/databaseER.png, id=156, 796.9775pt x 475.7775pt>
 File: images/databaseER.png Graphic file (type png)
 
 <use images/databaseER.png>
@@ -1188,7 +1168,7 @@ Overfull \hbox (93.33897pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
-<images/diagram.png, id=154, 691.58376pt x 634.37pt>
+<images/diagram.png, id=157, 691.58376pt x 634.37pt>
 File: images/diagram.png Graphic file (type png)
  <use images/diagram.png>
 Package pdftex.def Info: images/diagram.png used on input line 26.
@@ -1198,7 +1178,7 @@ Overfull \hbox (35.37224pt too wide) in paragraph at lines 26--27
  [][] 
  []
 
-) [35 <./images/AnatomySVG.png>] [36 <./images/databaseER.png>] [37 <./images/d
+) [36 <./images/AnatomySVG.png>] [37 <./images/databaseER.png>] [38 <./images/d
 iagram.png (PNG copy)>]
 Capitolo 4.
 (./chapters/Android.tex
@@ -1225,7 +1205,7 @@ Overfull \hbox (1.50485pt too wide) in paragraph at lines 4--5
 en-do-no ^^Pna-tu-ral-men-te^^Q
  []
 
-[38
+[39
 
 ])
 Overfull \hbox (10.57562pt too wide) in paragraph at lines 6--98
@@ -1233,9 +1213,9 @@ Overfull \hbox (10.57562pt too wide) in paragraph at lines 6--98
 -go-le so-no con-den-sa-te
  []
 
-[39]
+[40]
 Capitolo 5.
-(./chapters/Conclusioni.tex) [40
+(./chapters/Conclusioni.tex) [41
 
 ]
 Capitolo 6.
@@ -1330,9 +1310,9 @@ Overfull \hbox (32.43306pt too wide) in paragraph at lines 159--174
  [] 
  []
 
-[41
+[42
 
-] [42] [43] [44]
+] [43] [44] [45]
 Underfull \hbox (badness 1755) in paragraph at lines 189--189
 \T1/cmr/m/n/10 pos-sa es-se-re ac-ces-si-bi-le in mo-da-li-tà lo-ca-le (LAN), i
 l
@@ -1348,46 +1328,9 @@ Overfull \hbox (32.43306pt too wide) in paragraph at lines 198--213
  [] 
  []
 
-) (./chapters/Biblio.tex
-! Undefined control sequence.
-l.1 \specialhead
-                {LITERATURE CITED}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+) (./chapters/Biblio.tex [46
 
-
-! LaTeX Error: Environment singlespace undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \begin{singlespace}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[45
-
-]
-
-! LaTeX Error: \begin{itemize} on input line 9 ended by \end{singlespace}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \end{singlespace}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
+])
 
 ! LaTeX Error: \begin{itemize} on input line 9 ended by \end{document}.
 
@@ -1401,7 +1344,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[46
+[47
 
 ] (./Tesi.aux)
 
@@ -1413,10 +1356,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 9 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4874 strings out of 494311
- 63875 string characters out of 6163189
+ 4875 strings out of 494311
+ 63923 string characters out of 6163189
  152936 words of memory out of 5000000
- 8047 multiletter control sequences out of 15000+600000
+ 8045 multiletter control sequences out of 15000+600000
  19744 words of font info for 41 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  40i,10n,40p,1042b,1228s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1437,10 +1380,10 @@ home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600p
 k> </home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074
 .600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 >
-Output written on Tesi.pdf (47 pages, 2085828 bytes).
+Output written on Tesi.pdf (48 pages, 2078393 bytes).
 PDF statistics:
- 683 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
+ 689 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

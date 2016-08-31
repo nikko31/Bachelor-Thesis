@@ -21,10 +21,10 @@
 \contentsline {chapter}{\numberline {3}Webapp GESTIONE AULE}{27}
 \contentsline {section}{\numberline {3.1}Client Side}{27}
 \contentsline {subsection}{\numberline {3.1.1}Pattern architetturale MVP}{28}
-\contentsline {section}{\numberline {3.2}Server Side}{34}
-\contentsline {chapter}{\numberline {4}L'applicazione MONITORAGGIO AULE}{38}
-\contentsline {section}{\numberline {4.1}Stile architetturale REST}{38}
-\contentsline {chapter}{\numberline {5}Conclusioni}{40}
-\contentsline {chapter}{\numberline {6}Appendice A}{41}
-\contentsline {section}{\numberline {6.1}Software Requirements Specification}{41}
-\contentsline {section}{\numberline {6.2}Requisiti non funzionali}{45}
+\contentsline {section}{\numberline {3.2}Server Side}{35}
+\contentsline {chapter}{\numberline {4}L'applicazione MONITORAGGIO AULE}{39}
+\contentsline {section}{\numberline {4.1}Stile architetturale REST}{39}
+\contentsline {chapter}{\numberline {5}Conclusioni}{41}
+\contentsline {chapter}{\numberline {6}Appendice A}{42}
+\contentsline {section}{\numberline {6.1}Software Requirements Specification}{42}
+\contentsline {section}{\numberline {6.2}Requisiti non funzionali}{46}
