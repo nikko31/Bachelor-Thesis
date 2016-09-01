@@ -11,30 +11,3 @@ successivo.
 \caption{GWT-RPC }\label{fig:GWT-RPC}%
 \end{figure}
 
-\FloatBarrier
-\subsection{Database}
-
-L'applicazione usa come supporto un database contenente i dati rigurdanti le aule dei vari edifici universitari e del personale.
-\`E fondamentale però mettere in evidenza con un adeguato schema Entità / Relazione le 
-tabelle utilizzate all’interno del progetto e create al fine del corretto funzionamento del 
-sistema.
-
-\begin{figure}[!htb]
-\centering
-\includegraphics[scale=0.55]{databaseER.png}
-\caption{Diagramma E/R del database}\label{fig:database}
-\end{figure}
-
-\FloatBarrier
-\begin{description}
-\item[Room]\`e l'entit\`a principale. Essa contiene le informazioni riguardanti una specifica stanza di un determinato piano di un edificio. 
-\item[Building]rappresenta l'edificio, caratterizzato da un numero univoco e dotato di un nome.
-\item[Person]rappresenta il personale. Fondamentale per l'applicazione sono il ruolo di una persona (ad esempio docente e ricercatore) e le date di fine e inizio contratto lavorativo.
-\item[OccupyRoom]associa una persona a una o pi\`u stanze diverse e  servir\`a ad ottenere una lista delle persone che occupano una stanza.
-\end{description}
-
-\begin{figure}[!htb]
-\centering
-\includegraphics[scale=0.55]{diagram.png}
-\caption{Schema Relazionale del database}\label{fig:databaseSchema}
-\end{figure}

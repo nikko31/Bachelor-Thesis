@@ -1,3 +1,5 @@
+\select@language {italian}
+\select@language {italian}
 \contentsline {chapter}{\numberline {1}Introduzione}{5}
 \contentsline {chapter}{\numberline {2}Strumenti utilizzati}{6}
 \contentsline {section}{\numberline {2.1}MySql}{6}
@@ -13,7 +15,7 @@
 \contentsline {subsection}{\numberline {2.4.2}Comunicazione Client-Server in GWT}{18}
 \contentsline {section}{\numberline {2.5}Tomcat}{20}
 \contentsline {section}{\numberline {2.6}Grafica vettoriale}{21}
-\contentsline {subsection}{\numberline {2.6.1}Scalable Vector Graphics}{21}
+\contentsline {subsection}{\numberline {2.6.1}Scalable Vector Graphics}{22}
 \contentsline {section}{\numberline {2.7}Maven}{23}
 \contentsline {section}{\numberline {2.8}Librerie}{25}
 \contentsline {chapter}{\numberline {3}Webapp GESTIONE AULE}{27}
@@ -24,9 +26,9 @@
 \contentsline {subsection}{\numberline {3.1.4}Activity Diagram}{34}
 \contentsline {section}{\numberline {3.2}Server Side}{35}
 \contentsline {subsection}{\numberline {3.2.1}Database}{36}
-\contentsline {chapter}{\numberline {4}L'applicazione MONITORAGGIO AULE}{39}
-\contentsline {section}{\numberline {4.1}Stile architetturale REST}{39}
-\contentsline {chapter}{\numberline {5}Conclusioni}{41}
-\contentsline {chapter}{\numberline {6}Appendice A}{42}
-\contentsline {section}{\numberline {6.1}Software Requirements Specification}{42}
-\contentsline {section}{\numberline {6.2}Requisiti non funzionali}{46}
+\contentsline {chapter}{\numberline {4}L'applicazione MONITORAGGIO AULE}{40}
+\contentsline {section}{\numberline {4.1}Stile architetturale REST}{40}
+\contentsline {chapter}{\numberline {5}Conclusioni}{42}
+\contentsline {chapter}{\numberline {6}Appendice A}{43}
+\contentsline {section}{\numberline {6.1}Software Requirements Specification}{43}
+\contentsline {section}{\numberline {6.2}Requisiti non funzionali}{47}

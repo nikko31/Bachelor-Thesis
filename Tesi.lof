@@ -1,3 +1,5 @@
+\select@language {italian}
+\select@language {italian}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Struttura di Hibernate}}{14}
@@ -17,7 +19,8 @@
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Activity diagram della funzione di visualizzazione di un'aula.}}{35}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces GWT-RPC }}{36}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Diagramma E/R del database}}{37}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Schema Relazionale del database}}{38}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Modello Relazionale del database}}{38}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Package contenente i file di mappatura e le corrispondenti classi Java.}}{39}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
