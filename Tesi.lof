@@ -2,25 +2,30 @@
 \select@language {italian}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Struttura di Hibernate}}{14}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Workflow Hibernate}}{15}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces GWT RPC: interazione tra server e client mediante data object}}{19}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Differenza fra immagine di tipo raster e vettoriale.}}{22}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Maven}}{25}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Esempi di utilizzo dei moduli Batik. }}{26}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Struttura di Hibernate}}{15}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Workflow Hibernate}}{16}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces GWT RPC: interazione tra server e client mediante data object}}{20}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Differenza fra immagine di tipo raster e vettoriale.}}{23}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Maven}}{26}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Esempi di utilizzo dei moduli Batik. }}{27}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Suddivisione principale del progetto}}{27}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Organizzazione pagina iniziale}}{28}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramma del Model-View-Presenter MVP}}{29}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Comunicazione tra unit\`a del software che non sono direttamente collegate tra loro. Ognuna di esse pu\`o inviare eventi all'Event Bus ed essere in "ascolto" di particolari eventi.}}{30}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Implementazione client seguendo pattern MVP}}{31}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Use Case Diagram delle funzioni principali che l'utente pu\IeC {\`o} svolgere.}}{32}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Sequence diagram della funzione di visualizzazione delle informazioni di un'aula.}}{33}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Activity diagram della funzione di visualizzazione di un'aula.}}{35}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces GWT-RPC }}{36}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagramma E/R del database}}{37}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Modello Relazionale del database}}{38}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Package contenente i file di mappatura e le corrispondenti classi Java.}}{39}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Suddivisione principale del progetto}}{28}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramma del Model-View-Presenter MVP}}{29}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Comunicazione tra unit\`a del software che non sono direttamente collegate tra loro. Ognuna di esse pu\`o inviare eventi all'Event Bus ed essere in "ascolto" di particolari eventi.}}{30}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Implementazione client seguendo pattern MVP}}{31}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Organizzazione pagina iniziale}}{32}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Ricerca di persone.}}{33}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Esempio di visualizzazione mappa}}{33}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Esempio di risultato della ricerca}}{34}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Esempio di visualizzazione informazioni quando selezione una stanza.}}{34}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Use Case Diagram delle funzioni principali che l'utente pu\IeC {\`o} svolgere.}}{35}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Sequence diagram della funzione di visualizzazione delle informazioni di un'aula.}}{36}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Activity diagram della funzione di visualizzazione di un'aula.}}{38}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces GWT-RPC }}{39}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Classi utilizzate per il servizio RPC. }}{40}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Diagramma E/R del database}}{41}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Modello Relazionale del database}}{42}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Package contenente i file di mappatura e le corrispondenti classi Java.}}{43}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
