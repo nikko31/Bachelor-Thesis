@@ -24,13 +24,13 @@
 \contentsline {subsection}{\numberline {3.1.2}Presentazione del sistema}{32}
 \contentsline {subsection}{\numberline {3.1.3}Use Case Diagram}{35}
 \contentsline {subsection}{\numberline {3.1.4}Sequence Diagram}{36}
-\contentsline {subsection}{\numberline {3.1.5}Activity Diagram}{37}
-\contentsline {section}{\numberline {3.2}Server Side}{38}
-\contentsline {subsection}{\numberline {3.2.1}Comunicazione con server}{39}
-\contentsline {subsection}{\numberline {3.2.2}Database e mapping}{40}
-\contentsline {chapter}{\numberline {4}L'applicazione MONITORAGGIO AULE}{44}
-\contentsline {section}{\numberline {4.1}Stile architetturale REST}{44}
-\contentsline {chapter}{\numberline {5}Conclusioni}{46}
-\contentsline {chapter}{\numberline {6}Appendice A}{47}
-\contentsline {section}{\numberline {6.1}Software Requirements Specification}{47}
-\contentsline {section}{\numberline {6.2}Requisiti non funzionali}{51}
+\contentsline {subsection}{\numberline {3.1.5}Activity Diagram}{38}
+\contentsline {section}{\numberline {3.2}Server Side}{39}
+\contentsline {subsection}{\numberline {3.2.1}Comunicazione con server}{40}
+\contentsline {subsection}{\numberline {3.2.2}Database e mapping}{41}
+\contentsline {chapter}{\numberline {4}L'applicazione MONITORAGGIO AULE}{45}
+\contentsline {section}{\numberline {4.1}Stile architetturale REST}{45}
+\contentsline {chapter}{\numberline {5}Conclusioni}{47}
+\contentsline {chapter}{\numberline {6}Appendice A}{48}
+\contentsline {section}{\numberline {6.1}Software Requirements Specification}{48}
+\contentsline {section}{\numberline {6.2}Requisiti non funzionali}{52}

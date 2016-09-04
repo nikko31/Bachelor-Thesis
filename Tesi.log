@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.17)  1 SEP 2016 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.17)  3 SEP 2016 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -449,6 +449,9 @@ LaTeX Warning: Unused global option(s):
 
 (./Tesi.aux
 
+LaTeX Warning: Label `Screen:info1' multiply defined.
+
+
 LaTeX Warning: Label `Ricerca persone' multiply defined.
 
 
@@ -562,18 +565,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `Tesi.toc'.
 
  [2] (./Tesi.lof
-Overfull \hbox (12.96817pt too wide) in paragraph at lines 21--21
+Overfull \hbox (12.96817pt too wide) in paragraph at lines 23--23
  [][] []\T1/cmr/m/n/10 Sequence dia-gram del-la fun-zio-ne di vi-sua-liz-za-zio
 -ne del-le in-for-ma-zio-ni 
  []
 
-)
+[3
+
+])
 \tf@lof=\write4
 \openout4 = `Tesi.lof'.
 
- [3
-
-] [4] (./Tesi.lot)
+ [4] (./Tesi.lot)
 \tf@lot=\write5
 \openout5 = `Tesi.lot'.
 
@@ -1119,19 +1122,26 @@ Overfull \hbox (24.48323pt too wide) in paragraph at lines 49--50
  []
 
 [33 <./images/AdvicesScreen.png> <./images/ShowMap.png>]
-<images/ShowInfo1.png, id=148, 1227.58624pt x 522.95375pt>
-File: images/ShowInfo1.png Graphic file (type png)
+<images/RoomSelScreen.png, id=148, 1284.8pt x 738.76pt>
+File: images/RoomSelScreen.png Graphic file (type png)
 
-<use images/ShowInfo1.png>
-Package pdftex.def Info: images/ShowInfo1.png used on input line 61.
-(pdftex.def)             Requested size: 368.27872pt x 156.88733pt.
+<use images/RoomSelScreen.png>
+Package pdftex.def Info: images/RoomSelScreen.png used on input line 61.
+(pdftex.def)             Requested size: 385.44298pt x 221.6297pt.
 
-Overfull \hbox (23.27872pt too wide) in paragraph at lines 61--62
+Overfull \hbox (40.44298pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-) (./chapters/UseCaseDiag.tex [34 <./images/SearchScreen.png> <./images/ShowInf
-o1.png>]
+<images/ShowInfo2.png, id=149, 635.37375pt x 625.33624pt>
+File: images/ShowInfo2.png Graphic file (type png)
+
+<use images/ShowInfo2.png>
+Package pdftex.def Info: images/ShowInfo2.png used on input line 67.
+(pdftex.def)             Requested size: 190.61359pt x 187.60231pt.
+ [34 <./images/SearchScreen.png>])
+(./chapters/UseCaseDiag.tex [35 <./images/RoomSelScreen.png> <./images/ShowInfo
+2.png>]
 Overfull \hbox (11.6135pt too wide) in paragraph at lines 4--8
 \T1/cmr/m/n/10 in-fat-ti, ac-ce-den-do al-la we-bapp, po-trà vi-sua-liz-za-re l
 a map-pa di un de-ter-mi-na-to
@@ -1143,7 +1153,7 @@ Overfull \hbox (1.67148pt too wide) in paragraph at lines 4--8
 (RF08) e suc-ces-si-va-men-te
  []
 
-<images/UseCFirst.png, id=154, 747.79375pt x 464.73625pt>
+<images/UseCFirst.png, id=159, 747.79375pt x 464.73625pt>
 File: images/UseCFirst.png Graphic file (type png)
 
 <use images/UseCFirst.png>
@@ -1155,7 +1165,7 @@ Overfull \hbox (28.89595pt too wide) in paragraph at lines 11--12
  []
 
 ) (./chapters/SequenceDiagram.tex
-<images/ActivityDiagShowRoom.png, id=155, 785.93625pt x 615.29875pt>
+<images/ActivityDiagShowRoom.png, id=160, 785.93625pt x 615.29875pt>
 File: images/ActivityDiagShowRoom.png Graphic file (type png)
 
 <use images/ActivityDiagShowRoom.png>
@@ -1168,7 +1178,7 @@ Overfull \hbox (47.96716pt too wide) in paragraph at lines 7--8
 
 
 Underfull \hbox (badness 2376) in paragraph at lines 8--8
-[]\T1/cmr/m/n/10 Figura 3.11: Se-quen-ce dia-gram del-la fun-zio-ne di vi-sua-l
+[]\T1/cmr/m/n/10 Figura 3.12: Se-quen-ce dia-gram del-la fun-zio-ne di vi-sua-l
 iz-za-zio-ne del-le
  []
 
@@ -1178,8 +1188,8 @@ Overfull \hbox (3.05078pt too wide) in paragraph at lines 3--1
 -ta. Se la tra-smis-sio-ne
  []
 
-[35 <./images/UseCFirst.png>] [36 <./images/ActivityDiagShowRoom.png>]
-<images/ActDVisu.png, id=165, 976.64874pt x 735.74875pt>
+[36 <./images/UseCFirst.png>] [37 <./images/ActivityDiagShowRoom.png>]
+<images/ActDVisu.png, id=170, 976.64874pt x 735.74875pt>
 File: images/ActDVisu.png Graphic file (type png)
 
 <use images/ActDVisu.png>
@@ -1190,8 +1200,8 @@ Overfull \hbox (94.48787pt too wide) in paragraph at lines 8--9
  [][] 
  []
 
-) [37] (./chapters/ComunicazioneServer.tex
-<images/AnatomySVG.png, id=169, 863.225pt x 654.445pt>
+) [38] (./chapters/ComunicazioneServer.tex
+<images/AnatomySVG.png, id=174, 863.225pt x 654.445pt>
 File: images/AnatomySVG.png Graphic file (type png)
 
 <use images/AnatomySVG.png>
@@ -1202,7 +1212,7 @@ Overfull \hbox (86.61145pt too wide) in paragraph at lines 10--11
  [][] 
  []
 
-[38 <./images/ActDVisu.png>]
+[39 <./images/ActDVisu.png>]
 Overfull \hbox (15.90411pt too wide) in paragraph at lines 15--16
 []\T1/cmr/m/n/10 Utilizzando GWT-RPC, i no-stri og-get-ti del mo-del-lo ven-go-
 no au-to-ma-ti-ca-men-te
@@ -1214,8 +1224,8 @@ Overfull \hbox (10.72482pt too wide) in paragraph at lines 19--22
 ce-Ser-vlet ed im-ple-men-ti
  []
 
-[39 <./images/AnatomySVG.png>]
-<images/rpcPack.png, id=178, 203.25937pt x 284.56313pt>
+[40 <./images/AnatomySVG.png>]
+<images/rpcPack.png, id=183, 203.25937pt x 284.56313pt>
 File: images/rpcPack.png Graphic file (type png)
 
 <use images/rpcPack.png>
@@ -1227,7 +1237,7 @@ Overfull \hbox (28.0817pt too wide) in paragraph at lines 4--7
  sche-ma En-ti-tà/-Re-la-zio-ne
  []
 
-<images/databaseER.png, id=179, 770.88pt x 469.755pt>
+<images/databaseER.png, id=184, 770.88pt x 469.755pt>
 File: images/databaseER.png Graphic file (type png)
 
 <use images/databaseER.png>
@@ -1238,8 +1248,8 @@ Overfull \hbox (117.53157pt too wide) in paragraph at lines 10--11
  [][] 
  []
 
-[40 <./images/rpcPack.png (PNG copy)>]
-<images/diagram.png, id=183, 691.58376pt x 634.37pt>
+[41 <./images/rpcPack.png (PNG copy)>]
+<images/diagram.png, id=188, 691.58376pt x 634.37pt>
 File: images/diagram.png Graphic file (type png)
  <use images/diagram.png>
 Package pdftex.def Info: images/diagram.png used on input line 26.
@@ -1249,10 +1259,10 @@ Overfull \hbox (35.37224pt too wide) in paragraph at lines 26--27
  [][] 
  []
 
-[41 <./images/databaseER.png>]
+[42 <./images/databaseER.png>]
 Overfull \hbox (27.66513pt too wide) in paragraph at lines 30--31
 []\T1/cmr/m/n/10 Dopo aver svi-lup-pa-to il mo-del-lo re-la-zio-na-le(figura 3.
-15[]), tra-mi-te una me-to-do-lo-gia
+17[]), tra-mi-te una me-to-do-lo-gia
  []
 
 
@@ -1260,14 +1270,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<images/packageMapping.png, id=188, 207.77625pt x 286.06876pt>
+<images/packageMapping.png, id=194, 207.77625pt x 286.06876pt>
 File: images/packageMapping.png Graphic file (type png)
 
 <use images/packageMapping.png>
 Package pdftex.def Info: images/packageMapping.png used on input line 34.
 (pdftex.def)             Requested size: 114.27728pt x 157.3383pt.
- [42 <./images/diagram.png (PNG copy)>])
-[43 <./images/packageMapping.png>]
+ [43 <./images/diagram.png (PNG copy)>])
+[44 <./images/packageMapping.png>]
 Capitolo 4.
 (./chapters/Android.tex
 Overfull \hbox (13.74261pt too wide) in paragraph at lines 2--3
@@ -1293,7 +1303,7 @@ Overfull \hbox (1.50485pt too wide) in paragraph at lines 4--5
 en-do-no ^^Pna-tu-ral-men-te^^Q
  []
 
-[44
+[45
 
 ])
 Overfull \hbox (10.57562pt too wide) in paragraph at lines 6--100
@@ -1301,9 +1311,9 @@ Overfull \hbox (10.57562pt too wide) in paragraph at lines 6--100
 -go-le so-no con-den-sa-te
  []
 
-[45]
+[46]
 Capitolo 5.
-(./chapters/Conclusioni.tex) [46
+(./chapters/Conclusioni.tex) [47
 
 ]
 Capitolo 6.
@@ -1398,9 +1408,9 @@ Overfull \hbox (32.43306pt too wide) in paragraph at lines 159--174
  [] 
  []
 
-[47
+[48
 
-] [48] [49] [50]
+] [49] [50] [51]
 Underfull \hbox (badness 1755) in paragraph at lines 189--189
 \T1/cmr/m/n/10 pos-sa es-se-re ac-ces-si-bi-le in mo-da-li-tà lo-ca-le (LAN), i
 l
@@ -1416,7 +1426,7 @@ Overfull \hbox (32.43306pt too wide) in paragraph at lines 198--213
  [] 
  []
 
-) (./chapters/Biblio.tex [51
+) (./chapters/Biblio.tex [52
 
 ])
 
@@ -1432,7 +1442,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[52
+[53
 
 ] (./Tesi.aux)
 
@@ -1444,10 +1454,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 9 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4917 strings out of 494311
- 64871 string characters out of 6163189
+ 4923 strings out of 494311
+ 65017 string characters out of 6163189
  152936 words of memory out of 5000000
- 8075 multiletter control sequences out of 15000+600000
+ 8080 multiletter control sequences out of 15000+600000
  19744 words of font info for 41 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  40i,10n,40p,1042b,1228s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1468,10 +1478,10 @@ home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600p
 k> </home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074
 .600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 >
-Output written on Tesi.pdf (53 pages, 2749801 bytes).
+Output written on Tesi.pdf (54 pages, 2918525 bytes).
 PDF statistics:
- 718 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
+ 724 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
