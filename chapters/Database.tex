@@ -36,3 +36,9 @@ Dopo aver sviluppato il modello relazionale(figura \ref{fig:databaseRelaz}), tra
 \end{figure}
 \FloatBarrier
 Questi file di mappatura sono caratterizzati  dalle dualità classe-tabella e attributo-colonna.
+Per inviare le informazioni al client non si possono sfruttare queste classi utilizzate per Hibernate. Infatti, nonostante implementino Serializable, vengono interpretate in modo particolare dal compilatore (la libreria Javassist si occupa di riscrivere il bytecode di tali oggetti Hibernate) e quindi, quando devono essere serializzate o deserializzate per essere trasmesse al client, il meccanismo GWT RPC non sa come trattarle e le rifiuta. Per risolvere questo problema si fa uso di classi DTO (Data Transfer Object). Le classi DTO sono delle semplici classi contenenti esclusivamente i dati che si vogliono memorizzare senza la logica per la persistenza aggiunta da Hibernate; queste sono quindisfruttabili a lato client e utilizzate poi per "costruire" le classi Hibernate.
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.45]{dtoScreen.png}
+\caption{Classi DTO}\label{fig:dtoPack}
+\end{figure}

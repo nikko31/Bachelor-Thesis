@@ -1,36 +1,33 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {chapter}{\numberline {1}Introduzione}{6}
-\contentsline {chapter}{\numberline {2}Strumenti utilizzati}{7}
-\contentsline {section}{\numberline {2.1}MySql}{7}
-\contentsline {section}{\numberline {2.2}JAVA}{8}
-\contentsline {subsection}{\numberline {2.2.1}Panoramica del linguaggio JAVA}{8}
-\contentsline {subsection}{\numberline {2.2.2}La piattaforma JAVA}{10}
-\contentsline {section}{\numberline {2.3}Framework Hibernate}{12}
-\contentsline {subsection}{\numberline {2.3.1}Object/Relational Mapping}{14}
-\contentsline {subsection}{\numberline {2.3.2}Cos'\`e Hibernate}{15}
-\contentsline {subsection}{\numberline {2.3.3}Architettura Hibernate}{15}
-\contentsline {section}{\numberline {2.4}Framework GWT}{17}
-\contentsline {subsection}{\numberline {2.4.1}Architettura GWT 2.7}{18}
-\contentsline {subsection}{\numberline {2.4.2}Comunicazione Client-Server in GWT}{19}
-\contentsline {section}{\numberline {2.5}Tomcat}{21}
-\contentsline {section}{\numberline {2.6}Grafica vettoriale}{22}
-\contentsline {subsection}{\numberline {2.6.1}Scalable Vector Graphics}{23}
-\contentsline {section}{\numberline {2.7}Maven}{24}
-\contentsline {section}{\numberline {2.8}Librerie}{26}
-\contentsline {chapter}{\numberline {3}Webapp GESTIONE AULE}{28}
-\contentsline {section}{\numberline {3.1}Client Side}{28}
-\contentsline {subsection}{\numberline {3.1.1}Pattern architetturale MVP}{28}
-\contentsline {subsection}{\numberline {3.1.2}Presentazione del sistema}{32}
-\contentsline {subsection}{\numberline {3.1.3}Use Case Diagram}{35}
-\contentsline {subsection}{\numberline {3.1.4}Sequence Diagram}{36}
-\contentsline {subsection}{\numberline {3.1.5}Activity Diagram}{38}
-\contentsline {section}{\numberline {3.2}Server Side}{39}
-\contentsline {subsection}{\numberline {3.2.1}Comunicazione con server}{40}
-\contentsline {subsection}{\numberline {3.2.2}Database e mapping}{41}
-\contentsline {chapter}{\numberline {4}L'applicazione MONITORAGGIO AULE}{45}
-\contentsline {section}{\numberline {4.1}Stile architetturale REST}{45}
-\contentsline {chapter}{\numberline {5}Conclusioni}{47}
-\contentsline {chapter}{\numberline {6}Appendice A}{48}
-\contentsline {section}{\numberline {6.1}Software Requirements Specification}{48}
-\contentsline {section}{\numberline {6.2}Requisiti non funzionali}{52}
+\contentsline {chapter}{\numberline {1}Strumenti utilizzati}{9}
+\contentsline {section}{\numberline {1.1}MySql}{9}
+\contentsline {section}{\numberline {1.2}JAVA}{10}
+\contentsline {subsection}{\numberline {1.2.1}Panoramica del linguaggio JAVA}{10}
+\contentsline {subsection}{\numberline {1.2.2}La piattaforma JAVA}{12}
+\contentsline {section}{\numberline {1.3}Framework Hibernate}{14}
+\contentsline {subsection}{\numberline {1.3.1}Object/Relational Mapping}{16}
+\contentsline {subsection}{\numberline {1.3.2}Cos'\`e Hibernate}{17}
+\contentsline {subsection}{\numberline {1.3.3}Architettura Hibernate}{17}
+\contentsline {section}{\numberline {1.4}Framework GWT}{19}
+\contentsline {subsection}{\numberline {1.4.1}Architettura GWT 2.7}{20}
+\contentsline {subsection}{\numberline {1.4.2}Comunicazione Client-Server in GWT}{21}
+\contentsline {section}{\numberline {1.5}Tomcat}{23}
+\contentsline {section}{\numberline {1.6}Grafica vettoriale}{24}
+\contentsline {subsection}{\numberline {1.6.1}Scalable Vector Graphics}{25}
+\contentsline {section}{\numberline {1.7}Maven}{26}
+\contentsline {section}{\numberline {1.8}Librerie}{28}
+\contentsline {chapter}{\numberline {2}Webapp GESTIONE AULE}{30}
+\contentsline {section}{\numberline {2.1}Client Side}{30}
+\contentsline {subsection}{\numberline {2.1.1}Pattern architetturale MVP}{30}
+\contentsline {subsection}{\numberline {2.1.2}Presentazione del sistema}{34}
+\contentsline {subsection}{\numberline {2.1.3}Use Case Diagram}{37}
+\contentsline {subsection}{\numberline {2.1.4}Activity Diagram}{38}
+\contentsline {subsection}{\numberline {2.1.5}Sequence Diagram}{41}
+\contentsline {section}{\numberline {2.2}Server Side}{44}
+\contentsline {subsection}{\numberline {2.2.1}Comunicazione con server}{44}
+\contentsline {subsection}{\numberline {2.2.2}Database e mapping}{45}
+\contentsline {chapter}{\numberline {3}Conclusioni}{49}
+\contentsline {chapter}{\numberline {4}Appendice A}{50}
+\contentsline {section}{\numberline {4.1}Software Requirements Specification}{50}
+\contentsline {section}{\numberline {4.2}Requisiti non funzionali}{54}

@@ -3,8 +3,24 @@ L’activity diagram UML è molto simile ai flowchart. Infatti, esso mostra i pa
 
 Un activity diagram viene disegnato per essere una vista semplificata di cosa accade durante un’operazione o un processo. Questo diagramma mostra gli stati di un oggetto e rappresenta le attività come frecce che si connettono agli stati. L’activity diagram serve per mettere in risalto le attività.
 
+Nella figura\ref{fig:umlActDVisu} vengono messe in evidenza le attività eseguite per la visualizzazione delle informazioni di una stanza. Gli attori, ovvero i responsabili di una determinata attività, sono 4:
+\begin{description}
+\item[User:]è l'utente dell'applicazione; esso sceglie la mappa da visualizzare e, se tutto va a buon fine, può decidere se selezionare da essa una determinata aula o cambiare mappa.
+\item[Client:]si occupa di mostrare all'utente le informazioni e le mappe tramite un'interfaccia chiara e pulita, e di gestire gli eventi inviando le informazioni al Server.
+\item[Server:]trasferisce le mappe in formato SVG al Client e  interroga il database.
+\item[Database:]si occupa del trasferimento delle informazioni richieste al server e del controllo di eventuali errori.
+\end{description}
+
 \begin{figure}[!htb]
 \centering%
-\includegraphics[scale=0.45]{ActDVisu.png}%
+\includegraphics[scale=0.5]{ActivityDiag.png}%
 \caption{Activity diagram della funzione di visualizzazione di un'aula.}\label{fig:umlActDVisu}%
 \end{figure}
+\FloatBarrier
+Nel diagramma \ref{fig:umlActDSearch} si mostrano invece le attività svolte dagli attori sopra citati durante la fase di ricerca. 
+\begin{figure}[!htb]
+\centering%
+\includegraphics[scale=0.5]{ActivityDiagSearchPersxml.png}
+\caption{Activity diagram della funzione di ricerca.}\label{fig:umlActDSearch}%
+\end{figure}
+\FloatBarrier
