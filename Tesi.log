@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.17)  16 SEP 2016 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.17)  18 SEP 2016 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1644,10 +1644,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 9 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5035 strings out of 494311
- 66734 string characters out of 6163189
+ 5036 strings out of 494311
+ 66740 string characters out of 6163189
  169936 words of memory out of 5000000
- 8187 multiletter control sequences out of 15000+600000
+ 8188 multiletter control sequences out of 15000+600000
  19744 words of font info for 41 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  40i,10n,40p,1733b,1779s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1668,9 +1668,9 @@ home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600p
 k> </home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074
 .600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 >
-Output written on Tesi.pdf (64 pages, 3514005 bytes).
+Output written on Tesi.pdf (64 pages, 3514629 bytes).
 PDF statistics:
- 872 PDF objects out of 1000 (max. 8388607)
+ 873 PDF objects out of 1000 (max. 8388607)
  203 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
