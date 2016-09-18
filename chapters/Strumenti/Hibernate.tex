@@ -1,6 +1,6 @@
 La gestione della persistenza \`e un argomento delicato nella progettazione di applicazioni software.
-Lo sviluppo di applicazioni Object-Oriented che utilizzano un DBMS relazionale per immagazinare i dati in memoria secondaria \`e uno scenario molto comune. Ci\`o che rende complessa la costruzione dello strato di persistenza \`e il problema dell'object/relational impedence mismatch, ovvero la discrepanza tra il paradigma Object-Oriented e il paradigma relazionale.\\
-Fondamentalmente, gli oggetti fanno riferimento ad altri oggetti e perci\`o danno forma ad un grafo, a differenza degli gli schemi relazionali, che hanno invece una struttura tabellare e basati sull'algebra relazionale che definisce insiemi di tuple. La conversione di tuple in strutture a grafo spesso richiede molto tempo e pu\`o risultare difficile, infatti, viene anche descritta "Vietnam of Computer Science".
+Lo sviluppo di applicazioni Object-Oriented che utilizzano un DBMS relazionale per immagazinare i dati in memoria secondaria \`e uno scenario molto comune. Ci\`o che rende complessa la costruzione dello strato di persistenza \`e il problema dell'\emph{object/relational impedence mismatch}, ovvero la discrepanza tra il paradigma Object-Oriented e il paradigma relazionale.\\
+Fondamentalmente, gli oggetti fanno riferimento ad altri oggetti e perci\`o danno forma ad un grafo, a differenza degli gli schemi relazionali, che hanno invece una struttura tabellare e basati sull'algebra relazionale che definisce insiemi di tuple. La conversione di tuple in strutture a grafo spesso richiede molto tempo e pu\`o risultare difficile, infatti, viene anche descritta "\emph{Vietnam of Computer Science}".
 Questo problema pu\`o esser diviso in pi\`u parti:
 \begin{itemize}
 \item \textbf{Struttura, Ereditariet\`a, Interfaccia e Polimorfismo}:\\
@@ -37,7 +37,7 @@ Attraverso questo mezzo ogni oggetto viene reso persistente nel database tramite
 \item Una tecnica per l'implementazione di ORM  per interagire con oggeti transazionali al fine di eseguire funzioni di ottimizzazione.
 \end{enumerate}
 
-L'associazione fisica tra la classe e la tabella viene ottenuta mediante l'utilizzo di file di descrizione (detti file di mapping), in cui si specificano le modalit\`a di conversione tra gli attributi dell'oggetto e i campi della tabella. In definitiva i principali vantaggi derivanti dall'uso di una soluzione ORM sono:
+L'associazione fisica tra la classe e la tabella viene ottenuta mediante l'utilizzo di file di descrizione (detti file di mapping), in cui si specificano le modalit\`a di conversione tra gli attributi dell'oggetto e i campi della tabella.\\In definitiva i principali vantaggi derivanti dall'uso di una soluzione ORM sono:
 
 \begin{itemize}
 \item Snellimento della parte di codice riservata alla persistenza dei dati.
@@ -49,7 +49,7 @@ L'associazione fisica tra la classe e la tabella viene ottenuta mediante l'utili
 Uno degli esempi pi\`u noti di ORM per il linguaggio Java \`e Hibernate.
 \subsection{Cos'\`e Hibernate}
 Hibernate \`e un framework open source
-con servizi ORM in Java. Hibernate ORM(fino alla versione 4.0 conosciuto come Hibernate Core), composto dalle API native di Hibernate e il suo motore, \`e disponibile alla versione 4.1, utilizzata in questa trattazione.
+con servizi ORM in Java. Hibernate ORM (fino alla versione 4.0 conosciuto come Hibernate Core), composto dalle API native di Hibernate e il suo motore, \`e disponibile alla versione 4.1, utilizzata in questa trattazione.
 Il software \`e composto da API Java che permettono di gestire la persistenza con il mapping delle classi sulla base di dati e forniscono interfacce per l'accesso ai dati persistenti.
 \subsection{Architettura Hibernate}
 Facciamo riferimento alla figura sottostante per  trattare i componenti principali dell'architettura Hibernate.
@@ -66,7 +66,7 @@ L'oggetto Configuration \`e di fondamentale importanza per il funzionamento del 
 \item la connessione al database
 \item il class mapping
 \end{itemize}
-la prima viene gestita mediante il file di configurazione hibernate.cfg.xml, mentre il mapping tra le classi java e le tabelle del database, pu\`o avvenire mediante file di configurazione xml, oppure tramite l'inserimento diretto all'interno delle classi del codice inerente alla mappatura utilizzando lo stile Java Annotation.
+la prima viene gestita mediante il file di configurazione \emph{hibernate.cfg.xml}, mentre il mapping tra le classi java e le tabelle del database, pu\`o avvenire mediante file di configurazione \textit{XML}, oppure, tramite l'inserimento diretto all'interno delle classi del codice inerente alla mappatura utilizzando lo stile Java Annotation.
 
 \FloatBarrier
 \begin{figure}[!htb]
@@ -87,7 +87,7 @@ e dopo che \`e stato utilizzato per la creazione di un altro oggetto, il Session
 SessionFactory sessionFactory = config.buildSessionFactory();
 \end{lstlisting}
 
-Quest'ultimo quindi, viene anch'esso creato una sola volta allo startup, ma a differenza di Configuration, viene utilizzato in tutta l'applicazione. L'oggetto SessionFactory \`e thread safe, ed \`e utilizzato da tutti i thread dell'applicazione, inoltre siccome dipende da Configuration, che a sua volta si riferisce ad uno specifico database, potr\`a puntare solo a quel database. Nel caso di connessioni a database multipli, avremmo mulipli Configuration e quindi multipli SessionFactory, uno per ogni Configuration.
+Quest'ultimo quindi, viene anch'esso creato una sola volta allo startup, ma a differenza di Configuration, viene utilizzato in tutta l'applicazione. L'oggetto SessionFactory \`e thread safe, ed \`e utilizzato da tutti i thread dell'applicazione, inoltre, siccome dipende da Configuration, che a sua volta si riferisce ad uno specifico database, potr\`a puntare solo a quel database. Nel caso di connessioni a database multipli, avremmo mulipli Configuration e quindi multipli SessionFactory, uno per ogni Configuration.
 Il SessionFactory, come si evince dal nome, risulta essere uno stampo da cui creare gli oggetti Session, necessari ogni qualvolta occorre effettuare una interazione con il database. Quando con un oggetto di questo tipo viene aperta una sessione di lavoro,
 
 \begin{lstlisting}

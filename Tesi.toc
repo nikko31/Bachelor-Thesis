@@ -1,20 +1,20 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {chapter}{\numberline {1}Strumenti utilizzati}{9}
-\contentsline {section}{\numberline {1.1}MySql}{9}
-\contentsline {section}{\numberline {1.2}JAVA}{10}
-\contentsline {subsection}{\numberline {1.2.1}Panoramica del linguaggio JAVA}{10}
-\contentsline {subsection}{\numberline {1.2.2}La piattaforma JAVA}{12}
-\contentsline {section}{\numberline {1.3}Framework Hibernate}{14}
-\contentsline {subsection}{\numberline {1.3.1}Object/Relational Mapping}{16}
-\contentsline {subsection}{\numberline {1.3.2}Cos'\`e Hibernate}{17}
-\contentsline {subsection}{\numberline {1.3.3}Architettura Hibernate}{17}
+\contentsline {chapter}{\numberline {1}Strumenti utilizzati}{8}
+\contentsline {section}{\numberline {1.1}MySql}{8}
+\contentsline {section}{\numberline {1.2}JAVA}{9}
+\contentsline {subsection}{\numberline {1.2.1}Panoramica del linguaggio JAVA}{9}
+\contentsline {subsection}{\numberline {1.2.2}La piattaforma JAVA}{11}
+\contentsline {section}{\numberline {1.3}Framework Hibernate}{13}
+\contentsline {subsection}{\numberline {1.3.1}Object/Relational Mapping}{15}
+\contentsline {subsection}{\numberline {1.3.2}Cos'\`e Hibernate}{16}
+\contentsline {subsection}{\numberline {1.3.3}Architettura Hibernate}{16}
 \contentsline {section}{\numberline {1.4}Framework GWT}{19}
 \contentsline {subsection}{\numberline {1.4.1}Architettura GWT 2.7}{20}
 \contentsline {subsection}{\numberline {1.4.2}Comunicazione Client-Server in GWT}{21}
 \contentsline {section}{\numberline {1.5}Tomcat}{23}
-\contentsline {section}{\numberline {1.6}Grafica vettoriale}{24}
-\contentsline {subsection}{\numberline {1.6.1}Scalable Vector Graphics}{25}
+\contentsline {section}{\numberline {1.6}Grafica vettoriale}{23}
+\contentsline {subsection}{\numberline {1.6.1}Scalable Vector Graphics}{24}
 \contentsline {section}{\numberline {1.7}Maven}{26}
 \contentsline {section}{\numberline {1.8}Librerie}{28}
 \contentsline {chapter}{\numberline {2}Webapp GESTIONE AULE}{30}
@@ -31,3 +31,4 @@
 \contentsline {chapter}{\numberline {4}Appendice A}{50}
 \contentsline {section}{\numberline {4.1}Software Requirements Specification}{50}
 \contentsline {section}{\numberline {4.2}Requisiti non funzionali}{54}
+\contentsline {chapter}{\numberline {5}Appendice B}{55}
