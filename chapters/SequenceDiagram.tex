@@ -8,9 +8,9 @@ Un diagramma di sequenza rappresenta le successioni temporali ma non le relazion
 \caption{Sequence diagram della funzione di visualizzazione delle informazioni di un'aula.}\label{fig:umlSeqDRoomInfo}%
 \end{figure}
 \FloatBarrier
-In questo diagramma (figura\ref{fig:umlSeqDRoomInfo}) viene mostrata la procedura per la visualizzazione delle informazioni relative ad una determinata aula. \\
+In questo diagramma (figura \ref{fig:umlSeqDRoomInfo}) viene mostrata la procedura per la visualizzazione delle informazioni relative ad una determinata aula. \\
 Vengono messe in risalto le funzioni specifiche delle View e dei relativi Presenter all'interno del client, e come questi ultimi interagiscono con il Server.\\
-Per prima cosa l'utente deve selezionare l'edificio ed il relativo piano che si intende visualizzare e successivamente la modalità di visualizzazione "Visualizzazione" premendo in fine il bottone "Cerca". La "View" invierà quindi al relativo "Presenter" i dati selezionati che, tramite la funzione RequestBuild(), richiederà al server la mappa desiderata. Se la trasmissione va a buon fine verrà aggiornata la mappa nella "View", permettendo all'utente di selezionare un'aula  della mappa. Dopo aver acquisito le informazioni dell'aula selezionata dalla "View", il "Presenter", richiederà al server in maniera asincrona tramite RPC le informazioni di tale aula.
+Per prima cosa l'utente deve selezionare l'edificio ed il relativo piano che intende visualizzare e successivamente la modalità di visualizzazione "Visualizzazione" premendo in fine il bottone "Cerca". La "View" invierà quindi al relativo "Presenter" i dati selezionati che, tramite la funzione \emph{RequestBuild()}, richiederà al server la mappa desiderata. Se la trasmissione va a buon fine verrà aggiornata la mappa nella "View", permettendo all'utente di selezionare un'aula  della mappa. Dopo aver acquisito le informazioni dell'aula selezionata dalla "View", il "Presenter", richiederà al server in maniera asincrona tramite RPC le informazioni di tale aula.
 
 \begin{figure}[!htb]
 \centering

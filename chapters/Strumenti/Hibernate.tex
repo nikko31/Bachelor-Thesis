@@ -78,7 +78,8 @@ la prima viene gestita mediante il file di configurazione \emph{hibernate.cfg.xm
 Questo oggetto viene creato una sola volta all'atto della inizializzazione della applicazione,
 
 \begin{lstlisting}
-Configuration config = new Configuration().configure("/it/resources/hibernate.cfg.xml");
+Configuration config = 
+new Configuration().configure("/it/resources/hibernate.cfg.xml");
 \end{lstlisting}
 
 e dopo che \`e stato utilizzato per la creazione di un altro oggetto, il SessionFactory, resta inutilizzato.

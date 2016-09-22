@@ -11,6 +11,7 @@ Lo script \emph{database.sql} usato per creare il database si trova nella direct
 \includegraphics[scale=0.5]{screenSQL.png}%
 \caption{Cartella contenente script del database.}\label{fig:dbSQL}%
 \end{figure}
+
 \FloatBarrier
 \section*{Creazione mappe e colorazione}
 Le piantine dei locali universitari non possono essere inserite direttamente nel server perch\`e sono in un formato che non \`e compatibile col programma.Lo scopo di questa appendice \`e quello di spiegare la procedura da seguire per  ottenere dei file adeguati alle funzionalit\`a dell'applicazione.\\\\Le immagini fornite dal dipartimento sono in formato \textit{dwg}, quindi la prima operazione da effettuare \`e quella di convertirle in \textit{svg} e salvarle con questo nome: "\textit{nome\_edificio-numero\_piano.svg}".In rete esistono diversi software che consentono di cambiare l'estensione del file, nel nostro caso \`e stato utilizzato AIGraph CAD Viewer(versione 3.3.1 o superiore).Un altro metodo consiste nel trasformare i file \textit{dwg} in \textit{dxf}, importarli su Inkscape, per poi salvarli come \textit{svg}.Tra le due alternative \`e stata adottata la prima perch\`e ha permesso di generare figure con una migliore qualit\`a grafica.\\\\Nel file ottenuto le stanze non sono ancora elementi grafici indipendenti, perci\`o se si vogliono gestire eventi su ognuna di esse \`e necessario inserire, all'interno del file, delle forme geometriche che le racchiudano.Questa operazione, molto onerosa in termini di tempo, pu\`o essere velocizzata se si utilizza Inkscape.Le forme geometriche inserite con questo tool devono essere di tipo \textit{"rect"} o \textit{"path"}, il motivo di questa operazione sar\`a trattato nella parte in cui si parla del codice Java.Dopo aver creato il profilo di una stanza bisogna selezionare l'opzione \textit{object properties}(come avviene in figura \textbf{\ref{fig:TUT_ink}}) e introdurre nei tre riquadri disponibili la stringa 
@@ -41,8 +42,10 @@ Le piantine dei locali universitari non possono essere inserite direttamente nel
 \subsubsection*{ANDROID}
 \begin{lstlisting}
 <path
-   style="fill:none;stroke:none;fill-opacity:0.5;stroke-width:0.99871397px;stroke-linecap:butt;stroke-linejoin:miter"
-   d="m 247.97113,203.91145 -10.22383,-88.12825 -37.94946,5.39561 10.5704,87.76853 z"
+   style="fill:none;stroke:none;fill-opacity:0.5;stroke-width:0.99871397px;
+   stroke-linecap:butt;stroke-linejoin:miter"
+   d="m 247.97113,203.91145 -10.22383,
+   -88.12825 -37.94946,5.39561 10.5704,87.76853 z"
    id="materiali-1-4"
    inkscape:connector-curvature="0"
    inkscape:label="materiali-1-4"><title
@@ -54,8 +57,11 @@ Le stringhe \textbf{"fill:none"},\textbf{"stroke:none"} e \textbf{"fill-opacity:
 Va precisato che le librerie usate per GWT non supportano l'attributo \textbf{"none"}, dunque, essendo il numero di immagini limitato e la loro dimensione contenuta, si \`e deciso di utilizzare due file indipendenti per ogni ogni piantina: uno per Android nella cartella \textit{res/ImageAndroid} e uno per GWT nella cartella \textit{res/ImageGWT}.Di seguito \`e mostrato il codice riadattato per GWT.
 \begin{lstlisting}
 <path
-   style="fill:transparent;stroke:transparent;fill-opacity:0.5;stroke-width:0.99871397px;stroke-linecap:butt;stroke-linejoin:miter"
-   d="m 247.97113,203.91145 -10.22383,-88.12825 -37.94946,5.39561 10.5704,87.76853 z"
+   style="fill:transparent;stroke:transparent;
+   fill-opacity:0.5;stroke-width:0.99871397px;
+   stroke-linecap:butt;stroke-linejoin:miter"
+   d="m 247.97113,203.91145 -10.22383,-88.12825 -37.94946,
+   5.39561 10.5704,87.76853 z"
    id="materiali-1-4"
    inkscape:connector-curvature="0"
    inkscape:label="materiali-1-4"><title
@@ -130,6 +136,6 @@ Integer value = valued.intValue();
 String color = "#"+Integer.toHexString(value)+Integer.toHexString(value)+"FF";
 \end{lstlisting}
 Una volta ottenuto il colore basta andarlo a sostituire nel \textit{fill} della stanza.
-Il codice usato per la colorazione delle stanze \`e localizzato in due zone differenti: quello usato dall'app Android si trova nella classe \textit{ImageHandling}(package com.auleSVGWT.server), mentre il codice relativo all Web app si trova nella classe \textit{ShowFloorPresenter}(package com.auleSVGWT.client.presenter), pronto a diventare Javascript dopo la compilazione.
+Il codice usato per la colorazione delle stanze \`e localizzato in due zone differenti: quello usato dall'app Android si trova nella classe \textit{ImageHandling}(package com.auleSVGWT.server), mentre il codice relativo all Web app si trova nella classe\\ \textit{ShowFloorPresenter}(package com.auleSVGWT.client.presenter), pronto a diventare Javascript dopo la compilazione.
 
 

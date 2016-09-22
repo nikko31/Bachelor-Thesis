@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.8.17)  18 SEP 2016 18:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.9.22)  23 SEP 2016 00:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -423,8 +423,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box29
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
+(/usr/share/texlive/texmf-dist/tex/latex/frontespizio/frontespizio.sty
+Package: frontespizio 2011/09/21 1.4a (Enrico Gregorio)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks20
+\AP@partial=\box30
+\AP@footins=\box31
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -443,6 +449,30 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen108
 \Gin@req@width=\dimen109
 )
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+))
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\front@out=\write3
+\openout3 = `Tesi-frn.tex'.
+
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
 
 LaTeX Warning: Unused global option(s):
     [pt11].
@@ -457,34 +487,34 @@ LaTeX Warning: Label `Ricerca persone' multiply defined.
 )
 \openout1 = `Tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Info: Redefining \it@ocap on input line 41.
-LaTeX Info: Redefining \it@ccap on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Info: Redefining \it@ocap on input line 42.
+LaTeX Info: Redefining \it@ccap on input line 42.
 \c@lstlisting=\count103
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen110
-\scratchbox=\box30
+\scratchbox=\box32
 \nofMPsegments=\count105
 \nofMParguments=\count106
-\everyMPshowfont=\toks20
+\everyMPshowfont=\toks22
 \MPscratchCnt=\count107
 \MPscratchDim=\dimen111
 \MPnumerator=\count108
 \makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks21
+\everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -492,9 +522,6 @@ Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -534,240 +561,67 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<images/university.jpg, id=1, 40.5926pt x 39.2648pt>
-File: images/university.jpg Graphic file (type jpg)
+\AtBeginShipoutBox=\box33
 
-<use images/university.jpg>
-Package pdftex.def Info: images/university.jpg used on input line 44.
-(pdftex.def)             Requested size: 81.18497pt x 78.52939pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 44.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 44.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 44.
+<Tesi-frn.pdf, id=1, 597.50829pt x 845.0471pt>
+File: Tesi-frn.pdf Graphic file (type pdf)
+ <use Tesi-frn.pdf>
+Package pdftex.def Info: Tesi-frn.pdf used on input line 43.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/university.jpg>] 
-(./chapters/Introduzione.tex
-Overfull \hbox (3.64075pt too wide) in paragraph at lines 5--6
-[]\T1/cmr/m/n/10 Oggi sul mer-ca-to esi-sto-no di-ver-si ti-pi di fra-mework, o
-gnu-no con ca-rat-te-ri-sti-che
- []
-
-
-Overfull \hbox (20.99762pt too wide) in paragraph at lines 7--8
-[]\T1/cmr/m/n/10 Il la-vo-ro di te-si svol-to si po-ne co-me obiet-ti-vo lo svi
--lup-po in team di un'ap-pli-ca-zio-ne
- []
-
-
-Overfull \hbox (28.15887pt too wide) in paragraph at lines 7--8
-\T1/cmr/m/n/10 web che met-te a di-spo-si-zio-ne de-gli uten-ti una vi-sio-ne c
-hia-ra e com-ple-ta del-l'oc-cu-pa-zio-ne
- []
-
-
-Overfull \hbox (14.05121pt too wide) in paragraph at lines 7--8
-\T1/cmr/m/n/10 ri-guar-dan-ti lo sta-to del-le au-le uni-ver-si-ta-rie, sia la 
-ma-ni-po-la-zio-ne di ta-li in-for-ma-zio-ni. 
- []
-
-[1
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
-) [2] (./Tesi.toc
+ <./Tesi-frn.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>] (./Tesi.t
+oc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 4.
+(Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 4.
-
-[3
+(Font)              <5> on input line 5.
+ [1
 
 ])
-\tf@toc=\write3
-\openout3 = `Tesi.toc'.
+\tf@toc=\write4
+\openout4 = `Tesi.toc'.
 
- [4] (./Tesi.lof
-Overfull \hbox (12.96817pt too wide) in paragraph at lines 24--24
- [][] []\T1/cmr/m/n/10 Sequence dia-gram del-la fun-zio-ne di vi-sua-liz-za-zio
--ne del-le in-for-ma-zio-ni 
- []
 
-[5
+[2] (./Tesi.lof [3
 
 ])
-\tf@lof=\write4
-\openout4 = `Tesi.lof'.
+\tf@lof=\write5
+\openout5 = `Tesi.lof'.
 
- [6] (./Tesi.lot)
-\tf@lot=\write5
-\openout5 = `Tesi.lot'.
+ [4] (./Tesi.lot)
+\tf@lot=\write6
+\openout6 = `Tesi.lot'.
 
- [7
+ [5
 
 ]
 Capitolo 1.
+(./chapters/Introduzione.tex [6
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+) [7]
+Capitolo 2.
 (./chapters/Strumenti/Mysql.tex [8
 
-]) (./chapters/Strumenti/Java.tex
-Overfull \hbox (0.6995pt too wide) in paragraph at lines 1--5
-\T1/cmr/m/n/10 Il lin-guag-gio Ja-va è un lin-guag-gio di pro-gram-ma-zio-ne or
-ien-ta-to agli og-get-ti,
- []
-
-
-Overfull \hbox (17.38062pt too wide) in paragraph at lines 1--5
-\T1/cmr/m/n/10 Ja-va fu an-nun-cia-to uf-fi-cial-men-te il 23 mag-gio 1995 a Su
--n-World. La piat-ta-for-ma
- []
-
-
-Overfull \hbox (16.00021pt too wide) in paragraph at lines 1--5
-\T1/cmr/m/n/10 Ma-chi-ne (JVM) e sul-le API. Ja-va è un mar-chio re-gi-stra-to 
-di Sun Mi-cro-sy-stems. 
- []
-
-
-Overfull \hbox (31.74747pt too wide) in paragraph at lines 14--16
-\T1/cmr/m/n/10 og-get-ti (OOP, Ob-ject Orien-ted Pro-gram-ming) è un pa-ra-dig-
-ma di pro-gram-ma-zio-ne
- []
-
-
-Overfull \hbox (15.14041pt too wide) in paragraph at lines 14--16
-\T1/cmr/m/n/10 (da-ti) e me-to-di (pro-ce-du-re) se-con-do quan-to de-fi-ni-to/
--di-chia-ra-to dal-le ri-spet-ti-ve
- []
-
-[9]
-Overfull \hbox (1.98233pt too wide) in paragraph at lines 24--25
-[]\T1/cmr/m/n/10 l'organizzazione del co-di-ce sot-to for-ma di clas-si fa-vo-r
-i-sce la mo-du-la-ri-tà
- []
-
-
-Overfull \hbox (9.78061pt too wide) in paragraph at lines 27--29
-\T1/cmr/m/n/10 al-ta-men-te ot-ti-miz-za-te ese-gui-bi-li dal-la Ja-va Vir-tual
- Ma-chi-ne(JVM), di-se-gna-ta
- []
-
-
-Overfull \hbox (6.61472pt too wide) in paragraph at lines 32--33
-\T1/cmr/m/n/10 La piat-ta-for-ma Ja-va ha ca-rat-te-ri-sti-che pro-get-ta-te pe
-r au-men-ta-re la si-cu-rez-za
- []
-
-[10]
-Overfull \hbox (17.56596pt too wide) in paragraph at lines 36--39
-\T1/cmr/m/n/10 di ese-gui-re co-di-ce by-te-co-de inaf-fi-da-bi-le in un am-bie
-n-te \T1/cmr/m/it/10 sand-box \T1/cmr/m/n/10 pro-get-ta-to
- []
-
-
-Overfull \hbox (1.48135pt too wide) in paragraph at lines 36--39
-\T1/cmr/m/n/10 co-di-ce ab-bia ac-ces-so ad al-cu-ne ca-rat-te-ri-sti-che e API
- del-la piat-ta-for-ma.
- []
-
-[11]
-Overfull \hbox (3.09874pt too wide) in paragraph at lines 55--56
-[]\T1/cmr/m/n/10 carica le clas-si che for-ma-no il by-te-co-de, sia del-l'ap-p
-li-ca-zio-ne
- []
-
-
-Overfull \hbox (17.92178pt too wide) in paragraph at lines 55--56
-\T1/cmr/m/n/10 Ja-va, sia del-le API Ja-va ne-ces-sa-rie per l'e-se-cu-zio-ne d
-a par-te del-l'in-ter-pre-te
- []
-
-
-Overfull \hbox (5.6509pt too wide) in paragraph at lines 61--62
-[]\T1/cmr/m/n/10 può es-se-re di va-rie for-me: può es-se-re un mo-du-lo soft-w
-are
- []
-
-[12]) (./chapters/Strumenti/Hibernate.tex
-Overfull \hbox (9.05841pt too wide) in paragraph at lines 1--5
-\T1/cmr/m/it/10 im-pe-den-ce mi-smatch\T1/cmr/m/n/10 , ov-ve-ro la di-scre-pan-
-za tra il pa-ra-dig-ma Object-Oriented
- []
-
-
-Overfull \hbox (4.3984pt too wide) in paragraph at lines 6--9
-\T1/cmr/m/n/10 og-get-ti che ap-par-ten-go-no ad es-sa e può an-che far par-te 
-di una ge-rar-chia
- []
-
-[13]
-Overfull \hbox (1.28806pt too wide) in paragraph at lines 15--17
-\T1/cmr/m/n/10 Il mo-del-lo re-la-zio-na-le con-tem-pla so-lo un ti-po di as-so
--cia-zio-ne: l'u-ti-liz-zo
- []
-
-
-Overfull \hbox (23.02737pt too wide) in paragraph at lines 22--28
-[]\T1/cmr/m/n/10 Un al-tro aspet-to mol-to im-por-tan-te nel-la ge-stio-ne del-
-la per-si-sten-za è l'in-te-ra-zio-ne
- []
-
-
-Overfull \hbox (28.63602pt too wide) in paragraph at lines 22--28
-\T1/cmr/m/n/10 co-me ODB (Open Da-ta-ba-se Con-nec-ti-vi-ty) o JDBC(Java Da-ta-
-ba-se Con-nec-ti-vi-ty).
- []
-
-
-Overfull \hbox (15.7236pt too wide) in paragraph at lines 22--28
-\T1/cmr/m/n/10 orien-ted da-ta-ba-se sy-stems op-pu-re dell'Object-Relational M
-ap-ping che con-si-ste
- []
-
-[14]
-Overfull \hbox (17.1666pt too wide) in paragraph at lines 30--32
-\T1/cmr/m/n/10 ta-bel-la SQL. Una so-lu-zio-ne ORM con-si-ste di quat-tro com-p
-o-nen-ti ca-rat-te-ri-sti-ci: 
- []
-
-
-Overfull \hbox (3.75967pt too wide) in paragraph at lines 44--45
-\T1/cmr/m/n/10 gra-zie al-la se-pa-ra-zio-ne tra il mo-del-lo ad og-get-ti e il
- mo-del-lo re-la-zio-na-le. 
- []
-
-[15]
-Overfull \hbox (8.34189pt too wide) in paragraph at lines 45--46
-[]\T1/cmr/m/n/10 Performance più ef-fi-cien-ti gra-zie al-le nu-me-ro-se op-zio
--ni di ot-ti-miz-za-zio-ne
- []
-
-
-Overfull \hbox (0.10596pt too wide) in paragraph at lines 51--54
-\T1/cmr/m/n/10 Hibernate è un fra-mework open sour-ce con ser-vi-zi ORM in Ja-v
-a. Hi-ber-na-te
- []
-
-<images/hib-arch.png, id=64, 550.30594pt x 414.04688pt>
+]) (./chapters/Strumenti/Java.tex [9]
+[10] [11] [12]) (./chapters/Strumenti/Hibernate.tex [13] [14] [15]
+<images/hib-arch.png, id=89, 550.30594pt x 414.04688pt>
 File: images/hib-arch.png Graphic file (type png)
 
 <use images/hib-arch.png>
 Package pdftex.def Info: images/hib-arch.png used on input line 60.
 (pdftex.def)             Requested size: 275.1523pt x 207.02292pt.
  [16]
-Overfull \hbox (3.4766pt too wide) in paragraph at lines 64--65
-[]\T1/cmr/m/n/10 L'oggetto Con-fi-gu-ra-tion è di fon-da-men-ta-le im-por-tan-z
-a per il fun-zio-na-men-to
- []
-
-<images/hiber-arch2.jpg, id=68, 494.84875pt x 176.66pt>
+<images/hiber-arch2.jpg, id=93, 494.84875pt x 176.66pt>
 File: images/hiber-arch2.jpg Graphic file (type jpg)
 
 <use images/hiber-arch2.jpg>
@@ -781,97 +635,14 @@ Overfull \hbox (1.39177pt too wide) in paragraph at lines 74--75
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 80.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Overfull \hbox (53.90872pt too wide) in paragraph at lines 81--82
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (1.89365pt too wide) in paragraph at lines 90--92
-\T1/cmr/m/n/10 Con-fi-gu-ra-tion e quin-di mul-ti-pli Ses-sion-Fac-to-ry, uno p
-er ogni Con-fi-gu-ra-tion.
- []
-
-[17 <./images/hib-arch.png (PNG copy)>])
-Overfull \hbox (18.94504pt too wide) in paragraph at lines 97--65
-\T1/cmr/m/n/10 tran-sa-zio-ni so-no ge-sti-te dal Tran-sac-tion-Ma-na-ger che p
-er-met-te al-lo svi-lup-pa-to-re
- []
-
-
-Overfull \hbox (10.67172pt too wide) in paragraph at lines 97--65
-\T1/cmr/m/n/10 og-get-ti per-si-sten-ti. Gli og-get-ti Que-ry uti-liz-za-no SQL
- op-pu-re HQL (Hi-ber-na-te
- []
-
-[18 <./images/hiber-arch2.jpg>] (./chapters/Strumenti/GWT.tex
-Overfull \hbox (8.14102pt too wide) in paragraph at lines 1--6
-\T1/cmr/m/n/10 che le ap-pli-ca-zio-ni RIA ( Rich In-ter-net Ap-pli-ca-tion ) p
-os-sie-do-no nei con-fron-ti
- []
-
-
-Overfull \hbox (12.80765pt too wide) in paragraph at lines 1--6
-\T1/cmr/m/n/10 ri-chie-do-no in-stal-la-zio-ne, gli ag-gior-na-men-ti so-no au-
-to-ma-ti-ci, so-no in-di-pen-den-ti
- []
-
-
-Overfull \hbox (10.66928pt too wide) in paragraph at lines 1--6
-\T1/cmr/m/n/10 dal-la piat-ta-for-ma uti-liz-za-ta, più si-cu-re in quan-to gi-
-ra-no nel ri-stret-to am-bien-te
- []
-
-
-Overfull \hbox (3.83762pt too wide) in paragraph at lines 1--6
-\T1/cmr/m/n/10 lo svi-lup-po di ap-pli-ca-zio-ni Web si ba-sa su uno scam-bio d
-i da-ti in back-ground
- []
-
-
-Overfull \hbox (6.28146pt too wide) in paragraph at lines 1--6
-\T1/cmr/m/n/10 bro-w-ser Web uti-liz-za-to, con-cen-tran-do gli sfor-zi ed il t
-em-po de-gli svi-lup-pa-to-ri
- []
-
-
-Overfull \hbox (46.88266pt too wide) in paragraph at lines 1--6
-\T1/cmr/m/n/10 asin-cro-ne di Ajax, la ge-stio-ne del-le mo-di-fi-che, il book-
-mar-king, l'in-ter-na-zio-na-liz-za-zio-ne
- []
-
-[19]
+) [17 <./images/hib-arch.png (PNG copy)>]) [18 <./images/hiber-arch2.jpg>]
+(./chapters/Strumenti/GWT.tex [19]
 Overfull \hbox (4.25418pt too wide) in paragraph at lines 23--24
 \T1/cmr/m/n/10 stan-dard mag-gior-men-te uti-liz-za-te(package ja-va.lang.*,jav
 a.sql e ja-va.util.*).
  []
 
-
-Overfull \hbox (10.38232pt too wide) in paragraph at lines 23--24
-\T1/cmr/m/n/10 al-cu-ne in-ter-fac-cie. Que-sta li-mi-ta-zio-ne de-ri-va dal fa
-t-to che il co-di-ce Ja-va-Script
- []
-
-
-Overfull \hbox (17.57501pt too wide) in paragraph at lines 25--26
-\T1/cmr/m/n/10 im-ma-gi-ni, ecc.). Que-sta è la li-bre-ria stan-dard prin-ci-pa
--le per crea-re ap-pli-ca-zio-ni
- []
-
-[20]
-Overfull \hbox (11.47354pt too wide) in paragraph at lines 27--29
-\T1/cmr/m/n/10 È no-to che quan-do si svi-lup-pa una RIA, co-sa fon-da-men-ta-l
-e è la co-mu-ni-ca-zio-ne
- []
-
-
-Overfull \hbox (15.6716pt too wide) in paragraph at lines 27--29
-\T1/cmr/m/n/10 tra il bro-w-ser(client) e il ser-ver. GWT for-ni-sce dif-fe-ren
--ti stra-de per co-mu-ni-ca-re
- []
-
-<images/RPC1.png, id=84, 375.4025pt x 69.25874pt>
+[20] <images/RPC1.png, id=109, 375.4025pt x 69.25874pt>
 File: images/RPC1.png Graphic file (type png)
  <use images/RPC1.png>
 Package pdftex.def Info: images/RPC1.png used on input line 43.
@@ -888,124 +659,37 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-
-Overfull \hbox (17.58426pt too wide) in paragraph at lines 47--60
-\T1/cmr/m/n/10 ri-spet-to al-le più sem-pli-ci (per gli svi-lup-pa-to-ri) chia-
-ma-te sin-cro-ne, si ri-scon-tra-no
- []
-
-
-Overfull \hbox (5.30023pt too wide) in paragraph at lines 47--60
-\T1/cmr/m/n/10 ro-vi-nan-do co-sì l'e-spe-rien-za del-l'u-ten-te fi-na-le. Al-t
-ro van-tag-gio del-le chia-ma-te
- []
-
-
-Overfull \hbox (22.5275pt too wide) in paragraph at lines 47--60
-\T1/cmr/m/n/10 que-sto pa-ral-le-li-smo ri-sul-ta for-te-men-te li-mi-ta-to dal
- pic-co-lo nu-me-ro di con-nes-sio-ni
- []
-
-[21 <./images/RPC1.png>]
-Overfull \hbox (24.4353pt too wide) in paragraph at lines 64--66
-[]\T1/cmr/m/n/10 Qualsiasi ti-po de-fi-ni-to dal-l'u-ten-te a pat-to che sia se
--ria-liz-za-bi-le[] (im-ple-men-ti
- []
-
-) (./chapters/Strumenti/Tomcat.tex
-Overfull \hbox (3.43958pt too wide) in paragraph at lines 1--2
-\T1/cmr/m/n/10 col-la-bo-ra-zio-ne dei più gran-di svi-lup-pa-to-ri di tut-to i
-l mon-do. La fun-zio-na-li-tà
- []
-
-[22]
-Overfull \hbox (4.58635pt too wide) in paragraph at lines 6--7
-[]\T1/cmr/m/n/10 Coyote è il com-po-nen-te "con-net-to-re HTTP" di Tom-cat. Sup
--por-ta
- []
-
-
-Overfull \hbox (21.28317pt too wide) in paragraph at lines 6--7
-\T1/cmr/m/n/10 pro-ces-sa-re la ri-chie-sta e man-da-re in-die-tro una ri-spo-s
-ta al client ri-chie-den-te. 
- []
-
-) (./chapters/Strumenti/GraficaVettoriale.tex
-Overfull \hbox (12.80765pt too wide) in paragraph at lines 1--4
-\T1/cmr/m/n/10 La gra-fi-ca vet-to-ria-le è una tec-ni-ca uti-liz-za-ta in com-
-pu-ter gra-fi-ca per de-scri-ve-re
- []
-
-[23]
-Overfull \hbox (1.45468pt too wide) in paragraph at lines 5--6
-[]\T1/cmr/m/n/10 possibilità di espri-me-re i da-ti in una for-ma di-ret-ta-men
--te com-pren-si-bi-le
- []
-
-<images/Vect.png, id=99, 513.92pt x 328.22626pt>
+[21]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 64.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 64.
+) [22 <./images/RPC1.png>] (./chapters/Strumenti/Tomcat.tex [23])
+(./chapters/Strumenti/GraficaVettoriale.tex
+<images/Vect.png, id=124, 513.92pt x 328.22626pt>
 File: images/Vect.png Graphic file (type png)
  <use images/Vect.png>
 Package pdftex.def Info: images/Vect.png used on input line 11.
 (pdftex.def)             Requested size: 205.56435pt x 131.28816pt.
- [24 <./images/Vect.png>]
-Overfull \hbox (3.79024pt too wide) in paragraph at lines 21--22
-[]\T1/cmr/m/n/10 non è un for-ma-to pro-prie-ta-rio, le spe-ci-fi-che ed i la-v
-o-ri del Wor-king
- []
 
-
-Overfull \hbox (16.83871pt too wide) in paragraph at lines 24--25
-\T1/cmr/m/n/10 del lin-guag-gio di ani-ma-zio-ne SMIL (Syn-chro-ni-zed Mul-ti-m
-e-dia In-te-gra-tion
- []
-
-)
-Overfull \hbox (16.4873pt too wide) in paragraph at lines 27--74
-\T1/cmr/m/n/10 au-men-ta-re la ri-cer-ca-bi-li-tà e l'ac-ces-si-bi-li-tà del-le
- im-ma-gi-ni SVG. Due pro-gram-mi
- []
-
-(./chapters/Strumenti/Maven.tex
-<images/maven.jpg, id=105, 420.06938pt x 318.43968pt>
+[24 <./images/Vect.png>]) [25] (./chapters/Strumenti/Maven.tex
+<images/maven.jpg, id=133, 420.06938pt x 318.43968pt>
 File: images/maven.jpg Graphic file (type jpg)
  <use images/maven.jpg>
 Package pdftex.def Info: images/maven.jpg used on input line 12.
 (pdftex.def)             Requested size: 336.05597pt x 254.75209pt.
 )
-Overfull \hbox (0.86612pt too wide) in paragraph at lines 1--77
-\T1/cmr/m/n/10 Maven è un tool per l'au-to-ma-zio-ne del-la com-pi-la-zio-ne us
-a-to prin-ci-pal-men-te
- []
-
-
-Overfull \hbox (26.66891pt too wide) in paragraph at lines 1--77
-\T1/cmr/m/n/10 ven-go-no con-fi-gu-ra-ti tra-mi-te un Pro-ject Ob-ject Mo-del (
-POM) fi-le. Ge-ne-ral-men-te,
- []
-
-
-Overfull \hbox (1.57892pt too wide) in paragraph at lines 1--77
-\T1/cmr/m/n/10 com-pi-la-zio-ne, im-ple-men-ta-te tra-mi-te plu-gin. Ad esem-pi
-o, si può con-fi-gu-ra-re
- []
-
-[25] [26] (./chapters/Strumenti/Librerie.tex
-<images/batikUses.jpg, id=112, 401.5pt x 553.06625pt>
+[26] [27] (./chapters/Strumenti/Librerie.tex
+<images/batikUses.jpg, id=140, 401.5pt x 553.06625pt>
 File: images/batikUses.jpg Graphic file (type jpg)
 
 <use images/batikUses.jpg>
 Package pdftex.def Info: images/batikUses.jpg used on input line 7.
 (pdftex.def)             Requested size: 281.04808pt x 387.14374pt.
-)
-Overfull \hbox (32.16403pt too wide) in paragraph at lines 2--80
-\T1/cmr/m/n/10 La ver-sio-ne uti-liz-za-ta è l'ul-ti-ma, ov-ve-ro la re-lea-se 
-1.8, che sup-por-ta com-ple-ta-men-te
- []
-
-[27 <./images/maven.jpg>] [28] [29 <./images/batikUses.jpg>]
-Capitolo 2.
+) [28 <./images/maven.jpg>] [29 <./images/batikUses.jpg>]
+Capitolo 3.
 (./chapters/AuleGest.tex
-<images/MainPackDiag.png, id=122, 705.63625pt x 184.69pt>
+<images/MainPackDiag.png, id=147, 705.63625pt x 184.69pt>
 File: images/MainPackDiag.png Graphic file (type png)
 
 <use images/MainPackDiag.png>
@@ -1016,52 +700,23 @@ Overfull \hbox (7.81726pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
+) (./chapters/Client.tex) (./chapters/Pattern.tex [30
 
-Overfull \hbox (3.25443pt too wide) in paragraph at lines 1--7
-\T1/cmr/m/n/10 In que-sta se-zio-ne vie-ne de-scrit-ta l'ar-chi-tet-tu-ra e le 
-fun-zio-na-li-tà del pro-get-to,
- []
-
-) (./chapters/Client.tex) (./chapters/Pattern.tex
-Overfull \hbox (15.68658pt too wide) in paragraph at lines 4--7
-\T1/cmr/m/n/10 svi-lup-po del pro-get-to. De-fi-ni-re be-ne ta-le pro-ces-so è 
-uti-le sia per stan-dar-diz-za-re
- []
-
-[30
-
- <./images/MainPackDiag.png>]
-Overfull \hbox (2.3989pt too wide) in paragraph at lines 13--14
-[]\T1/cmr/m/n/10 Aumenta la fles-si-bi-li-tà del-le ap-pli-ca-zio-ni e in-cre-m
-en-ta del-la sca-la-bi-li-tà. 
- []
-
-<images/MVP.png, id=128, 313.17pt x 214.8025pt>
+ <./images/MainPackDiag.png>] <images/MVP.png, id=153, 313.17pt x 214.8025pt>
 File: images/MVP.png Graphic file (type png)
  <use images/MVP.png>
 Package pdftex.def Info: images/MVP.png used on input line 19.
 (pdftex.def)             Requested size: 219.21748pt x 150.36072pt.
 
-Overfull \hbox (27.4141pt too wide) in paragraph at lines 15--23
-\T1/cmr/m/n/10 Il Model-View-Presenter (MVP) è un pat-tern ar-chi-tet-tu-ra-le 
-usa-to prin-ci-pal-men-te
- []
-
-
-Overfull \hbox (6.64786pt too wide) in paragraph at lines 25--27
-\T1/cmr/m/n/10 dei da-ti av-vie-ne in ma-nie-ra di-ret-ta ma sem-pre at-tra-ver
--so un'in-ter-fac-cia.
- []
-
 [31 <./images/MVP.png (PNG copy)>]
-<images/EBdiagram.png, id=132, 464.73625pt x 274.02374pt>
+<images/EBdiagram.png, id=157, 464.73625pt x 274.02374pt>
 File: images/EBdiagram.png Graphic file (type png)
 
 <use images/EBdiagram.png>
 Package pdftex.def Info: images/EBdiagram.png used on input line 34.
 (pdftex.def)             Requested size: 232.36755pt x 137.01154pt.
 
-<images/GWTappMVP.png, id=133, 1491.5725pt x 788.9475pt>
+<images/GWTappMVP.png, id=158, 1491.5725pt x 788.9475pt>
 File: images/GWTappMVP.png Graphic file (type png)
 
 <use images/GWTappMVP.png>
@@ -1076,7 +731,7 @@ Overfull \hbox (10.02309pt too wide) in paragraph at lines 41--42
 LaTeX Warning: Float too large for page by 93.03261pt on input line 44.
 
 ) (./chapters/Funzionamento.tex [32 <./images/EBdiagram.png>] [33 <./images/GWT
-appMVP.png>] <images/FirstScreen.png, id=142, 860.21375pt x 424.58624pt>
+appMVP.png>] <images/FirstScreen.png, id=167, 860.21375pt x 424.58624pt>
 File: images/FirstScreen.png Graphic file (type png)
 
 <use images/FirstScreen.png>
@@ -1087,36 +742,24 @@ Overfull \hbox (85.10582pt too wide) in paragraph at lines 15--16
  [][] 
  []
 
-
-Overfull \hbox (29.4147pt too wide) in paragraph at lines 21--22
-\T1/cmr/m/n/10 Nell'area "Se-le-zio-ne map-pa" è pos-si-bi-le sce-glie-re la ma
-p-pa da vi-sua-liz-za-re(tramite
- []
-
-
-Overfull \hbox (11.02106pt too wide) in paragraph at lines 24--25
-\T1/cmr/m/n/10 ot-te-ne-re le in-for-ma-zio-ni sul-le stan-ze da lo-ro oc-cu-pa
--te. Du-ran-te la ti-piz-za-zio-ne
- []
-
 [34
 
  <./images/FirstScreen.png>]
-<images/AdvicesScreen.png, id=147, 642.4pt x 207.77625pt>
+<images/AdvicesScreen.png, id=172, 642.4pt x 207.77625pt>
 File: images/AdvicesScreen.png Graphic file (type png)
 
 <use images/AdvicesScreen.png>
 Package pdftex.def Info: images/AdvicesScreen.png used on input line 28.
 (pdftex.def)             Requested size: 321.19922pt x 103.88786pt.
 
-<images/ShowMap.png, id=148, 933.4875pt x 551.05875pt>
+<images/ShowMap.png, id=173, 933.4875pt x 551.05875pt>
 File: images/ShowMap.png Graphic file (type png)
 
 <use images/ShowMap.png>
 Package pdftex.def Info: images/ShowMap.png used on input line 40.
 (pdftex.def)             Requested size: 280.04842pt x 165.3189pt.
-
-<images/SearchScreen.png, id=149, 1231.60126pt x 684.5575pt>
+ [35 <./images/AdvicesScreen.png> <./images/ShowMap.png>] <images/SearchScreen.
+png, id=179, 1231.60126pt x 684.5575pt>
 File: images/SearchScreen.png Graphic file (type png)
 
 <use images/SearchScreen.png>
@@ -1127,8 +770,8 @@ Overfull \hbox (24.48323pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-[35 <./images/AdvicesScreen.png> <./images/ShowMap.png>]
-<images/RoomSelScreen.png, id=155, 1284.8pt x 738.76pt>
+[36 <./images/SearchScreen.png>]
+<images/RoomSelScreen.png, id=185, 1284.8pt x 738.76pt>
 File: images/RoomSelScreen.png Graphic file (type png)
 
 <use images/RoomSelScreen.png>
@@ -1139,27 +782,15 @@ Overfull \hbox (40.44298pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-<images/ShowInfo2.png, id=156, 635.37375pt x 625.33624pt>
+<images/ShowInfo2.png, id=186, 635.37375pt x 625.33624pt>
 File: images/ShowInfo2.png Graphic file (type png)
 
 <use images/ShowInfo2.png>
 Package pdftex.def Info: images/ShowInfo2.png used on input line 67.
 (pdftex.def)             Requested size: 190.61359pt x 187.60231pt.
- [36 <./images/SearchScreen.png>])
-(./chapters/UseCaseDiag.tex [37 <./images/RoomSelScreen.png> <./images/ShowInfo
-2.png>]
-Overfull \hbox (11.6135pt too wide) in paragraph at lines 4--8
-\T1/cmr/m/n/10 in-fat-ti, ac-ce-den-do al-la we-bapp, po-trà vi-sua-liz-za-re l
-a map-pa di un de-ter-mi-na-to
- []
-
-
-Overfull \hbox (1.67148pt too wide) in paragraph at lines 4--8
-\T1/cmr/m/n/10 un'au-la e ot-te-ne-re le in-for-ma-zio-ni re-la-ti-ve ad es-sa 
-(RF08) e suc-ces-si-va-men-te
- []
-
-<images/UseCFirst.png, id=167, 747.79375pt x 464.73625pt>
+) (./chapters/UseCaseDiag.tex [37 <./images/RoomSelScreen.png> <./images/ShowIn
+fo2.png>]
+<images/UseCFirst.png, id=192, 747.79375pt x 464.73625pt>
 File: images/UseCFirst.png Graphic file (type png)
 
 <use images/UseCFirst.png>
@@ -1171,24 +802,7 @@ Overfull \hbox (28.89595pt too wide) in paragraph at lines 11--12
  []
 
 ) (./chapters/ActivityDiagram.tex [38 <./images/UseCFirst.png>]
-Overfull \hbox (21.00473pt too wide) in paragraph at lines 6--7
-\T1/cmr/m/n/10 vi-sua-liz-za-zio-ne del-le in-for-ma-zio-ni di una stan-za. Gli
- at-to-ri, ov-ve-ro i re-spon-sa-bi-li
- []
-
-
-Overfull \hbox (20.92215pt too wide) in paragraph at lines 9--10
-\T1/cmr/m/n/10 un'in-ter-fac-cia chia-ra e pu-li-ta, e di ge-sti-re gli even-ti
- in-vian-do le in-for-ma-zio-ni
- []
-
-
-Overfull \hbox (3.37506pt too wide) in paragraph at lines 11--12
-[]\T1/cmr/m/n/10 si oc-cu-pa del tra-sfe-ri-men-to del-le in-for-ma-zio-ni ri-c
-hie-ste al ser-ver
- []
-
-<images/ActivityDiag.png, id=172, 806.01125pt x 932.48375pt>
+<images/ActivityDiag.png, id=197, 806.01125pt x 932.48375pt>
 File: images/ActivityDiag.png Graphic file (type png)
 
 <use images/ActivityDiag.png>
@@ -1199,7 +813,7 @@ Overfull \hbox (58.00464pt too wide) in paragraph at lines 16--17
  [][] 
  []
 
-[39] <images/ActivityDiagSearchPersxml.png, id=176, 825.0825pt x 933.4875pt>
+[39] <images/ActivityDiagSearchPersxml.png, id=201, 825.0825pt x 933.4875pt>
 File: images/ActivityDiagSearchPersxml.png Graphic file (type png)
 
 <use images/ActivityDiagSearchPersxml.png>
@@ -1212,7 +826,7 @@ Overfull \hbox (67.54024pt too wide) in paragraph at lines 23--24
  []
 
 [40 <./images/ActivityDiag.png>]) (./chapters/SequenceDiagram.tex
-<images/ActivityDiagShowRoom.png, id=181, 785.93625pt x 615.29875pt>
+<images/ActivityDiagShowRoom.png, id=206, 785.93625pt x 615.29875pt>
 File: images/ActivityDiagShowRoom.png Graphic file (type png)
 
 <use images/ActivityDiagShowRoom.png>
@@ -1225,18 +839,12 @@ Overfull \hbox (47.96716pt too wide) in paragraph at lines 7--8
 
 
 Underfull \hbox (badness 2376) in paragraph at lines 8--8
-[]\T1/cmr/m/n/10 Figura 2.14: Se-quen-ce dia-gram del-la fun-zio-ne di vi-sua-l
+[]\T1/cmr/m/n/10 Figura 3.14: Se-quen-ce dia-gram del-la fun-zio-ne di vi-sua-l
 iz-za-zio-ne del-le
  []
 
-[41 <./images/ActivityDiagSearchPersxml.png>]
-Overfull \hbox (3.05078pt too wide) in paragraph at lines 11--14
-\T1/cmr/m/n/10 Re-quest-Build(), ri-chie-de-rà al ser-ver la map-pa de-si-de-ra
--ta. Se la tra-smis-sio-ne
- []
-
-[42 <./images/ActivityDiagShowRoom.png>]
-<images/SeqDiagSearchPers.png, id=191, 806.01125pt x 474.77374pt>
+[41 <./images/ActivityDiagSearchPersxml.png>] [42 <./images/ActivityDiagShowRoo
+m.png>] <images/SeqDiagSearchPers.png, id=217, 806.01125pt x 474.77374pt>
 File: images/SeqDiagSearchPers.png Graphic file (type png)
 
 <use images/SeqDiagSearchPers.png>
@@ -1247,26 +855,8 @@ Overfull \hbox (58.00464pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-)
-Overfull \hbox (9.53067pt too wide) in paragraph at lines 22--93
-[]\T1/cmr/m/n/10 Nel dia-gram-ma 2.15[] ven-go-no in-ve-ce mo-stra-te le ite-ra
--zio-ni du-ran-te la fun-zio-ne
- []
-
-
-Overfull \hbox (6.99426pt too wide) in paragraph at lines 22--93
-\T1/cmr/m/n/10 di ri-cer-ca. No-tia-mo che l'u-ten-te può sce-glie-re più no-mi
- di per-so-ne di-gi-tan-do-li
- []
-
-(./chapters/ComunicazioneServer.tex
-Overfull \hbox (15.90411pt too wide) in paragraph at lines 3--5
-\T1/cmr/m/n/10 Utilizzando GWT-RPC, i no-stri og-get-ti del mo-del-lo ven-go-no
- au-to-ma-ti-ca-men-te
- []
-
-[43 <./images/SeqDiagSearchPers.png>]
-<images/AnatomySVG.png, id=196, 863.225pt x 654.445pt>
+) (./chapters/ComunicazioneServer.tex [43 <./images/SeqDiagSearchPers.png>]
+<images/AnatomySVG.png, id=222, 863.225pt x 654.445pt>
 File: images/AnatomySVG.png Graphic file (type png)
 
 <use images/AnatomySVG.png>
@@ -1277,26 +867,15 @@ Overfull \hbox (86.61145pt too wide) in paragraph at lines 8--9
  [][] 
  []
 
-
-Overfull \hbox (10.72482pt too wide) in paragraph at lines 12--15
-\T1/cmr/m/n/10 il co-di-ce server-side che esten-da la clas-se Re-mo-te-Ser-vi-
-ce-Ser-vlet ed im-ple-men-ti
- []
-
 [44 <./images/AnatomySVG.png>]
-<images/rpcPack.png, id=201, 203.25937pt x 284.56313pt>
+<images/rpcPack.png, id=227, 203.25937pt x 284.56313pt>
 File: images/rpcPack.png Graphic file (type png)
 
 <use images/rpcPack.png>
 Package pdftex.def Info: images/rpcPack.png used on input line 18.
 (pdftex.def)             Requested size: 111.79298pt x 156.5102pt.
 ) (./chapters/Database.tex
-Overfull \hbox (28.0817pt too wide) in paragraph at lines 4--7
-\T1/cmr/m/n/10 fon-da-men-ta-le pe-rò met-te-re in evi-den-za con un ade-gua-to
- sche-ma En-ti-tà/-Re-la-zio-ne
- []
-
-<images/databaseER.png, id=202, 732.48656pt x 465.23813pt>
+<images/databaseER.png, id=228, 732.48656pt x 465.23813pt>
 File: images/databaseER.png Graphic file (type png)
 
 <use images/databaseER.png>
@@ -1308,7 +887,7 @@ Overfull \hbox (94.49532pt too wide) in paragraph at lines 10--11
  []
 
 [45 <./images/rpcPack.png (PNG copy)>]
-<images/diagram.png, id=206, 691.58376pt x 634.37pt>
+<images/diagram.png, id=232, 691.58376pt x 634.37pt>
 File: images/diagram.png Graphic file (type png)
  <use images/diagram.png>
 Package pdftex.def Info: images/diagram.png used on input line 26.
@@ -1319,47 +898,29 @@ Overfull \hbox (35.37224pt too wide) in paragraph at lines 26--27
  []
 
 [46 <./images/databaseER.png>]
-Overfull \hbox (27.66513pt too wide) in paragraph at lines 30--31
-[]\T1/cmr/m/n/10 Dopo aver svi-lup-pa-to il mo-del-lo re-la-zio-na-le(figura 2.
-19[]), tra-mi-te una me-to-do-lo-gia
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<images/packageMapping.png, id=211, 207.77625pt x 286.06876pt>
+<images/packageMapping.png, id=237, 207.77625pt x 286.06876pt>
 File: images/packageMapping.png Graphic file (type png)
 
 <use images/packageMapping.png>
 Package pdftex.def Info: images/packageMapping.png used on input line 34.
 (pdftex.def)             Requested size: 114.27728pt x 157.3383pt.
  [47 <./images/diagram.png (PNG copy)>]
-<images/dtoScreen.png, id=215, 255.95625pt x 260.975pt>
+<images/dtoScreen.png, id=241, 255.95625pt x 260.975pt>
 File: images/dtoScreen.png Graphic file (type png)
 
 <use images/dtoScreen.png>
 Package pdftex.def Info: images/dtoScreen.png used on input line 42.
 (pdftex.def)             Requested size: 115.17923pt x 117.43767pt.
-)
-Overfull \hbox (25.4342pt too wide) in paragraph at lines 38--98
-\T1/cmr/m/n/10 sfrut-ta-re que-ste clas-si uti-liz-za-te per Hi-ber-na-te. In-f
-at-ti, no-no-stan-te im-ple-men-ti-no
- []
-
-[48 <./images/packageMapping.png> <./images/dtoScreen.png>]
-Capitolo 3.
-(./chapters/Conclusioni.tex)
-Overfull \hbox (27.94284pt too wide) in paragraph at lines 1--101
-\T1/cmr/m/n/10 ri-sol-ven-do pro-ble-mi le-ga-ti al-l'im-pe-den-ce mi-smatch e 
-ri-du-cen-do si-gni-fi-ca-ti-va-men-te
- []
-
-[49
+) [48 <./images/packageMapping.png> <./images/dtoScreen.png>]
+Capitolo 4.
+(./chapters/Conclusioni.tex) [49
 
 ]
-Capitolo 4.
+Capitolo 5.
 (./chapters/SRSGWT.tex
 Underfull \hbox (badness 2547) in paragraph at lines 15--15
 []\T1/cmr/m/n/10 L'utente può se-le-zio-na-re l'e-di-fi-cio de-si-de-ra-to da u
@@ -1382,19 +943,8 @@ Overfull \hbox (32.43306pt too wide) in paragraph at lines 28--44
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 59--59
-[]\T1/cmr/m/n/10 L'utente può se-le-zio-na-re una tra le mo-da-li-tà di
- []
-
-
 Overfull \hbox (32.43306pt too wide) in paragraph at lines 50--66
  [] 
- []
-
-
-Underfull \hbox (badness 2809) in paragraph at lines 81--81
-[]\T1/cmr/m/n/10 L'utente, do-po aver se-le-zio-na-to l'e-di-fi-cio e il pia-no
-
  []
 
 
@@ -1403,26 +953,8 @@ Overfull \hbox (32.43306pt too wide) in paragraph at lines 72--88
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 103--103
-[]\T1/cmr/m/n/10 L'utente, do-po aver se-le-zio-na-to l'e-di-fi-cio e il pia-no
-
- []
-
-
 Overfull \hbox (32.43306pt too wide) in paragraph at lines 94--110
  [] 
- []
-
-
-Underfull \hbox (badness 2809) in paragraph at lines 125--125
-[]\T1/cmr/m/n/10 L'utente, do-po aver se-le-zio-na-to l'e-di-fi-cio e il pia-no
-
- []
-
-
-Underfull \hbox (badness 1701) in paragraph at lines 125--125
-\T1/cmr/m/n/10 la-vo-ra-ti-va", clic-che-rà su un de-ter-mi-na-to bot-to-ne per
-
  []
 
 
@@ -1431,19 +963,13 @@ Overfull \hbox (32.43306pt too wide) in paragraph at lines 116--132
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 146--146
-\T1/cmr/m/n/10 de-ter-mi-na-to bot-to-ne per vi-sua-liz-za-re le in-for-ma-zio-
-ni
- []
-
-
 Overfull \hbox (32.43306pt too wide) in paragraph at lines 138--153
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-[]\T1/cmr/bx/n/10 Visualizzazione
+Underfull \hbox (badness 1152) in paragraph at lines 161--162
+[]\T1/cmr/bx/n/10 Visualizzazione In-for-ma-zio-
  []
 
 
@@ -1454,12 +980,6 @@ Overfull \hbox (32.43306pt too wide) in paragraph at lines 159--174
 [50
 
 ] [51] [52] [53]
-Underfull \hbox (badness 1755) in paragraph at lines 189--189
-\T1/cmr/m/n/10 pos-sa es-se-re ac-ces-si-bi-le in mo-da-li-tà lo-ca-le (LAN), i
-l
- []
-
-
 Overfull \hbox (32.43306pt too wide) in paragraph at lines 182--192
  [] 
  []
@@ -1472,148 +992,55 @@ Overfull \hbox (32.43306pt too wide) in paragraph at lines 198--213
 ) [54
 
 ]
-Capitolo 5.
-(./chapters/SQL.tex <images/screenSQL.png, id=242, 279.0425pt x 209.78375pt>
+Capitolo 6.
+(./chapters/SQL.tex <images/screenSQL.png, id=267, 279.0425pt x 209.78375pt>
 File: images/screenSQL.png Graphic file (type png)
 
 <use images/screenSQL.png>
 Package pdftex.def Info: images/screenSQL.png used on input line 11.
 (pdftex.def)             Requested size: 139.5209pt x 104.8916pt.
 
-<images/esempioInkscape.png, id=243, 1156.32pt x 619.113pt>
+<images/esempioInkscape.png, id=268, 1156.32pt x 619.113pt>
 File: images/esempioInkscape.png Graphic file (type png)
 
 <use images/esempioInkscape.png>
-Package pdftex.def Info: images/esempioInkscape.png used on input line 22.
+Package pdftex.def Info: images/esempioInkscape.png used on input line 23.
 (pdftex.def)             Requested size: 426.79071pt x 241.84042pt.
 
-Overfull \hbox (88.5907pt too wide) in paragraph at lines 22--23
+Overfull \hbox (88.5907pt too wide) in paragraph at lines 23--24
  [][] 
  []
 
 
-Overfull \hbox (8.11435pt too wide) in paragraph at lines 16--25
-\T1/cmr/m/n/10 nel ser-ver per-chè so-no in un for-ma-to che non è com-pa-ti-bi
--le col pro-gram-ma.Lo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--25
+Underfull \hbox (badness 10000) in paragraph at lines 17--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--25
+Underfull \hbox (badness 10000) in paragraph at lines 17--26
 
  []
 
 
-Overfull \hbox (10.61374pt too wide) in paragraph at lines 16--25
-\T1/cmr/m/n/10 stan-za.Questo per-chè i sin-go-li ter-mi-ni del-la strin-ga han
--no una cor-ri-spon-den-za
+Overfull \hbox (16.32567pt too wide) in paragraph at lines 17--26
+\T1/cmr/m/n/10 ce \T1/cmr/m/it/10 nu-me-ro_piano \T1/cmr/m/n/10 e \T1/cmr/m/it/
+10 nu-me-ro_stanza \T1/cmr/m/n/10 equi-val-go-no a \T1/cmr/m/it/10 room_floor \
+T1/cmr/m/n/10 e \T1/cmr/m/it/10 room_number
  []
 
 
-Overfull \hbox (5.21727pt too wide) in paragraph at lines 16--25
-\T1/cmr/m/it/10 nu-me-ro_piano \T1/cmr/m/n/10 e \T1/cmr/m/it/10 nu-me-ro_stanza
- \T1/cmr/m/n/10 equi-val-go-no a \T1/cmr/m/it/10 room_floor \T1/cmr/m/n/10 e \T
-1/cmr/m/it/10 room_number
- []
-
-
-Overfull \hbox (7.49777pt too wide) in paragraph at lines 16--25
+Overfull \hbox (7.49777pt too wide) in paragraph at lines 17--26
 \T1/cmr/m/n/10 del-la ta-bel-la "room".Dato che la lo-ro com-bi-na-zio-ne rap-p
 re-sen-ta un'\T1/cmr/m/it/10 UNIQUE
  []
 
 [55
 
- <./images/screenSQL.png>] [56] [57 <./images/esempioInkscape.png>]
-Overfull \hbox (175.85385pt too wide) in paragraph at lines 44--45
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (39.88705pt too wide) in paragraph at lines 45--46
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (9.98334pt too wide) in paragraph at lines 52--53
-\T1/cmr/m/n/10 Le strin-ghe \T1/cmr/bx/n/10 "fill:none"\T1/cmr/m/n/10 ,\T1/cmr/
-bx/n/10 "stroke:none" \T1/cmr/m/n/10 e \T1/cmr/bx/n/10 "fill-opacity:0.5" \T1/c
-mr/m/n/10 de-vo-no sem-pre
- []
-
-
-Overfull \hbox (9.21825pt too wide) in paragraph at lines 54--55
-\T1/cmr/bx/n/10 "no-ne"\T1/cmr/m/n/10 , dun-que, es-sen-do il nu-me-ro di im-ma
--gi-ni li-mi-ta-to e la lo-ro di-men-sio-ne
- []
-
-
-Overfull \hbox (10.44035pt too wide) in paragraph at lines 54--55
-\T1/cmr/m/n/10 GWT nel-la car-tel-la \T1/cmr/m/it/10 re-s/I-ma-geG-WT\T1/cmr/m/
-n/10 .Di se-gui-to è mo-stra-to il co-di-ce ria-dat-ta-to
- []
-
-
-Overfull \hbox (235.33932pt too wide) in paragraph at lines 57--58
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (39.88705pt too wide) in paragraph at lines 58--59
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][]  
- []
-
-[58]
-Overfull \hbox (5.08449pt too wide) in paragraph at lines 67--68
-\T1/cmr/m/n/10 Grazie al-la strin-ga \T1/cmr/m/it/10 "NO-ME_FILE" \T1/cmr/m/n/1
-0 è pos-si-bi-le sa-pe-re su qua-le fi-le ef-fet-tua-re
- []
-
-[59]
-Overfull \hbox (11.05807pt too wide) in paragraph at lines 97--98
-\T1/cmr/m/n/10 Nella se-con-da area vie-ne pre-sen-ta-to lo pseu-do-co-di-ce pe
-r ot-te-ne-re la va-ria-zio-ne
- []
-
-
-Overfull \hbox (7.3705pt too wide) in paragraph at lines 118--120
-\T1/cmr/m/n/10 Si ef-fet-tua que-sta di-vi-sio-ne tra \T1/cmr/m/it/10 dim \T1/c
-mr/m/n/10 e \T1/cmr/m/it/10 sum\T1/cmr/m/n/10 .Il nu-me-ro che ot-te-nia-mo, co
-m-pre-so
- []
-
-[60]
-Overfull \hbox (5.07343pt too wide) in paragraph at lines 125--127
-\T1/cmr/m/n/10 ros-so.Non è sta-ta sfrut-ta-ta tut-ta la gam-ma di co-lo-ri del
- mo-del-lo RGB,questo
- []
-
-
-Overfull \hbox (11.4191pt too wide) in paragraph at lines 130--131
+ <./images/screenSQL.png>] [56] [57 <./images/esempioInkscape.png>] [58]
+[59] [60]
+Overfull \hbox (11.4191pt too wide) in paragraph at lines 136--137
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][]  
- []
-
-
-Overfull \hbox (42.07959pt too wide) in paragraph at lines 132--134
-\T1/cmr/m/n/10 dif-fe-ren-ti: quel-lo usa-to dal-l'app An-droid si tro-va nel-l
-a clas-se \T1/cmr/m/it/10 Ima-ge-Hand-ling\T1/cmr/m/n/10 (package
- []
-
-
-Overfull \hbox (9.71521pt too wide) in paragraph at lines 132--134
-\T1/cmr/m/n/10 nel-la clas-se \T1/cmr/m/it/10 Sho-w-Floor-Pre-sen-ter\T1/cmr/m/
-n/10 (package com.auleSVGWT.client.presenter),
  []
 
 ) (./chapters/Biblio.tex [61]) [62
@@ -1626,7 +1053,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 \end{document}
+l.145 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1644,13 +1071,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 9 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5036 strings out of 494311
- 66740 string characters out of 6163189
- 169936 words of memory out of 5000000
- 8188 multiletter control sequences out of 15000+600000
- 19744 words of font info for 41 fonts, out of 8000000 for 9000
+ 5299 strings out of 494311
+ 71181 string characters out of 6163189
+ 178555 words of memory out of 5000000
+ 8431 multiletter control sequences out of 15000+600000
+ 18063 words of font info for 37 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
- 40i,10n,40p,1733b,1779s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,11n,40p,1733b,1811s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknapp
 en/ec/ecrm0800.600pk> </home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecrm0600.600pk> </home/darklinux/.texlive2016/texmf-var/fonts/pk/ljf
@@ -1660,18 +1087,21 @@ nts/pk/ljfour/jknappen/ec/ecrm0500.600pk> </home/darklinux/.texlive2016/texmf-v
 ar/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/darklinux/.texlive2016/te
 xmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/darklinux/.texlive20
 16/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/darklinux/.texl
-ive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1000.600pk> </home/darklinux/
-.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/darkl
+ive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/darklinux/
+.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1000.600pk> </home/darkl
 inux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/
-darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </
-home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600p
-k> </home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074
-.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
->
-Output written on Tesi.pdf (64 pages, 3514629 bytes).
+darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </
+home/darklinux/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600p
+k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Tesi.pdf (64 pages, 3367575 bytes).
 PDF statistics:
- 873 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
+ 874 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

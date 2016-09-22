@@ -6,6 +6,7 @@
 \usepackage{color}
 \usepackage[section]{placeins}
 \usepackage{float} 
+\usepackage{frontespizio}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -39,18 +40,47 @@
 {\includegraphics[scale=2]{university.jpg}}}
 \author{Ferrari~Nico}
 \begin{document}
-\hyphenpenalty=10000
+\begin{frontespizio}
+
+\Rientro{1.5cm}
+
+\Margini{1.5cm}{1.5cm}{1.5cm}{1cm}
+
+\Universita{Modena e Reggio Emilia}
+
+%\Logo{c:/users/utente/Desktop/Tesidefimages/university.jpg}
+
+\Facolta{Ingegneria Enzo Ferrari}
+
+\Corso[Laurea]{Ingegneria Informatica}
+
+\Annoaccademico{2015-2016}
+
+\Titoletto{Tesi di laurea triennale}
+
+\Titolo{Sviluppo di una webapp per la\\ gestione degli ambienti\\ universitari con framework GWT}
+
+%\Sottotitolo{considerazioni....}
+
+\Candidato[79083]{Nico Ferrari}
+
+\Relatore{Prof. Nicola Bicocchi}
+
+%\Correlatore{da inserire}
+
+\end{frontespizio}
+
+\hyphenpenalty=10
 \exhyphenpenalty=10000
-\maketitle
-\chapter*{Introduzione}
-\input{chapters/Introduzione.tex}
 \tableofcontents
 \listoffigures
 \listoftables
 
 %-------->Chapter
 
-
+\chapter{Introduzione}
+\input{chapters/Introduzione.tex}
+\newpage
 %-------->Chapter
 \chapter{Strumenti utilizzati}
 
@@ -77,6 +107,7 @@
 
 \section{Librerie}
 \input{chapters/Strumenti/Librerie.tex}
+\newpage
 
 %-------->Chapter
 \chapter{Webapp GESTIONE AULE}
@@ -95,15 +126,21 @@
 \section{Server Side}
 \input{chapters/ComunicazioneServer.tex}
 \input{chapters/Database.tex}
+\newpage
 
 \chapter{Conclusioni}
 \input{chapters/Conclusioni.tex}
+\newpage
 
 \chapter{Appendice A}
 \input{chapters/SRSGWT.tex}
+\newpage
+
 \chapter{Appendice B}
 \input{chapters/SQL.tex}
 \input{chapters/Biblio.tex}
+\newpage
+
 \chapter*{Ringraziamenti}
 \end{document}
 
